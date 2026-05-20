@@ -18,3 +18,7 @@ NIC — это революционное движение всех товари
 *«Сила в простоте.»*
 
 **Viva la résistance!** 🔴⭐
+
+
+---
+[![Лицензия: GPL v3](https://img.shields.io/badge/Лицензия-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0)
