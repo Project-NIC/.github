@@ -19,6 +19,6 @@ NIC is a revolutionary movement of all comrades who are fed up with today's over
 
 **Viva la résistance!** 🔴⭐
 
-
+<span style="color:red">★</span>
 ---
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0)
