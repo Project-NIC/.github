@@ -1,4 +1,4 @@
-# N.I.C.
+# ★ N.I.C. ★
 ## NIC — Native Intellect Community
 ### Viva la résistance! ✊
 
@@ -17,7 +17,7 @@ NIC — это революционное движение всех товари
 
 *«Сила в простоте.»*
 
-**Viva la résistance!** 🔴⭐
+**Viva la résistance!** ★
 
 
 ---
