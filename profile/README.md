@@ -6,7 +6,7 @@
 
 ## Co je NIC?
 
-NIC je pro lidi kteří:
+NIC je pro lidi, kteří:
 
 - Využívají jednoduché a osvědčené principy
 - Jsou ochotní testovat a tvořit
@@ -51,14 +51,14 @@ NIC is a revolutionary movement of all comrades who are fed up with today's over
 
 ## Что такое NIC?
 
-NIC — для людей которые:
+NIC — для людей, которые:
 
 - Используют простые и проверенные принципы
 - Готовы тестировать и создавать
 - Работают со стандартизированным оборудованием и средой
-- Не нуждаются в раздутых решениях чтобы доказать что умеют
+- Не нуждаются в раздутых решениях чтобы доказать, что что-то умеют
 
-NIC — это революционное движение всех товарищей и товарищек, которых не устраивает сегодняшний переоценённый и излишне усложнённый мир.
+NIC — это революционное движение всех товарищей, которых не устраивает сегодняшний переоценённый и излишне усложнённый мир.
 
 *«Сила в простоте.»*
 
@@ -67,4 +67,4 @@ NIC — это революционное движение всех товари
 
 
 ---
-MIT License — Copyright (c) 2026 NIC — Native Intellect Community
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
