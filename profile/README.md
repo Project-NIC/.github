@@ -67,4 +67,4 @@ NIC — это революционное движение всех товари
 
 
 ---
-[![Licence: GPL v3](https://img.shields.io/badge/Licence-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0)
+MIT License — Copyright (c) 2026 NIC — Native Intellect Community
