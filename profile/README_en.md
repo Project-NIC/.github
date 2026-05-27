@@ -21,4 +21,4 @@ NIC is a revolutionary movement of all comrades who are fed up with today's over
 
 
 ---
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
