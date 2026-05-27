@@ -21,4 +21,4 @@ NIC — это революционное движение всех товари
 
 
 ---
-[![Лицензия: GPL v3](https://img.shields.io/badge/Лицензия-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Лицензия: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
