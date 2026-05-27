@@ -21,4 +21,4 @@ NIC je revoluční hnutí všech soudruhů a soudružek, kterým nevyhovuje dne�
 
 
 ---
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+[![Licence: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
