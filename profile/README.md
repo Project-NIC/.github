@@ -17,12 +17,12 @@
 
 ## NIC - Station
 
-### NIC-Station — [Multy system station]
+### NIC-Station — [multi-system station](https://github.com/Project-NIC/NIC-Station)
 
-- **`Iono/`** — Ionosphere GNSS —
-- **`Seismo/`** — MEMS Seismograpf —
-- **`StarDust/`** — UV,Dust,Radiation ... —
-- **`Weather/`** — Thermo ... —
+- **`iono/`** — Ionosphere / GNSS — TEC from a Unicore UM980 receiver — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-IONO_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-IONO.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-IONO_ru.md)*
+- **`seismo/`** — MEMS seismograph — ADXL355 / ICM-42688 / SCL-3300 + edge event detection — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SEISMO_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SEISMO.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SEISMO_ru.md)*
+- **`stardust/`** — Air quality — CO₂ / PM / VOC / UV (parked) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-STARDUST_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-STARDUST.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-STARDUST_ru.md)*
+- **`weather/`** — Precision weighing weather station (also the hub) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-WEATHER_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-WEATHER.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-WEATHER_ru.md)*
 
 ---
 
