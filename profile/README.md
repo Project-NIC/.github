@@ -4,9 +4,7 @@
 
 ## NIC - Arduino Family
 
-*The data side in one umbrella (**NIC-Arduino**). MLA is the base; compression, encryption, the glue, the seismo export and the viewer are optional parts on top — each still a standalone, drop-in component. Specifics in three languages:*
-
-### NIC-Arduino — [the Arduino-family umbrella](https://github.com/Project-NIC/NIC-Arduino)
+### NIC-Arduino — [the Arduino family software](https://github.com/Project-NIC/NIC-Arduino)
 
 - **`mla/`** — NIC-MatroshkaLoggingArchive — the base log format — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_ru.md)*
 - **`dmd/`** — NIC-DeltaMarkovDuda — optional compression — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_ru.md)*
@@ -19,10 +17,16 @@
 
 ## NIC - Station
 
-*The hardware platform: one universal node core, many fronts.*
+### NIC-Station — [Multy system station]
 
-### NIC-Quake — the seismograph trunk: the universal node core + the seismo front — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
-### NIC-Station — [the umbrella](https://github.com/Project-NIC/NIC-Station): the node core plus the seismo, **weather** and **iono** fronts in one buildable repo
+- **`Iono/`** — Ionosphere GNSS —
+- **`Seismo/`** — MEMS Seismograpf —
+- **`StarDust/`** — UV,Dust,Radiation ... —
+- **`Weather/`** — Thermo ... —
+
+---
+
+### NIC-Quake — The seismograph system — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
 
 ---
 
