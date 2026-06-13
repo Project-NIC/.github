@@ -1,0 +1,91 @@
+---
+# ★ N.I.C. ★
+---
+
+## NIC - Arduino Family
+
+*The data side in one umbrella (**NIC-Arduino**). MLA is the base; compression, encryption, the glue, the seismo export and the viewer are optional parts on top — each still a standalone, drop-in component. Specifics in three languages:*
+
+### NIC-Arduino — [the Arduino-family umbrella](https://github.com/Project-NIC/NIC-Arduino)
+
+- **`mla/`** — NIC-MatroshkaLoggingArchive — the base log format — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_ru.md)*
+- **`dmd/`** — NIC-DeltaMarkovDuda — optional compression — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_ru.md)*
+- **`ksf/`** — NIC-KolmogorovShannonFeistel — optional encryption — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF_ru.md)*
+- **`glue-in/` · `glue-out/`** — NIC-Glue IN/OUT — write / read+export an MLA log — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_ru.md)*
+- **`mseed/`** — NIC-MSEED — seismo miniSEED export — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_ru.md)*
+- **`vde/`** — NIC-VDE — the Volkov Data viewer — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_ru.md)*
+
+---
+
+## NIC - Station
+
+*The hardware platform: one universal node core, many fronts.*
+
+### NIC-Quake — the seismograph trunk: the universal node core + the seismo front — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
+### NIC-Station — [the umbrella](https://github.com/Project-NIC/NIC-Station): the node core plus the seismo, **weather** and **iono** fronts in one buildable repo
+
+---
+
+## NIC - Bumble Bee (Russian Power)
+
+### NIC-BumbleBee — the power side — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/BumbleBee_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/BumbleBee.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/BumbleBee_ru.md)*
+
+---
+
+# ★ N.I.C. ★
+## NIC — Native Intellect Community
+### Viva la résistance! ✊
+
+---
+
+## Co je NIC?
+
+NIC je pro lidi, kteří:
+
+- Využívají jednoduché a osvědčené principy
+- Jsou ochotní testovat a tvořit
+- Pracují se standardizovaným hardwarem a prostředím
+- Nepotřebují nafouklá řešení, aby dokázali, že něco umí
+
+NIC je revoluční hnutí všech soudruhů a soudružek, kterým nevyhovuje dnešní přeplácaný a zbytečně složitý svět.
+
+*"V jednoduchosti je síla."*
+
+★ **Viva la résistance!** ★
+
+---
+
+## What is NIC?
+
+NIC is for people who:
+
+- Use simple and proven principles
+- Are willing to test and create
+- Work with standardized hardware and environments
+- Don't need bloated solutions to prove they know what they're doing
+
+NIC is a revolutionary movement of all comrades who are fed up with today's overpriced and unnecessarily complex world.
+
+*"Strength lies in simplicity."*
+
+★ **Viva la résistance!** ★
+
+---
+
+## Что такое NIC?
+
+NIC — для людей, которые:
+
+- Используют простые и проверенные принципы
+- Готовы тестировать и создавать
+- Работают со стандартизированным оборудованием и средой
+- Не нуждаются в раздутых решениях чтобы доказать, что что-то умеют
+
+NIC — это революционное движение всех товарищей, которых не устраивает сегодняшний переоценённый и излишне усложнённый мир.
+
+*«Сила в простоте.»*
+
+★ **Viva la résistance!** ★
+
+---
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
