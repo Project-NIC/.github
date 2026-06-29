@@ -1,17 +1,16 @@
-# NIC-Quark — radiation detector front (design on paper)
+# NIC-Quark — radiation detectors (neutron reference)
 
-Quark is the **radiation front** — just as Quake is the seismo front. Several
-Geiger–Müller tubes behind graded lead / PE absorbers read **gamma in coarse energy
-bands** (K1–K3), plus a **neutron channel** (K4) aimed at the gamma-ray flashes that
-thunderstorms throw off (TGF). It is a *citizen-science relative monitor* — not
-calibrated dosimetry — whose value is a **dense, cheap, clock-synced grid** that
-correlates radiation bursts with specific lightning strikes across the network.
+A neutron is a hadron **made of quarks**, so **Quark** is the **neutron domain** — the
+shared neutron-detector reference for the NIC radiation boards. By the "a board gets a
+name" rule the detectors split into three boards:
 
-It is **design on paper**. Radiation is **not** a new node type: there are exactly four
-(`seismo` / `basic` / `iono` / `starDust`), and Quark's counts ride in the Basic
-payload's **K1–K4 block (offsets 27–30)**. A standalone detector reports as a Basic node;
-combined with the lightning front it is a starDust node — either way the same four bytes,
-the same decoder. The finalised detector physics live (in Czech) under the front's
-`detektor-neutronu/` reference docs.
+- **Photon** — γ + X-ray (GM tubes behind graded Pb, K1–K3); γ/X-rays are **photons**.
+- **Helion** — He³ neutron tube (the helium-3 nucleus is a *helion*).
+- **Gadolin** — Gd-capture neutron board (after Johan Gadolin).
+
+Design on paper — *citizen-science relative monitors*, a dense clock-synced grid that
+correlates radiation bursts with lightning (TGF, with **Tesla**). Not a new node type:
+counts ride the Basic payload **K1–K4 (offsets 27–30)**. The finalised neutron physics
+live (in Czech) under `quark/detektor-neutronu/`.
 
 → **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
