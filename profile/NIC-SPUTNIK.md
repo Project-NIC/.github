@@ -1,6 +1,6 @@
-# NIC-Iono — GNSS / Ionosphere front
+# NIC-Sputnik — GNSS / Ionosphere front
 
-The ionosphere is a mirror you can read with a good clock and a good antenna. NIC-Iono
+The ionosphere is a mirror you can read with a good clock and a good antenna. NIC-Sputnik
 turns a single multi-constellation, multi-frequency **Unicore UM980** receiver into a
 node that measures **Total Electron Content (TEC)** — the column of free electrons
 overhead.
@@ -10,7 +10,7 @@ and curates its output onto the bus — raw backbone, corrections, augmentation 
 only what carries the science, not the firehose.
 
 It grew out of the seismograph work: a big quake pushes acoustic-gravity waves up into
-the ionosphere minutes later, so a seismo and an iono node at one site catch both ends
+the ionosphere minutes later, so a seismo and a Sputnik node at one site catch both ends
 of that chain — civilian space weather from commodity parts.
 
 → **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
