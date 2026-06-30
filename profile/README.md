@@ -71,7 +71,7 @@ Radiation detectors — counted by Palatina (their pulses ride its payload); **N
 ### Environmental
 Atmospheric fronts — each its **own node**:
 
-- **Lightning** — NIC-Tesla — its own node (ferrite loops + ADS127L14, edge-AI): it crunches the fast sferic data at the edge and ships only ready strike records, so the lightning front stays light on the bus and burdens nothing else — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
+- **Lightning** — NIC-Tesla — its own node — the one **high-rate** front: a sferic receiver (ferrite loops + ADS127L14) that captures & classifies strikes at the edge and ships only compact records — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 - **Air quality** — NIC-Chinook — CO₂ / PM / VOC / UV (parked) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
 
 ---
