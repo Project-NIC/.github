@@ -40,11 +40,11 @@ Volkov Data Ecosystem — browse & export MLA logs.
 
 [Multi-sensor system station](https://github.com/Project-NIC/NIC-Station)
 
-### `quake/` — NIC-Quake *(node · `seismo`)*
+### `quake/` — NIC-Quake
 The seismograph — ADXL355 + ICM-42688 accelerometer, SCL-3300 inclinometer, RM3100 magnetometer, with edge event detection.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
 
-### `palatina/` — NIC-Palatina *(node · `basic`, also the hub)*
+### `palatina/` — NIC-Palatina *(the hub)*
 Precision weighing weather station + Pluvius rain gauge; the **Modbus master** of its leaf bus.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 
@@ -54,18 +54,18 @@ Modbus modules (**MOD**) on its leaf bus:
 - **Sakura** — leaf-wetness sensor — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 - **Ceres** — soil-moisture sensor (×2 depths) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 
-Radiation — **`quark/` · NIC-Quark** is the parent domain (counts ride Palatina's BASIC payload K1–K4); the detector boards live under it:
+Radiation — **`quark/` · NIC-Quark** is the parent domain; the detector boards live under it:
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 
 - **`photon/`** — γ / X-ray board (graded-Pb, K1–K3) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 - **`helion/`** — He³ neutron board (K4) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 - **`gadolin/`** — Gd-capture neutron board (K4) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 
-### `sputnik/` — NIC-Sputnik *(node · `iono`)*
+### `sputnik/` — NIC-Sputnik
 Ionosphere / GNSS — TEC from a Unicore UM980 receiver.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_ru.md)*
 
-### `chinook/` — NIC-Chinook *(node · `starDust`)*
+### `chinook/` — NIC-Chinook
 Air quality — CO₂ / PM / VOC / UV (parked).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
 
