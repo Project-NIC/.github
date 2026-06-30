@@ -41,7 +41,7 @@ Volkov Data Ecosystem — browse & export MLA logs.
 [Multi-sensor system station](https://github.com/Project-NIC/NIC-Station)
 
 ### `master/` — NIC-Majak
-The data station — the head-end every node hangs off: clock master, datalogger and uplink.
+The master — its own board (ESP32 head-end): clock master, datalogger and uplink. Every node hangs off it.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK_ru.md)*
 
 ### `quake/` — NIC-Quake
