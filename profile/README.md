@@ -68,11 +68,13 @@ Radiation detectors — counted by Palatina (their pulses ride its payload); **N
 - **Helion** — He³ neutron — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 - **Gadolin** — Gd-capture neutron — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 
-### Environmental
-Atmospheric fronts — each its **own node**:
+### Environmental — NIC-Chinook
+Air quality — CO₂ / PM / VOC / UV (parked); the node that also hosts the lightning receiver.
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
 
-- **Lightning** — NIC-Tesla — its own node — the one **high-rate** front: a sferic receiver (ferrite loops + ADS127L14) that captures & classifies strikes at the edge and ships only compact records — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
-- **Air quality** — NIC-Chinook — CO₂ / PM / VOC / UV (parked) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
+Connected to it over SPI:
+
+- **Tesla** — lightning / TGF sferic receiver — a **SOD** (an SPI-read front: like a Modbus MOD, but over SPI for the fast sferic data), so no separate lightning board is needed — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 
 ---
 
