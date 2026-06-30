@@ -6,32 +6,32 @@
 
 [The Arduino family software](https://github.com/Project-NIC/NIC-Arduino) — the storage / transport / viewer stack.
 
-### `mla/` — NIC-MatroshkaLoggingArchive
-The base log format — a single-file, crash-safe container.
+### `mla/` — NIC-MLA
+Matroshka Logging Archive — the base log format (single-file, crash-safe container).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_ru.md)*
 
-### `dmd/` — NIC-DeltaMarkovDuda
-Optional compression.
+### `dmd/` — NIC-DMD
+Delta Markov Duda — optional compression.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_ru.md)*
 
-### `ksf/` — NIC-KolmogorovShannonFeistel
-Optional encryption.
+### `ksf/` — NIC-KSF
+Kolmogorov Shannon Feistel — optional encryption.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF_ru.md)*
 
 ### `glue-in/` — NIC-Glue IN
-Write an MLA log.
+Write data into an MLA log.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_ru.md)*
 
 ### `glue-out/` — NIC-Glue OUT
-Read + export an MLA log.
+Read / export an MLA log (CSV, SQLite, …).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_ru.md)*
 
 ### `mseed/` — NIC-MSEED
-Seismo miniSEED export (MLA → Steim-1/2 for ObsPy / SeisComP / FDSN).
+Seismo export — an MLA log → miniSEED (ObsPy / SeisComP / FDSN).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_ru.md)*
 
 ### `vde/` — NIC-VDE
-The Volkov Data viewer.
+Volkov Data Ecosystem — browse & export MLA logs.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_ru.md)*
 
 ---
@@ -41,22 +41,22 @@ The Volkov Data viewer.
 [Multi-sensor system station](https://github.com/Project-NIC/NIC-Station) — grouped by **node** (a board on the NodeBus, type `seismo` / `basic` / `iono` / `starDust`); the modules and detectors that ride a node are listed under it.
 
 ### `quake/` — NIC-Quake *(node · `seismo`)*
-The seismograph — MEMS ADXL355 / ICM-42688 / SCL-3300 + edge event detection.
+The seismograph — ADXL355 + ICM-42688 accelerometer, SCL-3300 inclinometer, RM3100 magnetometer, with edge event detection.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
 
 ### `palatina/` — NIC-Palatina *(node · `basic`, also the hub)*
 Precision weighing weather station + Pluvius rain gauge; the **Modbus master** of its leaf bus.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 
-Modbus modules on its leaf bus (each a **MOD · STM32U031**):
+Modbus modules (**MOD**) on its leaf bus:
 
 - **Pluvius** — weighing rain gauge — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 - **Sakura** — leaf-wetness sensor — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 - **Ceres** — soil-moisture sensor (×2 depths) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 
-Radiation detectors — NIC-Quark; counts ride Palatina's BASIC payload **K1–K4**:
+Radiation — **`quark/` · NIC-Quark** is the parent domain (counts ride Palatina's BASIC payload K1–K4); the detector boards live under it:
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 
-- **`quark/`** — neutron reference (shared detector physics) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 - **`photon/`** — γ / X-ray board (graded-Pb, K1–K3) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 - **`helion/`** — He³ neutron board (K4) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 - **`gadolin/`** — Gd-capture neutron board (K4) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
