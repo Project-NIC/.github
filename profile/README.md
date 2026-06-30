@@ -69,12 +69,12 @@ Radiation detectors — counted by Palatina (their pulses ride its payload); **N
 - **Gadolin** — Gd-capture neutron — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 
 ### Environmental — NIC-Chinook
-Air quality — CO₂ / PM / VOC / UV (parked); the node that also hosts the lightning receiver.
+Air quality — CO₂ / PM / VOC / UV (parked); the starDust node that carries the lightning front.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
 
-On its **SodeBus** (SPI):
+Lightning front carried in the same enclosure:
 
-- **Tesla** — lightning / TGF sferic receiver — a **SOD** (an SPI-read front: like a MOD, but on the SodeBus for the fast sferic data), so no separate lightning board is needed — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
+- **Tesla** — lightning / TGF sferic receiver — the analog front (ferrite loops + ADS127L14) read by Chinook's H523, up at the antenna on the NodeBus — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 
 ---
 
