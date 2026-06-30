@@ -56,7 +56,7 @@ Ionosphere — Total Electron Content from a Unicore UM980 receiver.
 Precision weighing weather station + Pluvius rain gauge; the **Modbus master** of its leaf bus.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 
-Modbus modules (**MOD**) on its leaf bus:
+**MOD**s on its **ModeBus** (the Modbus leaf bus):
 
 - **Pluvius** — weighing rain gauge — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 - **Sakura** — leaf-wetness sensor — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
@@ -72,9 +72,9 @@ Radiation detectors — counted by Palatina (their pulses ride its payload); **N
 Air quality — CO₂ / PM / VOC / UV (parked); the node that also hosts the lightning receiver.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
 
-Connected to it over SPI:
+On its **SodeBus** (SPI):
 
-- **Tesla** — lightning / TGF sferic receiver — a **SOD** (an SPI-read front: like a Modbus MOD, but over SPI for the fast sferic data), so no separate lightning board is needed — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
+- **Tesla** — lightning / TGF sferic receiver — a **SOD** (an SPI-read front: like a MOD, but on the SodeBus for the fast sferic data), so no separate lightning board is needed — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 
 ---
 
