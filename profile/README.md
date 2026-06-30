@@ -38,7 +38,7 @@ Volkov Data Ecosystem — browse & export MLA logs.
 
 ## NIC — Station
 
-[Multi-sensor system station](https://github.com/Project-NIC/NIC-Station) — grouped by **node** (a board on the NodeBus, type `seismo` / `basic` / `iono` / `starDust`); the modules and detectors that ride a node are listed under it.
+[Multi-sensor system station](https://github.com/Project-NIC/NIC-Station)
 
 ### `quake/` — NIC-Quake *(node · `seismo`)*
 The seismograph — ADXL355 + ICM-42688 accelerometer, SCL-3300 inclinometer, RM3100 magnetometer, with edge event detection.
