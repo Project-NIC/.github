@@ -21,14 +21,10 @@
 
 - **`sputnik/`** — NIC-Sputnik — Ionosphere / GNSS — TEC from a Unicore UM980 receiver — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_ru.md)*
 - **`quark/` · `photon/` · `helion/` · `gadolin/`** — NIC-Quark — radiation detectors (neutron reference + Photon γ/X-ray, Helion He³, Gadolin Gd boards) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
-- **`seismo/`** — MEMS seismograph — ADXL355 / ICM-42688 / SCL-3300 + edge event detection — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SEISMO_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SEISMO.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SEISMO_ru.md)*
+- **`quake/`** — NIC-Quake — the seismograph (MEMS ADXL355 / ICM-42688 / SCL-3300 + edge event detection) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
 - **`tesla/`** — NIC-Tesla — lightning / TGF sferic receiver (own board) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 - **`chinook/`** — NIC-Chinook — air quality — CO₂ / PM / VOC / UV (parked) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
 - **`palatina/`** — NIC-Palatina — precision weighing weather station + Pluvius rain gauge (also the hub) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
-
----
-
-### NIC-Quake — The seismograph system — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
 
 ---
 
