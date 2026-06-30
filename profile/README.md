@@ -40,6 +40,10 @@ Volkov Data Ecosystem — browse & export MLA logs.
 
 [Multi-sensor system station](https://github.com/Project-NIC/NIC-Station)
 
+### `master/` — NIC-Majak
+The data station — the head-end every node hangs off: clock master, datalogger and uplink.
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK_ru.md)*
+
 ### `quake/` — NIC-Quake
 The seismograph — ADXL355 + ICM-42688 accelerometer, SCL-3300 inclinometer, RM3100 magnetometer, with edge event detection.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
