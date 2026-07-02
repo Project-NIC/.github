@@ -18,4 +18,4 @@ Ani jedno není framework, který musíš převzít. Obojí je funkční příkl
 katalog té hrstky švů, kde se knihovny musí shodnout — sepsaný jednou, ať to nikdo
 nemusí objevovat znovu.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

@@ -26,4 +26,4 @@ Architektura drží a datová cesta je postavená. PCB, firmware a polní testy 
 ještě před námi — tohle repo je zadání, ne výsledek. Hledáme lidi, kteří dokážou
 říct „nevím, ale zkusil bych to" — a pak to zkusí.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

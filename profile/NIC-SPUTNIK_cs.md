@@ -12,4 +12,4 @@ Vyrostlo to ze seismografu: velké zemětřesení vyšle akusticko-gravitační 
 ionosféry o pár minut později, takže seismo a Sputnik node na jednom místě zachytí oba konce
 toho řetězce — civilní vesmírné počasí z běžných součástek.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

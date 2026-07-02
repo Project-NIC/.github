@@ -14,4 +14,4 @@ ostatní fronty.
 Jednoduché součástky, poctivá měření, jedna sdílená sběrnice — stanice, kterou postavíš a
 provozuješ doma.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

@@ -13,4 +13,4 @@ synchronizovaná mřížka, co koreluje záblesky záření s blesky (TGF, s **T
 nový typ node: counts jedou v Basic payloadu **K1–K4 (offsety 27–30)**. Finální
 neutronová fyzika žije (česky) pod `quark/detektor-neutronu/`.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

@@ -17,4 +17,4 @@ Pomalu se měnící telemetrie přes LoRa je jeho parketa — meteo, elektroměr
 průmyslové čítače. Plně funkční na ATmega328, byte-identický v C i Pythonu. Malá
 data si zaslouží malý kód.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

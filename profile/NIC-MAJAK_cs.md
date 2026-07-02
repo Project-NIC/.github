@@ -14,4 +14,4 @@ Je **front-agnostický** (ESP32 hlava): nenese žádnou znalost čidel — seism
 i starDust nody se věší na stejný master beze změny. Postav jeden dobrý Majak a jeden
 dobrý node, a máš stanici.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

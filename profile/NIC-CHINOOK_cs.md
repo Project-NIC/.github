@@ -11,4 +11,4 @@ jádro NIC node plus senzorový front a tenké glue, ohlásí svůj typ na sběr
 
 Rezervováno teď, aby v den nasazení nemuselo nic jiného měnit.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

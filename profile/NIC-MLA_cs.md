@@ -17,4 +17,4 @@ z ATmega328 vyexportuješ na PC do CSV/SQL bez jakékoliv předchozí znalosti.
 Inteligence žije v tabulkách, ne v kódu. Proto běží od 8bitového mikrokontroléru
 po server — a proto tě roky nepřekvapí.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

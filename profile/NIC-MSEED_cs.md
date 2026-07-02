@@ -17,4 +17,4 @@ jen jako volitelná kontrola se zlatým standardem.
 Je to funkční konvertor, ne framework: nejkratší poctivá cesta od 8bitového
 dataloggeru k seismickému archivu pro výzkum.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

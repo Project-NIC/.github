@@ -17,4 +17,4 @@ rozsah zůstává jen šifrování.
 Je postavený jako formát, který čte: hloupé knihovny, tenké lepidlo, chytrost v
 tabulkách. Známé modré okno nad samopopisným archivem.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

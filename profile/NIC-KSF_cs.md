@@ -16,4 +16,4 @@ tvého neleze.
 Dvě C varianty pro starší i novější avr-gcc, Python reference shodná bajt po bajtu.
 Na ATmega328 prostě běží. Ostré nástroje zůstávají malé.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

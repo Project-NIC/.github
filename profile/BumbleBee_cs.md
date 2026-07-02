@@ -26,5 +26,3 @@ Tohle repo je zadání, ne výsledek. Hledáme lidi, kteří umějí říct
 „nevím, ale zkusil bych tohle" — a pak to zkusí.
 
 → **[github.com/Project-NIC](https://github.com/Project-NIC)**
-
-★ Viva La Resistánce ★
