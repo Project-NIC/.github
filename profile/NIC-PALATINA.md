@@ -15,4 +15,4 @@ glue that speaks RS-485 / Modbus. In the platform it doubles as the **hub** (nod
 Simple parts, honest measurements, one shared bus — a station you can build and run at
 home.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

@@ -11,4 +11,4 @@ type on the bus and adding **zero** new protocol opcodes.
 
 Reserved now, so the day it ships nothing else has to change.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

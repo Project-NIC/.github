@@ -17,4 +17,4 @@ tables onto SEED network/station/channel codes. Pure Python, no external package
 It is a worked converter, not a framework: the shortest honest path from an 8-bit
 datalogger to a research-grade seismic archive.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

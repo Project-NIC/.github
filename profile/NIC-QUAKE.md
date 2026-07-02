@@ -27,4 +27,4 @@ The architecture holds and the data path is built. The PCB, the firmware and the
 field tests are still ahead — this repo is a brief, not a result. We are looking
 for people who can say "I don't know, but I'd try this" — and then try it.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

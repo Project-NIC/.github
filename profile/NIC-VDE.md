@@ -17,4 +17,4 @@ automatic; only encryption stays out of scope.
 It is built like the format it reads: dumb libraries, thin glue, smarts in the
 tables. A familiar blue-panel window over a self-describing archive.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

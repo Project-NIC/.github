@@ -13,4 +13,4 @@ correlates radiation bursts with lightning (TGF, with **Tesla**). Not a new node
 counts ride the Basic payload **K1–K4 (offsets 27–30)**. The finalised neutron physics
 live (in Czech) under `quark/detektor-neutronu/`.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

@@ -16,4 +16,4 @@ Slowly-changing telemetry over LoRa is where it shines — weather, energy meter
 GPS, industrial counters. Fully working on an ATmega328, byte-identical in C and
 Python. Small data deserves small code.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

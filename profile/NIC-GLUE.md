@@ -18,4 +18,4 @@ Neither is a framework you must adopt. Each is a worked example plus a small
 catalogue of the handful of seams where the libraries must agree — written down
 once, so nobody has to rediscover them.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

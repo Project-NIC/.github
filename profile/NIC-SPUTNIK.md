@@ -13,4 +13,4 @@ It grew out of the seismograph work: a big quake pushes acoustic-gravity waves u
 the ionosphere minutes later, so a seismo and a Sputnik node at one site catch both ends
 of that chain — civilian space weather from commodity parts.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

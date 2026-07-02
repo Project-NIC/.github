@@ -13,4 +13,4 @@ It is **front-agnostic** (an ESP32 head): it carries no sensor knowledge at all 
 weather, iono or starDust nodes hang off the same master with zero changes. Build one good
 Majak and one good node, and you have a station.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

@@ -16,4 +16,4 @@ place and stays out of yours.
 Two C variants for old and new avr-gcc, a Python reference that matches
 byte-for-byte. On an ATmega328 it just runs. Sharp tools stay small.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

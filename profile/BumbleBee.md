@@ -27,5 +27,3 @@ We are looking for people who can say "I don't know, but I'd try this" —
 and then try it.
 
 → **[github.com/Project-NIC](https://github.com/Project-NIC)**
-
-★ Viva La Resistánce ★
