@@ -1,10 +1,10 @@
 # NIC-Sputnik — front GNSS / ionosféra
 
 Ionosféra je zrcadlo, které se dá číst dobrými hodinami a dobrou anténou. NIC-Sputnik dělá
-z jediného multi-konstelačního, vícefrekvenčního přijímače **Unicore UM980** node, který
+z jediného multi-konstelačního, vícefrekvenčního přijímače **Unicore UM980C** node, který
 měří **Total Electron Content (TEC)** — sloupec volných elektronů nad hlavou.
 
-Je to univerzální jádro NIC node plus jeden senzor: glue čte UM980 přes UART a kurátoruje
+Je to univerzální jádro NIC node plus jeden senzor: glue čte UM980C přes UART a kurátoruje
 jeho výstup na sběrnici — surový základ, korekce, augmentace — drží jen to, co nese vědu,
 ne celý proud dat.
 

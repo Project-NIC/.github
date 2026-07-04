@@ -1,11 +1,11 @@
 # NIC-Sputnik — GNSS / Ionosphere front
 
 The ionosphere is a mirror you can read with a good clock and a good antenna. NIC-Sputnik
-turns a single multi-constellation, multi-frequency **Unicore UM980** receiver into a
+turns a single multi-constellation, multi-frequency **Unicore UM980C** receiver into a
 node that measures **Total Electron Content (TEC)** — the column of free electrons
 overhead.
 
-It is the universal NIC node core plus one sensor: the glue reads the UM980 over UART
+It is the universal NIC node core plus one sensor: the glue reads the UM980C over UART
 and curates its output onto the bus — raw backbone, corrections, augmentation — keeping
 only what carries the science, not the firehose.
 

@@ -49,7 +49,7 @@ ADXL355 + ICM-42688 accelerometer, SCL-3300 inclinometer, RM3100 magnetometer, w
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
 
 ### GNSS — NIC-Sputnik
-Ionosphere — Total Electron Content from a Unicore UM980 receiver.
+Ionosphere — Total Electron Content from a Unicore UM980C receiver.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_ru.md)*
 
 ### Weather — NIC-Palatina *(the hub)*
