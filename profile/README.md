@@ -6,41 +6,41 @@
 
 [The Arduino family software](https://github.com/Project-NIC/NIC-Arduino) — the storage / transport / viewer stack.
 
-### `mla/` — NIC-MLA
+### NIC-MLA
 Matroshka Logging Archive — the base log format (single-file, crash-safe container).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_ru.md)*
 
-### `dmd/` — NIC-DMD
+### NIC-DMD
 Delta Markov Duda — optional compression.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_ru.md)*
 
-### `ksf/` — NIC-KSF
+### NIC-KSF
 Kolmogorov Shannon Feistel — optional encryption.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF_ru.md)*
 
-### `glue-in/` — NIC-Glue IN
+### NIC-GLUE-IN
 Write data into an MLA log.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_ru.md)*
 
-### `glue-out/` — NIC-Glue OUT
+### NIC-GLUE-OUT
 Read / export an MLA log (CSV, SQLite, …).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_ru.md)*
 
-### `mseed/` — NIC-MSEED
+### NIC-MSEED
 Seismo export — an MLA log → miniSEED (ObsPy / SeisComP / FDSN).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_ru.md)*
 
-### `vde/` — NIC-VDE
+### NIC-VDE
 Volkov Data Ecosystem — browse & export MLA logs.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_ru.md)*
 
 ---
 
-## NIC — Station
+## NIC — Heimdall
 
-[Multi-sensor system station](https://github.com/Project-NIC/NIC-Station)
+[Multi-sensor system station](https://github.com/Project-NIC/NIC-Heimdall)
 
-### Master — NIC-Majak
+### Master — NIC-Mayak
 Its own board (ESP32 head-end): clock master, datalogger and uplink. Every node hangs off it.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK_ru.md)*
 
@@ -56,7 +56,7 @@ Ionosphere — Total Electron Content from a Unicore UM980C receiver.
 Precision weighing weather station + Pluvius rain gauge; the **Modbus master** of its leaf bus.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 
-**MOD**s on its **ModeBus** (the Modbus leaf bus):
+Sub-sensors on its Modbus leaf bus:
 
 - **Pluvius** — weighing rain gauge — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 - **Sakura** — leaf-wetness sensor — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
@@ -75,7 +75,7 @@ Air quality — CO₂ / PM / VOC / UV (parked); the starDust node that carries t
 
 Lightning front carried in the same enclosure:
 
-- **Tesla** — lightning / TGF sferic receiver — the analog front (ferrite loops + ADS127L14) read by Chinook's H523, up at the antenna on the NodeBus — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
+- **Tesla** — lightning / TGF sferic receiver — the analog front (ferrite loops + ADS127L14) read by Chinook's H523, up at the antenna — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 
 ---
 
