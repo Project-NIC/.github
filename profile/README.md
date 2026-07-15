@@ -42,7 +42,7 @@ Volkov Data Ecosystem — browse & export MLA logs.
 
 ### Master — NIC-Mayak
 Its own board (ESP32 head-end): clock master, datalogger and uplink. Every node hangs off it.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAJAK_ru.md)*
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_ru.md)*
 
 ### Seismograph — NIC-Quake
 ADXL355 + ICM-42688 accelerometer, SCL-3300 inclinometer, RM3100 magnetometer, with edge event detection.
