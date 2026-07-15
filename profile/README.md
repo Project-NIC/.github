@@ -38,44 +38,59 @@ Volkov Data Ecosystem — browse & export MLA logs.
 
 ## NIC — Heimdall
 
-[Multi-sensor system station](https://github.com/Project-NIC/NIC-Heimdall)
+[The hardware fronts + the base station](https://github.com/Project-NIC/NIC-Heimdall) — one node core, one bus, one clock. Mix and match freely: a station is whatever fronts you bolt on, and light sensors can hang straight off the master's Modbus.
 
-### Master — NIC-Mayak
-Its own board (ESP32 head-end): clock master, datalogger and uplink. Every node hangs off it.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_ru.md)*
-
-### Seismograph — NIC-Quake
-ADXL355 + ICM-42688 accelerometer, SCL-3300 inclinometer, RM3100 magnetometer, with edge event detection.
+### NIC-Quake
+Seismograph — local ground motion + edge event detection (ADXL355 + ICM-42688, SCL-3300, RM3100).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
 
-### GNSS — NIC-Sputnik
-Ionosphere — Total Electron Content from a Unicore UM980C receiver.
+### NIC-Gauss
+Magnetometer — the slow geomagnetic field (Tesla is its fast-field sibling).
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gauss)*
+
+### NIC-Sputnik
+GNSS / ionosphere — Total Electron Content, space weather (Unicore UM980C).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_ru.md)*
 
-### Weather — NIC-Palatina *(the hub)*
-Precision weighing weather station + Pluvius rain gauge; the **Modbus master** of its leaf bus.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
+### NIC-Tesla
+Lightning — VLF sferics / fast B-field (ferrite loops + ADS127L14).
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 
-Sub-sensors on its Modbus leaf bus:
-
-- **Pluvius** — weighing rain gauge — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
-- **Sakura** — leaf-wetness sensor — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
-- **Ceres** — soil-moisture sensor (×2 depths) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
-
-Radiation detectors — counted by Palatina (their pulses ride its payload); **NIC-Quark** is the parent domain:
-
-- **Photon** — γ / X-ray (graded-Pb) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
-- **Helion** — He³ neutron — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
-- **Gadolin** — Gd-capture neutron — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
-- **Rhodin** — Rh-activation neutron (Gadolin variant) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
-
-### Environmental — NIC-Chinook
-Air quality — CO₂ / PM / VOC / UV (parked); the starDust node that carries the lightning front.
+### NIC-Chinook
+Air quality — a CO fire channel + the DSP host that runs Tesla.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
 
-Lightning front carried in the same enclosure:
+### NIC-Palatina
+The meteo base — temp / RH, pressure, wind, solar, UV, soil (with **Sakura** leaf-wetness + **Ceres** soil-moisture).
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
 
-- **Tesla** — lightning / TGF sferic receiver — the analog front (ferrite loops + ADS127L14) read by Chinook's H523, up at the antenna — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
+### NIC-Pluvius
+Precipitation — a weighing rain gauge.
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
+
+### NIC-Babel
+The universal Modbus bridge — any sensor → Modbus at the source.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel)*
+
+### NIC-Helion
+Neutron detector — He³ / BF₃.
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
+
+### NIC-Gadolin
+Neutron detector — Gd capture (with **Rhodin**, the Rh-activation variant).
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
+
+### NIC-Photon
+γ / X-ray — GM tubes behind graded lead.
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
+
+### NIC-Quark
+The shared neutron-detector physics reference (not a board).
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
+
+### NIC-Mayak
+The station head — clock master, datalogger and uplink. Every node hangs off it.
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_ru.md)*
 
 ---
 
