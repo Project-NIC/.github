@@ -44,9 +44,9 @@ Volkov Data Ecosystem — browse & export MLA logs.
 The station head — clock master, datalogger and uplink. Every node hangs off it.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_ru.md)*
 
-### NIC-Palatina
+### NIC-Palatine
 The meteo base — temp / RH, pressure, wind, solar, UV, soil (with **Sakura** leaf-wetness + **Ceres** soil-moisture).
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_ru.md)*
 
 ### NIC-Chinook
 Air quality — a CO fire channel + the DSP host that runs Tesla.
@@ -62,7 +62,7 @@ Seismograph — local ground motion + edge event detection (ADXL355 + ICM-42688,
 The shared reference for the radiation detectors — the physics + counting the heads below build on (not a board). The three detector boards sit under it:
 
 - **NIC-Helion** — neutron: He³ / BF₃ — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
-- **NIC-Gadolin** — neutron: Gd capture (with **Rhodin**, the Rh-activation variant) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
+- **NIC-Gadolin** — neutron: Gd capture (with **Rhodion**, the Rh-activation variant) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 - **NIC-Photon** — γ / X-ray: GM tubes behind graded lead — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
 
 ---
@@ -81,7 +81,7 @@ Magnetometer — the slow geomagnetic field (Tesla is its fast-field sibling).
 
 ### NIC-Pluvius
 Precipitation — a weighing rain gauge.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINA_ru.md)*
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_ru.md)*
 
 ### NIC-Babel
 The universal Modbus bridge — any sensor → Modbus at the source.

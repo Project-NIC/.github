@@ -1,6 +1,6 @@
-# NIC-Palatina — precizní vážicí meteostanice
+# NIC-Palatine — precizní vážicí meteostanice
 
-Pojmenováno po *Societas Meteorologica Palatina* (Mannheim, 1780) — první mezinárodní
+Pojmenováno po *Societas Meteorologica Palatine* (Mannheim, 1780) — první mezinárodní
 standardizované síti meteostanic. Není to jedna krabička: je to malý projekt sám o sobě
 — hlavní jednotka plus sada nodů sdílejících NIC RS-485 sběrnici a jedny hardwarové
 hodiny. Vlajkový přístroj je **Pluvius**, **vážicí srážkoměr** — tenzometr, který

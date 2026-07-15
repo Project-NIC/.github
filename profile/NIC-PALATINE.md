@@ -1,6 +1,6 @@
-# NIC-Palatina — precision weighing weather station
+# NIC-Palatine — precision weighing weather station
 
-Named after the *Societas Meteorologica Palatina* (Mannheim, 1780), the first
+Named after the *Societas Meteorologica Palatine* (Mannheim, 1780), the first
 international standardized weather-station network. Not one box: a small project of its
 own — a main unit plus a set of nodes sharing the NIC RS-485 bus and one hardware clock.
 The headline instrument is **Pluvius**, a **weighing rain gauge** — a load cell that

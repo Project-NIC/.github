@@ -7,7 +7,7 @@ name" rule the detectors split into four boards:
 - **Photon** — γ + X-ray (GM tubes behind graded Pb, K1–K3); γ/X-rays are **photons**.
 - **Helion** — He³ neutron tube (the helium-3 nucleus is a *helion*).
 - **Gadolin** — Gd-capture neutron board (after Johan Gadolin).
-- **Rhodin** — the rhodium (Rh) activation variant of Gadolin (same board, Rh converter).
+- **Rhodion** — the rhodium (Rh) activation variant of Gadolin (same board, Rh converter).
 
 Design on paper — *citizen-science relative monitors*, a dense clock-synced grid that
 correlates radiation bursts with lightning (TGF, with **Tesla**). Not a new node type:
