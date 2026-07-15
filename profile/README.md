@@ -92,6 +92,10 @@ Precipitation — a weighing rain gauge.
 The universal Modbus bridge — any sensor → Modbus at the source.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel)*
 
+### NIC-Galvani
+The universal isolated port — galvanic isolation + the on-board supply that brings any node onto the 48 V network.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/blocks/protection-power.md)*
+
 ---
 
 ## NIC — Bumble Bee *(Russian Power)*
