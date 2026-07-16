@@ -30,6 +30,10 @@ Read / export an MLA log (CSV, SQLite, …).
 Seismo export — an MLA log → miniSEED (ObsPy / SeisComP / FDSN).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_ru.md)*
 
+### NIC-IAGA
+Geomag export — an MLA log → IAGA-2002 (INTERMAGNET format / SuperMAG).
+*[repo](https://github.com/Project-NIC/NIC-Arduino/tree/main/iaga)*
+
 ### NIC-VDE
 Volkov Data Ecosystem — browse & export MLA logs.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_ru.md)*
