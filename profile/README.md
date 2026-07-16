@@ -92,7 +92,7 @@ The universal Modbus bridge — any sensor → Modbus at the source.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel)*
 
 ### NIC-Galvani
-The universal remote port — isolation + the ~48 V remote-spur feed (the one place the network makes a voltage; the station rides battery voltage). Two transceiver channels: fast ModeBus + NodeBus.
+The universal remote port — isolation + the ~48 V remote-spur feed (the one place the network makes a voltage; the station rides battery voltage). Two channels: the hard-wired clock pass-through + one arbitrated data pair (fast ModeBus or NodeBus at the insert point).
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/blocks/protection-power.md)*
 
 ---
