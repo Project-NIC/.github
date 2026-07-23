@@ -45,8 +45,16 @@ Volkov Data Ecosystem — browse & export MLA logs.
 [The hardware fronts + the base station](https://github.com/Project-NIC/NIC-Heimdall) — one node core, one bus, one clock. Mix and match freely: a station is whatever fronts you bolt on, and light sensors can hang straight off the master's Modbus.
 
 ### NIC-Mayak
-The station head — clock master, datalogger and uplink. Every node hangs off it.
+The station head — datalogger and uplink. Every node hangs off it.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_ru.md)*
+
+### NIC-Kronos
+The station timekeeper — a dedicated clock board: GNSS-disciplined 2²³ Hz network clock, PPS and coarse UTC for the whole station.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/kronos)*
+
+### NIC-Bifrost
+The optical bridge card — the station's light-bridges: trunk ↔ point-to-point optical spurs to remote units, each spur its own timing domain.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/bifrost)*
 
 ### NIC-Palatine
 The meteo base — temp / RH, pressure, wind, solar, UV, soil (with **Sakura** leaf-wetness + **Ceres** soil-moisture).
@@ -92,8 +100,8 @@ The universal Modbus bridge — any sensor → Modbus at the source.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel)*
 
 ### NIC-Galvani
-The universal remote port — isolation + the ~48 V remote-spur feed (the one place the network makes a voltage; the station rides battery voltage). Two channels: the hard-wired clock pass-through + one arbitrated data pair (fast ModeBus or NodeBus at the insert point).
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/blocks/protection-power.md)*
+The universal port-module family — isolation + the ~48 V remote-spur feed (the one place the network makes a voltage; the station rides battery voltage). Two channels: the hard-wired clock pass-through + one data pair (NodeBus or ModeBus at the insert point); N / I / O module variants (copper / isolated / optical fibre).
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/galvani)*
 
 ---
 
