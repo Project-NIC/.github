@@ -49,7 +49,7 @@ The station head — datalogger and uplink. Every node hangs off it.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_ru.md)*
 
 ### NIC-Kronos
-The station timekeeper — a dedicated clock board: GNSS-disciplined 2²³ Hz network clock, PPS and coarse UTC for the whole station.
+The station timekeeper — a dedicated clock board: GNSS-disciplined 2²³ Hz network clock (2²² Hz on the wire), PPS and coarse UTC for the whole station.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_ru.md)*
 
 ### NIC-Bifrost

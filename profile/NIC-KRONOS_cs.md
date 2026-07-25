@@ -5,7 +5,9 @@ celý smysl stanice pro čas se rodí na téhle jedné malé desce.
 
 Vyhrazený STM32H523 s jediným úkolem: GNSS-disciplinovaný TCXO/GPSDO syntetizuje
 **síťové hodiny 2²³ Hz** — a podává celé stanici její tep: hodiny se přes mosty
-Bifrost rozvádějí do každého drátu i vlákna, hrana PPS značí sekundu a hrubá unixová
+Bifrost rozvádějí do každého drátu i vlákna (samotný kabel nese **2²² Hz** —
+poloviční kmitočet pro čistší přenos; časovou základnu 2²³ si každý uzel obnoví
+uvnitř), hrana PPS značí sekundu a hrubá unixová
 sekunda chodí jednou za minutu (a slouží zároveň jako Kronosův vlastní heartbeat —
 vynechaná minuta spouští poplach). Majáku prostě **emuluje GPS**, takže časová cesta
 hlavy se nikdy nemění.
