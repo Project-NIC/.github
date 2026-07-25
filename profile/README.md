@@ -50,11 +50,11 @@ The station head — datalogger and uplink. Every node hangs off it.
 
 ### NIC-Kronos
 The station timekeeper — a dedicated clock board: GNSS-disciplined 2²³ Hz network clock, PPS and coarse UTC for the whole station.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/kronos)*
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_ru.md)*
 
 ### NIC-Bifrost
-The optical bridge card — the station's light-bridges: trunk ↔ point-to-point optical spurs to remote units, each spur its own timing domain.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/bifrost)*
+The bridge of light — trunk ↔ point-to-point spurs to remote units, each spur its own timing domain; every remote unit hangs behind one.
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_ru.md)*
 
 ### NIC-Palatine
 The meteo base — temp / RH, pressure, wind, solar, UV, soil (with **Sakura** leaf-wetness + **Ceres** soil-moisture).
@@ -100,8 +100,8 @@ The universal Modbus bridge — any sensor → Modbus at the source.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel)*
 
 ### NIC-Galvani
-The universal port-module family — isolation + the ~48 V remote-spur feed (the one place the network makes a voltage; the station rides battery voltage). Two channels: the hard-wired clock pass-through + one data pair (NodeBus or ModeBus at the insert point); N / I / O module variants (copper / isolated / optical fibre).
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/galvani)*
+The universal port-module family — six boards (N/I/O × output/input): isolation + the ~48 V remote-spur feed (the one place the network makes a voltage), the sacrificial surge front, and the feed telemetry — the network's whole transport layer as plug-in modules.
+*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI_ru.md)*
 
 ---
 

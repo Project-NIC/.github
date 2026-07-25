@@ -1,16 +1,18 @@
-# NIC-Mayak — the data station (clock master + datalogger + uplink)
+# NIC-Mayak — the station head (datalogger + uplink + the roster)
 
 Маяк — a **lighthouse**, and the name of the old radio beacon that broadcast the
-**time signal**. That is exactly what the master is: the **head-end** of one RS-485
-segment — the single heartbeat the whole network steers by.
+time signal. The Mayak is the **head** of a NIC station: it captures, stores and
+uplinks — a microSD NIC-MLA log on one side, a lean 16-byte LoRa / Wi-Fi telemetry
+frame on the other — and holds the **roster**: one small table that IS the station's
+composition (adding a unit never means touching node firmware).
 
-One oscillator — a dedicated **8.388608 MHz TCXO**, wired straight onto the clock pair —
-is the network's only clock, so every node phase-locks to it to sub-microsecond. Mayak
-hands each node a TDMA slot, says *go*, then only **listens, stores and uplinks**: a
-microSD NIC-MLA log on one side, a lean 16-byte LoRa / Wi-Fi telemetry frame on the other.
+Since the Bifrost era the head touches no bus directly: each of its two trunk UARTs
+is a point-to-point **MasterNOD link** to a Bifrost bridge, and the NodeBus proper
+starts behind them. The clock is not his either — **Kronos** makes it and hands the
+Mayak a PPS, the tick stream and a coarse second, like a private GPS.
 
-It is **front-agnostic** (an ESP32 head): it carries no sensor knowledge at all — seismo,
-weather, iono or starDust nodes hang off the same master with zero changes. Build one good
-Mayak and one good node, and you have a station.
+It is **front-agnostic** (an ESP32-S31 head): it carries no sensor knowledge at all —
+seismo, weather, iono or mag units hang off the same head with zero changes. Build one
+good head and one good node, and you have a station.
 
 → **[github.com/Project-NIC](https://github.com/Project-NIC)**
