@@ -19,4 +19,4 @@ CSV/SQL без всякого предварительного знания.
 Интеллект живёт в таблицах, а не в коде. Поэтому он работает от 8-битного
 микроконтроллера до сервера — и поэтому годами не преподнесёт сюрпризов.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

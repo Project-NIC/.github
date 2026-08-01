@@ -17,4 +17,4 @@ NIC-VDE — это двухпанельный файловый менеджер 
 Он построен как формат, который читает: глупые библиотеки, тонкий клей, интеллект
 в таблицах. Знакомое синее окно над самоописывающим архивом.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

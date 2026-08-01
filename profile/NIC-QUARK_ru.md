@@ -13,4 +13,4 @@
 **Tesla**). Не новый тип узла: счёты едут в Basic payload **K1–K4 (смещения 27–30)**.
 Финальная нейтронная физика живёт (по-чешски) в `quark/detektor-neutronu/`.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

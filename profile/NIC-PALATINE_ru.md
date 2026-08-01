@@ -15,4 +15,4 @@ Modbus метео-датчиками: температура/влажность,
 Простые детали, честные измерения, одна общая шина — станция, которую соберёшь и
 запустишь дома.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

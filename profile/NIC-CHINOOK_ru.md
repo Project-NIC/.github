@@ -27,4 +27,4 @@ PM2.5 — быстрый сигнал дыма, но это обслуживае
 узел, который их читает, и они появляются в его муксе, а не на NodeBus сами по себе. В ядро
 протокола не добавляется ничего.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

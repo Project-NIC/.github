@@ -17,4 +17,4 @@ Tesla — это **одна единица NodeBus, тип 7, на одной п
 
 Проект на бумаге: детектирование — твёрдая часть; локализация требует широкой сети.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

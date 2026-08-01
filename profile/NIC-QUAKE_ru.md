@@ -28,4 +28,4 @@ crash-safe сохраняет в один файл, NIC-KSF шифрует ка�
 испытания ещё впереди — этот репозиторий это бриф, а не результат. Мы ищем людей,
 способных сказать «не знаю, но я бы попробовал» — и затем попробовать.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

@@ -28,5 +28,3 @@
 которые умеют сказать «не знаю, но попробовал бы вот это» — и затем пробуют.
 
 → **[github.com/Project-NIC](https://github.com/Project-NIC)**
-
-★ Viva La Resistánce ★

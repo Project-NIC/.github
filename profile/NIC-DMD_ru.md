@@ -17,4 +17,4 @@ RAM. Каждый пакет сжимается сам по себе — код�
 промышленные счётчики. Полностью работает на ATmega328, байт-идентичен в C и
 Python. Маленьким данным — маленький код.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

@@ -19,4 +19,4 @@
 небольшой каталог той горстки швов, где библиотеки должны согласоваться —
 записанный однажды, чтобы никому не пришлось открывать его заново.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

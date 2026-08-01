@@ -13,4 +13,4 @@ UM980C** в узел, измеряющий **Total Electron Content (TEC)** — 
 гравитационные волны в ионосферу спустя минуты, так что сейсмо- и Sputnik-узел на одной
 площадке ловят оба конца этой цепочки — гражданская космическая погода из ширпотреба.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

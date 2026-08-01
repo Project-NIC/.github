@@ -17,4 +17,4 @@
 байт в байт. На ATmega328 он просто работает. Острые инструменты остаются
 маленькими.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**

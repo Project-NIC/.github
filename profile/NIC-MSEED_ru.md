@@ -17,4 +17,4 @@ counts по каналам и пишет стандартный **miniSEED** (St
 Это рабочий конвертер, а не фреймворк: кратчайший честный путь от 8-битного
 датологгера к сейсмическому архиву исследовательского уровня.
 
-→ **[github.com/Project-NIC](https://github.com/Project-NIC)** · ★ Viva La Resistánce ★
+→ **[github.com/Project-NIC](https://github.com/Project-NIC)**
