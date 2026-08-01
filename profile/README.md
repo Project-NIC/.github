@@ -61,7 +61,7 @@ The meteo base — temp / RH, pressure, wind, solar, UV, soil (with **Sakura** l
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_ru.md)*
 
 ### NIC-Chinook
-Air quality — a CO fire channel + the DSP host that runs Tesla.
+Air quality — not a board: the bought RS-485 Modbus units, with the CO fire channel as the base.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
 
 ### NIC-Quake
@@ -84,7 +84,7 @@ GNSS / ionosphere — Total Electron Content, space weather (Unicore UM980C).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_ru.md)*
 
 ### NIC-Tesla
-Lightning — VLF sferics / fast B-field (ferrite loops + ADS127L14).
+Lightning — VLF sferics / fast B-field (four ferrite rods + THS4551 + ADS127L14).
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 
 ### NIC-Gauss

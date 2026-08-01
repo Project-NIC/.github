@@ -5,12 +5,13 @@ postavitelný **sferický přijímač** — **čtyři feritové pruty** na komol
 diferenční front-end **THS4551** + ADC **ADS127L14** — který detekuje blesky **na hraně**
 (edge-AI klasifikace) a posílá drobný **fixní záznam události**, ne syrové průběhy.
 
-Tesla je **analogový front bez vlastního procesoru**: **SPI-em se připojuje na node
-Chinook** ve stejné krabici a **DSP blesků běží na Chinookově STM32H523**. Podle pravidla
-„deska má jméno" je pořád vlastní pojmenovaný front.
+Tesla je **jedna jednotka NodeBusu, typový kód 7, na jedné desce**: analogový front a
+**STM32H523, který běží její DSP**, sdílejí jeden plošňák v jedné IP68 krabici na anténním
+rámu. Jediný konektor je **socket Galvani**.
 
-Protože každý node sdílí síťové hodiny s ~120 ns, každý úder dostane časovou značku pro
-síťovou multilateraci (TOA přes vzdálené stanice), a záblesk gama záření z bouřky
+Protože každý node sdílí jedny síťové hodiny — **doručená jedna mikrosekunda** — každý úder
+dostane časovou značku pro síťovou multilateraci (TOA přes vzdálené stanice), a záblesk
+gama záření z bouřky
 (**TGF**) lze korelovat s radiačními deskami (**Quark** / **Photon**).
 
 Návrh na papíře: detekce je pevná část; lokalizace potřebuje širokou síť.
