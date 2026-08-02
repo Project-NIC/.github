@@ -7,7 +7,8 @@ plug-in modules** that carry the network's entire transport layer.
 Every unit's input port is the same socket; every Bifrost output port takes the same
 modules the other way round. Three transports — **N** (non-isolated copper), **I**
 (isolated copper + the ~48 V remote feed — the ONE place the network makes a
-voltage), **O** (optical fibre) — times two ends (1 = output, 2 = input) = six
+voltage on land; the shelved sea link is the exception, at 200–300 V), **O** (optical
+fibre) — times two ends (1 = output, 2 = input) = six
 boards, and the whole question "how does this cable enter the station?" is answered
 by which module you seat. On the mast everything runs non-isolated with basic
 protection; beyond it you pick by **exposure, not distance**.
