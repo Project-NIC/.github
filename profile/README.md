@@ -52,8 +52,12 @@ The station head — datalogger and uplink. Every node hangs off it.
 The station timekeeper — a dedicated clock board: GNSS-disciplined 2²³ Hz network clock (2²² Hz on the wire), PPS and coarse UTC for the whole station.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_ru.md)*
 
+### NIC-Pip
+Longwave time — the 40–120 kHz time-code stations and eLoran → a second PPS and a date for Kronos where the sky is hidden. **Worked theory, shelved** — the band covers the already-instrumented world and misses everywhere this project exists to fill.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/pip)*
+
 ### NIC-Bifrost
-The bridge of light — trunk ↔ point-to-point spurs to remote units, each spur its own timing domain; every remote unit hangs behind one.
+The bridge card — trunk ↔ point-to-point spurs to remote units, copper or light, each spur its own ranged timing domain; every remote unit hangs behind one.
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_ru.md)*
 
 ### NIC-Palatine
@@ -100,8 +104,23 @@ The universal Modbus bridge — any sensor → Modbus at the source.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel)*
 
 ### NIC-Galvani
-The universal port-module family — six boards (N/I/O × output/input): isolation + the ~48 V remote-spur feed (the one place the network makes a voltage), the sacrificial surge front, and the feed telemetry — the network's whole transport layer as plug-in modules.
+The universal port-module family — four boards (I/O × output/input): isolation + the ~48 V remote-spur feed (the one place the network makes a voltage), the sacrificial surge front, and the feed telemetry — the network's whole transport layer as plug-in modules; anything that leaves the enclosure crosses one. The sea variant sits under it:
+
+- **NIC-Atlantis** — the sea link: the optical block re-rated for a submarine run — a 200–300 V feed down the hybrid cable, 120 km lasers, the oil-filled sonde at the far end. **Worked theory, shelved** — *[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/galvani/ATLANTIS.md)*
+
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI_ru.md)*
+
+### NIC-Daedalus
+Station construction — the mast, the sensor seat, the vault, grounding and finish: how a station is physically built and seated (a build guide, not a board).
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/daedalus)*
+
+### NIC-Gaia
+The siting atlas — where the stations go across the planet: coverage maps and the reasoning behind them (maps, not a board).
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/GAIA.md)*
+
+### NIC-Handset
+The commissioning app — the phone at the open enclosure: who enrolled, what is failing by name, GO / NO-GO over button-gated BLE (software, not a board).
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/mayak/handset)*
 
 ---
 
