@@ -61,7 +61,11 @@ The bridge card — trunk ↔ point-to-point spurs to remote units, copper or li
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_ru.md)*
 
 ### NIC-Palatine
-The meteo base — temp / RH, pressure, wind, solar, UV, soil (with **Sakura** leaf-wetness + **Ceres** soil-moisture).
+The meteo base — temp / RH, pressure, wind, solar, UV, soil. Its field MODs sit under it:
+
+- **NIC-Sakura** — leaf wetness: the dew / plant-disease channel, a Modbus MOD on Palatine's leaf bus — *[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/palatine/MODBUS_UNITS.md)*
+- **NIC-Ceres** — soil moisture: the soil column read at fixed depths (the bench-packed *patrona*), a Modbus MOD — *[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/palatine/MODBUS_UNITS.md)*
+
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_ru.md)*
 
 ### NIC-Chinook
