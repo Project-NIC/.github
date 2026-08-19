@@ -53,18 +53,21 @@ The station timekeeper — a dedicated clock board: GNSS-disciplined 2²³ Hz ne
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_ru.md)*
 
 ### NIC-Pip
-Longwave time — the 40–120 kHz time-code stations and eLoran → a second PPS and a date for Kronos where the sky is hidden. **Worked theory, shelved** — the band covers the already-instrumented world and misses everywhere this project exists to fill.
+Longwave time — the 34–120 kHz time-code stations and eLoran → a second PPS and a date for Kronos where the sky is hidden. **Worked theory, shelved** — the band covers the already-instrumented world and misses everywhere this project exists to fill.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/pip)*
 
 ### NIC-Bifrost
-The bridge card — trunk ↔ point-to-point spurs to remote units, copper or light, each spur its own ranged timing domain; every remote unit hangs behind one.
+The bridge card — trunk ↔ point-to-point spurs to remote units, copper or light, one up and four down, each spur its own ranged timing domain; every remote unit hangs behind one. **Argus is the same board:**
+
+- **NIC-Argus** — the carrier node: the identical card with different firmware in a different socket, carrying four NodBus **mini** segments so a small clocked unit gets network time without spending a spur on it — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/argus)*
+
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_ru.md)*
 
 ### NIC-Palatine
 The meteo base — temp / RH, pressure, wind, solar, UV, soil. Its field MODs sit under it:
 
-- **NIC-Sakura** — leaf wetness: the dew / plant-disease channel, a Modbus MOD on Palatine's leaf bus — *[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/palatine/MODBUS_UNITS.md)*
-- **NIC-Ceres** — soil moisture: the soil column read at fixed depths (the bench-packed *patrona*), a Modbus MOD — *[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/palatine/MODBUS_UNITS.md)*
+- **NIC-Sakura** — leaf wetness: the dew / plant-disease channel, a Modbus MOD on Palatine's leaf bus — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/sakura)*
+- **NIC-Ceres** — soil moisture: the soil column read at fixed depths (the bench-packed *patrona*), a Modbus MOD — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres)*
 
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_ru.md)*
 
@@ -96,8 +99,12 @@ Lightning — VLF sferics / fast B-field (four ferrite rods + THS4551 + ADS127L1
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
 
 ### NIC-Gauss
-Magnetometer — the slow geomagnetic field (Tesla is its fast-field sibling).
+Magnetometer — the slow geomagnetic field (Tesla is its fast-field sibling), an RM3100 in an oil-filled tube.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gauss)*
+
+### NIC-Pascal
+The pressure sonde — a tsunami gauge that reads the water column from underneath, in the same oil-filled tube as Gauss.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/pascal)*
 
 ### NIC-Pluvius
 Precipitation — a weighing rain gauge.
@@ -108,9 +115,9 @@ The universal Modbus bridge — any sensor → Modbus at the source.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel)*
 
 ### NIC-Galvani
-The universal port-module family — four boards (I/O × output/input): isolation + the ~48 V remote-spur feed (the one place the network makes a voltage), the sacrificial surge front, and the feed telemetry — the network's whole transport layer as plug-in modules; anything that leaves the enclosure crosses one. The sea variant sits under it:
+The transport layer — **eleven boards**, split by job: a **power board** makes the feed or takes it off the cable (48 V, or 300 V where 48 does not carry the load that far), a **communication board** carries the link (485 on copper, glass to 10 km, glass beyond). Isolation, the sacrificial surge front and the feed telemetry; **anything that leaves the enclosure crosses one**, and a normal station builds three. The sea variant sits under it:
 
-- **NIC-Atlantis** — the sea link: the optical block re-rated for a submarine run — a 200–300 V feed down the hybrid cable, 120 km lasers, the oil-filled sonde at the far end. **Worked theory, shelved** — *[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/galvani/ATLANTIS.md)*
+- **NIC-Atlantis** — the sea link: the optical board re-rated for a submarine run — a 300 V feed down 100 km of armoured hybrid, ship-laid, to the oil-filled sonde at the far end. **Worked theory, shelved** — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/atlantis)*
 
 *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI_ru.md)*
 
@@ -120,7 +127,7 @@ Station construction — the mast, the sensor seat, the vault, grounding and fin
 
 ### NIC-Gaia
 The siting atlas — where the stations go across the planet: coverage maps and the reasoning behind them (maps, not a board).
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/GAIA.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gaia)*
 
 ### NIC-Handset
 The commissioning app — the phone at the open enclosure: who enrolled, what is failing by name, GO / NO-GO over button-gated BLE (software, not a board).
