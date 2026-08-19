@@ -138,7 +138,7 @@ The commissioning app — the phone at the open enclosure: who enrolled, what is
 ## NIC — Bumble Bee *(Russian Power)*
 
 ### NIC-BumbleBee
-The power side.
+The power side — **NIC-FPLG**, a crankshaft-free two-stroke linear engine: two pistons on one rod with a tubular linear generator at the rod's centre, running permanently at mechanical resonance rather than at a controlled RPM. ~3 kW mechanical, 1–1.5 kW electrical; **twinned in anti-phase** it cancels ~88 % of its own vibration.
 *[repo](https://github.com/Project-NIC/NIC-BumbleBee)*
 
 ---
