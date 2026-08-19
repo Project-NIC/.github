@@ -8,27 +8,27 @@
 
 ### NIC-MLA
 Matroshka Logging Archive — the base log format (single-file, crash-safe container).
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MLA_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Arduino/tree/main/mla)*
 
 ### NIC-DMD
 Delta Markov Duda — optional compression.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-DMD_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Arduino/tree/main/dmd)*
 
 ### NIC-KSF
 Kolmogorov Shannon Feistel — optional encryption.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KSF_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Arduino/tree/main/ksf)*
 
 ### NIC-GLUE-IN
 Write data into an MLA log.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Arduino/tree/main/glue-in)*
 
 ### NIC-GLUE-OUT
 Read / export an MLA log (CSV, SQLite, …).
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GLUE_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Arduino/tree/main/glue-out)*
 
 ### NIC-MSEED
 Seismo export — an MLA log → miniSEED (ObsPy / SeisComP / FDSN).
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MSEED_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Arduino/tree/main/mseed)*
 
 ### NIC-IAGA
 Geomag export — an MLA log → IAGA-2002 (INTERMAGNET format / SuperMAG).
@@ -36,7 +36,7 @@ Geomag export — an MLA log → IAGA-2002 (INTERMAGNET format / SuperMAG).
 
 ### NIC-VDE
 Volkov Data Ecosystem — browse & export MLA logs.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-VDE_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Arduino/tree/main/vde)*
 
 ---
 
@@ -46,11 +46,11 @@ Volkov Data Ecosystem — browse & export MLA logs.
 
 ### NIC-Mayak
 The station head — datalogger and uplink. Every node hangs off it.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-MAYAK_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/mayak)*
 
 ### NIC-Kronos
 The station timekeeper — a dedicated clock board: GNSS-disciplined 2²³ Hz network clock (2²² Hz on the wire), PPS and coarse UTC for the whole station.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-KRONOS_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/kronos)*
 
 ### NIC-Pip
 Longwave time — the 34–120 kHz time-code stations and eLoran → a second PPS and a date for Kronos where the sky is hidden. **Worked theory, shelved** — the band covers the already-instrumented world and misses everywhere this project exists to fill.
@@ -61,7 +61,7 @@ The bridge card — trunk ↔ point-to-point spurs to remote units, copper or li
 
 - **NIC-Argus** — the carrier node: the identical card with different firmware in a different socket, carrying four NodBus **mini** segments so a small clocked unit gets network time without spending a spur on it — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/argus)*
 
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-BIFROST_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/bifrost)*
 
 ### NIC-Palatine
 The meteo base — temp / RH, pressure, wind, solar, UV, soil. Its field MODs sit under it:
@@ -69,34 +69,34 @@ The meteo base — temp / RH, pressure, wind, solar, UV, soil. Its field MODs si
 - **NIC-Sakura** — leaf wetness: the dew / plant-disease channel, a Modbus MOD on Palatine's leaf bus — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/sakura)*
 - **NIC-Ceres** — soil moisture: the soil column read at fixed depths (the bench-packed *patrona*), a Modbus MOD — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres)*
 
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/palatine)*
 
 ### NIC-Chinook
 Air quality — not a board: the bought RS-485 Modbus units, with the CO fire channel as the base.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-CHINOOK_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/chinook)*
 
 ### NIC-Quake
 Seismograph — local ground motion + edge event detection (ADXL355 + ICM-42688, SCL-3300, RM3100).
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUAKE_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quake)*
 
 ---
 
 ### NIC-Quark
 The shared reference for the radiation detectors — the physics + counting the heads below build on (not a board). The three detector boards sit under it:
 
-- **NIC-Helion** — neutron: He³ / BF₃ — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
-- **NIC-Gadolin** — neutron: Gd capture (with **Rhodion**, the Rh-activation variant) — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
-- **NIC-Photon** — γ / X-ray: GM tubes behind graded lead — *[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-QUARK_ru.md)*
+- **NIC-Helion** — neutron: He³ / BF₃ — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/helion)*
+- **NIC-Gadolin** — neutron: Gd capture (with **Rhodion**, the Rh-activation variant) — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gadolin)*
+- **NIC-Photon** — γ / X-ray: GM tubes behind graded lead — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/photon)*
 
 ---
 
 ### NIC-Sputnik
 GNSS / ionosphere — Total Electron Content, space weather (Unicore UM980C).
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-SPUTNIK_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/sputnik)*
 
 ### NIC-Tesla
 Lightning — VLF sferics / fast B-field (four ferrite rods + THS4551 + ADS127L14).
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-TESLA_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/tesla)*
 
 ### NIC-Gauss
 Magnetometer — the slow geomagnetic field (Tesla is its fast-field sibling), an RM3100 in an oil-filled tube.
@@ -108,7 +108,7 @@ The pressure sonde — a tsunami gauge that reads the water column from undernea
 
 ### NIC-Pluvius
 Precipitation — a weighing rain gauge.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-PALATINE_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/pluvius)*
 
 ### NIC-Babel
 The universal Modbus bridge — any sensor → Modbus at the source.
@@ -119,7 +119,7 @@ The transport layer — **eleven boards**, split by job: a **power board** makes
 
 - **NIC-Atlantis** — the sea link: the optical board re-rated for a submarine run — a 300 V feed down 100 km of armoured hybrid, ship-laid, to the oil-filled sonde at the far end. **Worked theory, shelved** — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/atlantis)*
 
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/NIC-GALVANI_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/galvani)*
 
 ### NIC-Daedalus
 Station construction — the mast, the sensor seat, the vault, grounding and finish: how a station is physically built and seated (a build guide, not a board).
@@ -139,7 +139,7 @@ The commissioning app — the phone at the open enclosure: who enrolled, what is
 
 ### NIC-BumbleBee
 The power side.
-*[Čeština](https://github.com/Project-NIC/.github/blob/main/profile/BumbleBee_cs.md) · [English](https://github.com/Project-NIC/.github/blob/main/profile/BumbleBee.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/BumbleBee_ru.md)*
+*[repo](https://github.com/Project-NIC/NIC-BumbleBee)*
 
 ---
 
