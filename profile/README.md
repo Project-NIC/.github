@@ -82,11 +82,12 @@ Seismograph — local ground motion + edge event detection (ADXL355 + ICM-42688,
 ---
 
 ### NIC-Quark
-The shared reference for the radiation detectors — the physics + counting the heads below build on (not a board). The three detector boards sit under it:
+The radiation unit — the physics and the counting the heads below build on, and its three boards: the HV-tube counting board and the two scintillation boards. The detector projects sit under it:
 
 - **NIC-Helion** — neutron: He³ / BF₃ — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/helion)*
 - **NIC-Gadolin** — neutron: Gd capture (with **Rhodion**, the Rh-activation variant) — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gadolin)*
-- **NIC-Photon** — γ / X-ray: GM tubes behind graded lead — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/photon)*
+- **NIC-Photon** — γ / X-ray: GM tubes behind graded lead, and the SiPM + PIN scintillation channel — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/photon)*
+- **NIC-Positron** — beta: the plastic-tile scintillator and the unshielded tube over the deposition plate — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/positron)*
 
 ---
 
@@ -115,7 +116,7 @@ The universal Modbus bridge — any sensor → Modbus at the source.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel)*
 
 ### NIC-Galvani
-The transport layer — **eleven boards**, split by job: a **power board** makes the feed or takes it off the cable (48 V, or 300 V where 48 does not carry the load that far), a **communication board** carries the link (485 on copper, glass to 10 km, glass beyond). Isolation, the sacrificial surge front and the feed telemetry; **anything that leaves the enclosure crosses one**, and a normal station builds three. The sea variant sits under it:
+The transport layer — **ten boards**, split by job: a **power board** makes the feed or takes it off the cable (48 V, or 300 V where 48 does not carry the load that far), a **communication board** carries the link (485 on copper, glass to 10 km, glass beyond). Isolation, the sacrificial surge front and the feed telemetry; **anything that leaves the enclosure crosses one**, and a normal station builds three. The sea variant sits under it:
 
 - **NIC-Atlantis** — the sea link: the optical board re-rated for a submarine run — a 300 V feed down 100 km of armoured hybrid, ship-laid, to the oil-filled sonde at the far end. **Worked theory, shelved** — *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/atlantis)*
 
