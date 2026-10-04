@@ -157,7 +157,7 @@ The radiation part — what is measured and the two builds that measure it: **Qu
 > > *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/scintillation/neutron)* · type 10 reserved
 
 ### NIC-Gauss
-Magnetometer — the slow geomagnetic field (Tesla is its fast-field sibling), an RM3100 in a sealed oil-filled tube; fitted when no Quake carries the chip.
+Magnetometer — the slow geomagnetic field (Tesla is its fast-field sibling), an RM3100 in a sealed tube, oil-filled in the sea build; fitted when no Quake carries the chip.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gauss)* · mini 1
 
 ### NIC-Pascal
