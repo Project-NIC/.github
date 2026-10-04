@@ -42,7 +42,7 @@ Volkov Data Ecosystem — browse & export MLA logs.
 
 ## NIC — Heimdall
 
-[The hardware side](https://github.com/Project-NIC/NIC-Heimdall) — one self-contained, multi-phenomenon measuring station: one enclosure with the head, the clock and the cards, and whatever units a site needs. Swap the units and it is a different instrument on the same bus and the same code. Time comes from one place, and anything that leaves the enclosure crosses a Galvani board. The units are listed by the bus they hang on.
+[The station — its hardware and its software](https://github.com/Project-NIC/NIC-Heimdall) — one self-contained, multi-phenomenon measuring station: one enclosure with the head, the clock and the cards, and whatever units a site needs. Swap the units and it is a different instrument on the same bus and the same code. Time comes from one place, and anything that leaves the enclosure crosses a Galvani board. The units are listed by the bus they hang on, the software after them.
 
 ---
 
@@ -51,14 +51,6 @@ Volkov Data Ecosystem — browse & export MLA logs.
 ### NIC-Mayak
 The station head — datalogger and uplink (Wi-Fi, a modem on the backup cell, BLE to the phone), writing each unit's archive to two microSD cards. Every card hangs off it.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/mayak)*
-
-### NIC-Handset
-The commissioning app — the phone at the open enclosure: who enrolled, what is failing by name, GO / NO-GO over button-gated BLE (software, not a board).
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/mayak/handset)*
-
-### NIC-HMC
-The station's own archive — HMC, the Heimdall Matryoshka Container, and HCC, its codec: a series of files per unit, coded by column, every second on its own. What the head stores, the uplink carries and the server keeps; the station does not use NIC-MLA.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/core/archive)*
 
 ### NIC-Kronos
 The station timekeeper — a TCXO disciplined to GNSS: the 2²³ Hz network timebase (2²² Hz on every wire), PPS and the named second to every card on one ribbon.
@@ -207,6 +199,30 @@ Station construction — the mast, the earthing, the enclosure, the vault and th
 ### NIC-Gaia
 The siting atlas — where the stations go across the planet: coverage maps and the reasoning behind them.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gaia)*
+
+---
+
+**The software — one package, from the card to the server**
+
+### NIC-HMC
+Heimdall Matryoshka Container — the station's archive: a series of files per unit, its recording and send rules, every segment on its own, every card carrying its own description. What the head stores, the uplink carries and the server keeps; the station does not use NIC-MLA.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HMC.md)*
+
+### NIC-HCC
+Heimdall Compression Codec — lossless, column by column: a prediction, the miss Rice-coded, no table stored or trained. Python reference with its tests.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HCC.md)*
+
+### NIC-Exporters
+Readers of the archive for what the world takes — miniSEED + StationXML, IAGA-2002, RINEX, BUFR, CWOP, IOC sea level, air quality, CSV and SQL (SQLite / PostgreSQL), one template each.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/EXPORTERS.md)*
+
+### NIC-Server
+The server — the files as the archive of record, a catalogue over them in SQLite or PostgreSQL, and the viewer.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HMC.md#on-the-server)*
+
+### NIC-Handset
+The commissioning app — the phone at the open enclosure: who enrolled, what is failing by name, GO / NO-GO over button-gated BLE.
+*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/mayak/handset)*
 
 ---
 
