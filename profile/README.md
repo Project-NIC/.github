@@ -4,6 +4,8 @@
 
 **Native Intellect Community** — simple, proven principles, standard hardware, open designs.
 
+**English** · [Čeština](https://github.com/Project-NIC/.github/blob/main/profile/README.cs.md) · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/README.ru.md)
+
 [Co je NIC?](#co-je-nic) · [What is NIC?](#what-is-nic) · [Что такое NIC?](#что-такое-nic)
 
 </div>
