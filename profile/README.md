@@ -4,7 +4,7 @@
 
 **Native Intellect Community** — simple, proven principles, standard hardware, open designs.
 
-[What is NIC?](#what-is-nic) · [Co je NIC?](#co-je-nic) · [Что такое NIC?](#что-такое-nic)
+[Co je NIC?](#co-je-nic) · [What is NIC?](#what-is-nic) · [Что такое NIC?](#что-такое-nic)
 
 </div>
 
@@ -124,27 +124,11 @@ of its own vibration.
 
 ---
 
-<div align="center">
-
 # ★ N.I.C. ★
+## NIC — Native Intellect Community
+### Viva la résistance! ✊
 
-**Native Intellect Community** · *Viva la résistance!* ✊
-
-</div>
-
-## What is NIC?
-
-NIC is for people who:
-
-- Use simple and proven principles
-- Are willing to test and create
-- Work with standardized hardware and environments
-- Don't need bloated solutions to prove they know what they're doing
-
-NIC is a revolutionary movement of all comrades who are fed up with today's overpriced and
-unnecessarily complex world.
-
-*"Strength lies in simplicity."*
+---
 
 ## Co je NIC?
 
@@ -155,10 +139,30 @@ NIC je pro lidi, kteří:
 - Pracují se standardizovaným hardwarem a prostředím
 - Nepotřebují nafouklá řešení, aby dokázali, že něco umí
 
-NIC je revoluční hnutí všech soudruhů a soudružek, kterým nevyhovuje dnešní přeplácaný a zbytečně
-složitý svět.
+NIC je revoluční hnutí všech soudruhů a soudružek, kterým nevyhovuje dnešní přeplácaný a zbytečně složitý svět.
 
-*„V jednoduchosti je síla.“*
+*"V jednoduchosti je síla."*
+
+★ **Viva la résistance!** ★
+
+---
+
+## What is NIC?
+
+NIC is for people who:
+
+- Use simple and proven principles
+- Are willing to test and create
+- Work with standardized hardware and environments
+- Don't need bloated solutions to prove they know what they're doing
+
+NIC is a revolutionary movement of all comrades who are fed up with today's overpriced and unnecessarily complex world.
+
+*"Strength lies in simplicity."*
+
+★ **Viva la résistance!** ★
+
+---
 
 ## Что такое NIC?
 
@@ -167,19 +171,13 @@ NIC — для людей, которые:
 - Используют простые и проверенные принципы
 - Готовы тестировать и создавать
 - Работают со стандартизированным оборудованием и средой
-- Не нуждаются в раздутых решениях, чтобы доказать, что что-то умеют
+- Не нуждаются в раздутых решениях чтобы доказать, что что-то умеют
 
-NIC — это революционное движение всех товарищей, которых не устраивает сегодняшний переоценённый
-и излишне усложнённый мир.
+NIC — это революционное движение всех товарищей, которых не устраивает сегодняшний переоценённый и излишне усложнённый мир.
 
 *«Сила в простоте.»*
 
----
-
-<div align="center">
-
 ★ **Viva la résistance!** ★
 
+---
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-
-</div>
