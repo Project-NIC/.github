@@ -56,9 +56,9 @@ The station head — datalogger and uplink (Wi-Fi, a modem on the backup cell, B
 The station timekeeper — a TCXO disciplined to GNSS: the 2²³ Hz network timebase (2²² Hz on every wire), PPS and the named second to every card on one ribbon.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/kronos)*
 
-### NIC-Polaris
-Kronos's GNSS front, bought — a time-only receiver and an active antenna on a carrier; no processor. Fitted when the station has no Sputnik.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/kronos/polaris)*
+> #### NIC-Polaris
+> Kronos's GNSS front, bought — a time-only receiver and an active antenna on a carrier; no processor. Fitted when the station has no Sputnik.
+> *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/kronos/polaris)*
 
 ### NIC-Hermes
 The BMS/MPPT converter — polls the bought pack and charger on whatever bus they speak and hands the head one register block. It measures nothing.
@@ -68,9 +68,9 @@ The BMS/MPPT converter — polls the bought pack and charger on whatever bus the
 The NodBus master — one link up to the head, four point-to-point spurs down to the units (copper to 500 m, glass beyond), each spur its own timing domain, the absolute second put on every frame. There is no station without one.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/bifrost)* · NodBus 2 · the NodBus master
 
-### NIC-Argus
-The NodBus mini master — the Bifrost card with its other role: four mini segments for the small clocked units, itself a unit on a Bifrost port.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/bifrost/argus)* · NodBus 3 · the mini master
+> #### NIC-Argus
+> The NodBus mini master — the Bifrost card with its other role: four mini segments for the small clocked units, itself a unit on a Bifrost port.
+> *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/bifrost/argus)* · NodBus 3 · the mini master
 
 ### NIC-Galvani
 The transport layer — **eleven boards**, named by what they do: a **communication board** carries the link (485 on copper, glass to 10 km, glass to 100 km), a **power board** feeds the run at the source end (48 V, or 300 V where 48 does not carry the load that far; 12 or 24 V to a bought device) or takes it off the cable as 12 V at the unit end. Isolation, surge protection and the feed: **anything that leaves the enclosure crosses one**.
@@ -100,13 +100,13 @@ Seismograph — ground motion and local events plus tilt, a sealed tube in rock 
 Lightning — VLF sferics and the fast B-field, every impulse timed on the network clock (three ferrite rods + ADS127L14 at 2²⁰ SPS, its own DSP).
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/tesla)* · NodBus 7
 
-### NIC-Pip
-The longwave carriers — the D-region (SID) channel, and longwave time for a station without GNSS. Tesla's board, its own firmware. **Held back by transmitter coverage** — finished as a description.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/tesla/pip)* · NodBus 12
-
-### NIC-Steinmetz
-Line faults on power lines — arc, corona, partial discharge — from a vehicle at 80–100 km/h or a site. Tesla's board, its own firmware.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/tesla/steinmetz)* · NodBus 13
+> #### NIC-Pip
+> The longwave carriers — the D-region (SID) channel, and longwave time for a station without GNSS. Tesla's board, its own firmware. **Held back by transmitter coverage** — finished as a description.
+> *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/tesla/pip)* · NodBus 12
+>
+> #### NIC-Steinmetz
+> Line faults on power lines — arc, corona, partial discharge — from a vehicle at 80–100 km/h or a site. Tesla's board, its own firmware.
+> *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/tesla/steinmetz)* · NodBus 13
 
 ### NIC-Marconi
 The HF ionosphere — the F-region: HF transmitter levels 0.5–16 MHz and a passive ionogram (foF2, MUF), one air-core loop into direct sampling.
@@ -120,37 +120,41 @@ GNSS / ionosphere — Total Electron Content and precipitable water vapour (Unic
 The meteo base and the ModBus master — four isolated arms for the bought weather set (T/RH, pressure, wind, solar, UV, snow depth) and the house modules below, no sensor of its own; itself a unit on NodBus.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/palatine)* · NodBus 6 · the ModBus master
 
-### NIC-Chinook
-Air quality — not a board: the bought RS-485 Modbus air units on Palatine's arms, fitted per site.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/palatine/chinook)*
+> #### NIC-Chinook
+> Air quality — not a board: the bought RS-485 Modbus air units on Palatine's arms, fitted per site.
+> *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/palatine/chinook)*
 
 ### NIC-Quark
 The radiation part — what is measured and the two builds that measure it: **Quark-Tubes**, high voltage, and **Quark-Scintillation**, low voltage.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark)*
 
-### NIC-Quark-Tubes
-Radiation by tubes, high voltage — every tube counted on one board, counts only: Photon's GM tubes behind graded lead, and Helion or Gadolin for the neutrons.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/tubes)* · mini 2
-
-### NIC-Helion
-Neutron — the He³ / BF₃ tube on Quark-Tubes, and the kV source; no processor of its own.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/tubes/helion)*
-
-### NIC-Gadolin
-Neutron — Gd capture read by a ring of GM tubes on Quark-Tubes (with **Rhodion**, the Rh-activation variant); no processor of its own.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/tubes/gadolin)*
-
-### NIC-Photon
-γ / X-ray, by scintillation — a CsI(Tl) crystal read by a SiPM and a PIN diode, counts and energy (Quark-Scintillation). Its GM-tube build is counted on Quark-Tubes.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/scintillation/photon)* · NodBus 9
-
-### NIC-Positron
-Beta, both signs — a plastic scintillator block + SiPM, counts and energy (Quark-Scintillation).
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/scintillation/positron)* · NodBus 11
-
-### NIC-Neutron
-Neutron, thermal and epithermal — ⁶LiF/ZnS(Ag) screens on a photomultiplier; a channel of Positron's board, riding its record (Quark-Scintillation).
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/scintillation/neutron)* · type 10 reserved
+> #### NIC-Quark-Tubes
+> Radiation by tubes, high voltage — every tube counted on one board, counts only: Photon's GM tubes behind graded lead, and Helion or Gadolin for the neutrons.
+> *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/tubes)* · mini 2
+>
+> > ##### NIC-Helion
+> > Neutron — the He³ / BF₃ tube on Quark-Tubes, and the kV source; no processor of its own.
+> > *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/tubes/helion)*
+> >
+> > ##### NIC-Gadolin
+> > Neutron — Gd capture read by a ring of GM tubes on Quark-Tubes (with **Rhodion**, the Rh-activation variant); no processor of its own.
+> > *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/tubes/gadolin)*
+>
+> #### NIC-Quark-Scintillation
+> Radiation by scintillation, low voltage — scintillators read by electronics on two H7A3 boards, counts and energy: Photon, Positron and Neutron.
+> *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/scintillation)*
+>
+> > ##### NIC-Photon
+> > γ / X-ray, by scintillation — a CsI(Tl) crystal read by a SiPM and a PIN diode, counts and energy (Quark-Scintillation). Its GM-tube build is counted on Quark-Tubes.
+> > *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/scintillation/photon)* · NodBus 9
+> >
+> > ##### NIC-Positron
+> > Beta, both signs — a plastic scintillator block + SiPM, counts and energy (Quark-Scintillation).
+> > *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/scintillation/positron)* · NodBus 11
+> >
+> > ##### NIC-Neutron
+> > Neutron, thermal and epithermal — ⁶LiF/ZnS(Ag) screens on a photomultiplier; a channel of Positron's board, riding its record (Quark-Scintillation).
+> > *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/quark/scintillation/neutron)* · type 10 reserved
 
 ### NIC-Gauss
 Magnetometer — the slow geomagnetic field (Tesla is its fast-field sibling), an RM3100 in a sealed oil-filled tube; fitted when no Quake carries the chip.
@@ -168,9 +172,9 @@ Precipitation — a weighing rain gauge: a 200 cm² catch on a load cell, answer
 Soil moisture — water content and soil temperature read through borosilicate glass, the units packed at fixed depths in a *patrona*.
 *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres)* · ModBus 6
 
-### NIC-Sakura
-Leaf wetness — Ceres's board in the same glass bowl, hung in the canopy at 45°.
-*[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres/sakura)* · ModBus 7
+> #### NIC-Sakura
+> Leaf wetness — Ceres's board in the same glass bowl, hung in the canopy at 45°.
+> *[repo](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres/sakura)* · ModBus 7
 
 ### NIC-Babel
 The universal Modbus bridge — any sensor (I²C, SPI, UART, 1-Wire) → Modbus RTU at the source.
