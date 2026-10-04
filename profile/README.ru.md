@@ -6,7 +6,7 @@
 
 [English](https://github.com/Project-NIC) · [Čeština](https://github.com/Project-NIC/.github/blob/main/profile/README.cs.md) · **Русский**
 
-[Co je NIC?](#co-je-nic) · [What is NIC?](#what-is-nic) · [Что такое NIC?](#что-такое-nic)
+[Что такое NIC?](#что-такое-nic)
 
 </div>
 
@@ -129,40 +129,6 @@
 # ★ N.I.C. ★
 ## NIC — Native Intellect Community
 ### Viva la résistance! ✊
-
----
-
-## Co je NIC?
-
-NIC je pro lidi, kteří:
-
-- Využívají jednoduché a osvědčené principy
-- Jsou ochotní testovat a tvořit
-- Pracují se standardizovaným hardwarem a prostředím
-- Nepotřebují nafouklá řešení, aby dokázali, že něco umí
-
-NIC je revoluční hnutí všech soudruhů a soudružek, kterým nevyhovuje dnešní přeplácaný a zbytečně složitý svět.
-
-*"V jednoduchosti je síla."*
-
-★ **Viva la résistance!** ★
-
----
-
-## What is NIC?
-
-NIC is for people who:
-
-- Use simple and proven principles
-- Are willing to test and create
-- Work with standardized hardware and environments
-- Don't need bloated solutions to prove they know what they're doing
-
-NIC is a revolutionary movement of all comrades who are fed up with today's overpriced and unnecessarily complex world.
-
-*"Strength lies in simplicity."*
-
-★ **Viva la résistance!** ★
 
 ---
 

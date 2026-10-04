@@ -6,7 +6,7 @@
 
 [English](https://github.com/Project-NIC) · **Čeština** · [Русский](https://github.com/Project-NIC/.github/blob/main/profile/README.ru.md)
 
-[Co je NIC?](#co-je-nic) · [What is NIC?](#what-is-nic) · [Что такое NIC?](#что-такое-nic)
+[Co je NIC?](#co-je-nic)
 
 </div>
 
@@ -144,40 +144,6 @@ NIC je pro lidi, kteří:
 NIC je revoluční hnutí všech soudruhů a soudružek, kterým nevyhovuje dnešní přeplácaný a zbytečně složitý svět.
 
 *"V jednoduchosti je síla."*
-
-★ **Viva la résistance!** ★
-
----
-
-## What is NIC?
-
-NIC is for people who:
-
-- Use simple and proven principles
-- Are willing to test and create
-- Work with standardized hardware and environments
-- Don't need bloated solutions to prove they know what they're doing
-
-NIC is a revolutionary movement of all comrades who are fed up with today's overpriced and unnecessarily complex world.
-
-*"Strength lies in simplicity."*
-
-★ **Viva la résistance!** ★
-
----
-
-## Что такое NIC?
-
-NIC — для людей, которые:
-
-- Используют простые и проверенные принципы
-- Готовы тестировать и создавать
-- Работают со стандартизированным оборудованием и средой
-- Не нуждаются в раздутых решениях чтобы доказать, что что-то умеют
-
-NIC — это революционное движение всех товарищей, которых не устраивает сегодняшний переоценённый и излишне усложнённый мир.
-
-*«Сила в простоте.»*
 
 ★ **Viva la résistance!** ★
 
