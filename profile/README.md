@@ -146,7 +146,7 @@ controller for a computer or a game. **Coming soon™.** Well — not *that* soo
 | [**Nataša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/natasa) | the unit in the headband: sound, a microphone, vibration and buttons |
 | [**Power**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/power) | power-supply boards, battery, BMS |
 | [**Base board**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/controller) | one board with the Raspberry Pi 5: the clock for the whole suit, the sound bridge and the line drivers |
-| [**Ivan**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/ivan) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
+| [**Soňa**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/sona) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
 | [**Míša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/misa) | assistant, the watchdog: ultrasound watches for obstacles and beeps a warning into the headphones |
 | [**Taťána**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/tatana) | assistant: types what you dictate and reads text aloud, books included |
 | [**Nikita**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/nikita) | assistant: the beat of the music as vibration |
