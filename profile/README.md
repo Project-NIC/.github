@@ -126,6 +126,34 @@ of its own vibration.
 
 ---
 
+# NIC-CrazyIvan
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
+
+**A neural suit** — 126 to 254 electrodes and 16 to 64 motion sensors on a suit put together from
+pieces: a sleeve, a trouser leg, the torso, a headband. The muscles' own signals and the body's
+motion go to a Raspberry Pi 5 with the Hailo-10H AI accelerator, and the whole body becomes the
+controller for a computer or a game. **Coming soon™.** Well — not *that* soon.
+
+→ **[Project-NIC/NIC-CrazyIvan](https://github.com/Project-NIC/NIC-CrazyIvan)** — private until it is finished
+
+<details>
+<summary><b>The parts</b> — the suit, the head, the base board</summary>
+
+| part | what it is |
+|---|---|
+| [**Venom**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/venom) | the suit itself: the pieces with their sensing modules |
+| [**Nataša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/natasa) | the audio-visual unit on the head: sound, LEDs and buttons |
+| [**Ivan**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/ivan) | the visual board |
+| [**Power**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/power) | power-supply boards, battery, BMS |
+| [**Base board**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/controller) | one board with the Raspberry Pi 5: the clock for the whole suit, the sound bridge and the line drivers |
+
+</details>
+
+<br>
+
+---
+
 # ★ N.I.C. ★
 ## NIC — Native Intellect Community
 ### Viva la résistance! ✊
