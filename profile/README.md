@@ -138,14 +138,14 @@ controller for a computer or a game. **Coming soon™.** Well — not *that* soo
 → **[Project-NIC/NIC-CrazyIvan](https://github.com/Project-NIC/NIC-CrazyIvan)** — private until it is finished
 
 <details>
-<summary><b>The parts</b> — the suit, the head, the base board, the assistants</summary>
+<summary><b>The parts</b> — the suit, the head, Mamka, the assistants</summary>
 
 | part | what it is |
 |---|---|
 | [**Venom**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/venom) | the suit itself: the pieces with their sensing modules |
 | [**Nataša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/natasa) | the unit in the headband: sound, a microphone, vibration and buttons |
 | [**Power**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/power) | power-supply boards, battery, BMS |
-| [**Base board**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/controller) | one board with the Raspberry Pi 5: the clock for the whole suit, the sound bridge and the line drivers |
+| [**Mamka**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/mamka) | the base board, with the Raspberry Pi 5: the clock for the whole suit, the sound bridge and the line drivers |
 | [**Soňa**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/sona) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
 | [**Míša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/misa) | assistant, the watchdog: ultrasound watches for obstacles and beeps a warning into the headphones |
 | [**Taťána**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/tatana) | assistant: types what you dictate and reads text aloud, books included |
