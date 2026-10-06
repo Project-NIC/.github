@@ -145,7 +145,7 @@ controller for a computer or a game. **Coming soon™.** Well — not *that* soo
 | [**Venom**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/venom) | the suit itself: the pieces with their sensing modules |
 | [**Nataša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/natasa) | the unit in the headband: headphones, two microphones, vibration and buttons |
 | [**Power**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/power) | the power board, the battery and its BMS, in a hard-shell backpack with Mamka |
-| [**Mamka**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/mamka) | the base board, with the Raspberry Pi 5: the clock for the whole suit, the sound bridge and the line drivers |
+| [**Mamka**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/mamka) | the base board, with the Raspberry Pi 5 and the Hailo-10H: the clock for the whole suit, the sound bridge and the line drivers |
 | [**Soňa**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/sona) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
 | [**Míša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/misa) | assistant, the watchdog: ultrasound watches for obstacles and beeps a warning into the headphones |
 | [**Taťána**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/tatana) | assistant: types what you dictate and reads text aloud, books included |
