@@ -42,6 +42,8 @@ networks, and a viewer. **Closed at v1.2 — the final version.**
 
 # NIC-Heimdall
 
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Heimdall.jpg" width="300" alt="Heimdall"/></p>
+
 **One self-contained measuring station for the solid Earth, the atmosphere and the ionosphere** —
 an enclosure with the head, the clock and the cards, and whatever units a site needs, all on one
 clocked bus. Swap the units and it is a different instrument on the same bus and the same code.
