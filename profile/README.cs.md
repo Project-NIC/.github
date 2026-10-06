@@ -42,6 +42,8 @@ a geomagnetické sítě a prohlížeč. **Uzavřeno ve verzi 1.2 — finální v
 
 # NIC-Heimdall
 
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Heimdall.jpg" width="300" alt="Heimdall"/></p>
+
 **Jedna soběstačná měřicí stanice pro pevnou Zemi, atmosféru a ionosféru** — skříň s centrálou,
 hodinami a kartami a k tomu jednotky, které daná lokalita potřebuje, vše na jedné taktované
 sběrnici. Vyměňte jednotky a je to jiný přístroj na stejné sběrnici a se stejným kódem.
