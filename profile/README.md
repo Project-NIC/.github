@@ -149,7 +149,7 @@ a Raspberry Pi 5 with one, and the whole body becomes the controller for a compu
 | [**Nataša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/natasa) | the unit in the headband: headphones, two microphones, vibration and buttons |
 | [**Mamka**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/mamka) | mum, the base board: the clock for the whole suit, the sound bridge, the line drivers and the suit's power |
 | [**Baťa**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/bata) | dad, the computer in the backpack: a Radxa ROCK 5T or a Raspberry Pi 5, with Umnica, the Hailo-10H |
-| [**Kormilica**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/kormilica) | the wet nurse: the Raspberry Pi's power board |
+| [**Kormilica**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/kormilica) | the wet nurse: the computers' power board |
 | [**Babuška**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/babuska) | grandma: the battery and its BMS, the hard-shell backpack |
 | [**Soňa**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/sona) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
 | [**Míša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/misa) | assistant, the watchdog: ultrasound watches for obstacles and beeps a warning into the headphones |
