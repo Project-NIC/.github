@@ -145,7 +145,7 @@ a Raspberry Pi 5 with one, and the whole body becomes the controller for a compu
 
 | part | what it is |
 |---|---|
-| [**Venom**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/venom) | the suit itself: the pieces with their sensing modules |
+| [**Rubaška**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/rubaska) | the shirt: the suit itself, the pieces with their sensing modules, the Rebjata |
 | [**Nataša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/natasa) | the unit in the headband: headphones, two microphones, vibration and buttons |
 | [**Mamka**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/mamka) | mum, the base board: the clock for the whole suit, the sound bridge, the line drivers and the suit's power |
 | [**Baťa**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/bata) | dad, the computer in the backpack: a Radxa ROCK 5T or a Raspberry Pi 5, with Umnica, the Hailo-10H |
