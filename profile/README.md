@@ -152,7 +152,7 @@ a Raspberry Pi 5 with one, and the whole body becomes the controller for a compu
 | [**Kormilica**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/kormilica) | the wet nurse: the computers' power board |
 | [**Babuška**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/babuska) | grandma: the battery and its BMS, the hard-shell backpack |
 | [**Soňa**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/sona) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
-| [**Míša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/misa) | assistant, the watchdog: ultrasound watches for obstacles and beeps a warning into the headphones |
+| [**Míša**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/misa) | assistant, the watchdog: a radar and ultrasound watch for obstacles and warn through the headphones and the headband |
 | [**Taťána**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/tatana) | assistant: types what you dictate and reads text aloud, books included |
 | [**Nikita**](https://github.com/Project-NIC/NIC-CrazyIvan/tree/main/nikita) | assistant: the beat of the music as vibration |
 
