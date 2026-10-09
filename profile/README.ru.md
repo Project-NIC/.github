@@ -128,6 +128,42 @@
 
 ---
 
+# NIC-CrazyIvan
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
+
+**Нейрокостюм** — от 126 до 254 электродов и от 16 до 64 датчиков движения на костюме из частей:
+рукав, штанина, торс, повязка. Собственные сигналы мышц и движение тела идут в компьютер в
+рюкзаке, Radxa ROCK 5T с одним или двумя ИИ-ускорителями Hailo-10H или Raspberry Pi 5 с одним, и
+всё тело становится контроллером для компьютера или игры. **Coming soon™.** Ну, не *так* уж скоро.
+
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — бета 0.1: проект на бумаге, ничего ещё не построено;
+README по-русски, остальные страницы по-английски
+
+<details>
+<summary><b>Части</b> — костюм, голова, семья в рюкзаке, помощники</summary>
+
+| часть | что это |
+|---|---|
+| [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | рубашка: сам костюм, части с измерительными модулями, Ребята |
+| [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | блок в повязке: наушники, два микрофона, вибрация и кнопки |
+| [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | мама, базовая плата: такт всего костюма, звуковой мост, драйверы линий и питание костюма |
+| [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | батя, компьютер в рюкзаке: Radxa ROCK 5T или Raspberry Pi 5, с Умницей, Hailo-10H |
+| [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/kormilica) | кормилица: плата питания Raspberry Pi |
+| [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | терем: плата под ROCK 5T с двумя его Hailo-10H и eFuse |
+| [**Babuška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/babuska) | бабушка: батарея и её BMS, рюкзак с жёстким корпусом |
+| [**Porjadok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/porjadok) | порядок: что действует для каждого модуля, процессор, прошивка и связи |
+| [**Soňa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/sona) | помощница для глухих: всё время слушает и вибрацией сообщает, что происходит вокруг |
+| [**Míša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/misa) | помощник, сторож: радар и ультразвук следят за препятствиями и предупреждают через наушники и повязку |
+| [**Taťána**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/tatana) | помощница: печатает, что ей диктуют, и читает текст вслух, книги тоже |
+| [**Nikita**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/nikita) | помощник: такт музыки как вибрация |
+
+</details>
+
+<br>
+
+---
+
 # ★ N.I.C. ★
 ## NIC — Native Intellect Community
 ### Viva la résistance! ✊
