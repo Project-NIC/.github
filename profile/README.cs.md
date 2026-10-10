@@ -132,12 +132,12 @@ vlastních vibrací.
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**Neurální oblek** — 126 až 254 elektrod a 16 až 64 pohybových senzorů na obleku složeném z dílů:
+**Neurální oblek** — 128 až 256 elektrod a 16 až 64 pohybových senzorů na obleku složeném z dílů:
 rukáv, nohavice, trup, čelenka. Vlastní signály svalů a pohyb těla jdou do počítače v batohu,
-Radxa ROCK 5T až se dvěma AI akcelerátory Hailo-10H nebo Raspberry Pi 5 s jedním, a celé tělo se
+Radxa ROCK 5T s vlastním NPU nebo až se dvěma AI akcelerátory Hailo-10H, a celé tělo se
 stává ovladačem počítače nebo hry. **Coming soon™.** No, zas *tak* brzy ne.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.1: návrh na papíře, nic ještě není postaveno;
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.2: návrh na papíře, nic ještě není postaveno;
 README česky, ostatní stránky anglicky
 
 <details>
@@ -148,15 +148,15 @@ README česky, ostatní stránky anglicky
 | [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | košile: oblek sám, díly se snímacími moduly, Rebjata |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | jednotka v čelence: sluchátka, dva mikrofony, vibrace a tlačítka |
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | máma, základní deska: hodiny celého obleku, zvukový most, budiče linek a napájení obleku |
-| [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | táta, počítač v batohu: Radxa ROCK 5T nebo Raspberry Pi 5, s Umnicí, Hailo-10H |
-| [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/kormilica) | kojná: napájecí deska Raspberry Pi |
-| [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | komnata dcer: deska pod ROCKem 5T s jeho dvěma Hailo-10H a eFuse |
+| [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | táta, počítač v batohu: Radxa ROCK 5T, s Umnicí, Hailo-10H, nebo jen s vlastním NPU |
+| [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | komnata dcer: deska v obou slotech M.2 ROCKu 5T, jeho dvě Hailo-10H, každé s vlastním zdrojem |
 | [**Babuška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/babuska) | babička: baterie a její BMS, batoh s pevnou skořepinou |
 | [**Porjadok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/porjadok) | pořádek: co platí pro každý modul, procesor, firmware a spoje |
 | [**Soňa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/sona) | asistentka pro neslyšící: pořád poslouchá a vibrací říká, co se kolem děje |
 | [**Míša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/misa) | asistent, hlídač: radar a ultrazvuk hlídají překážky a varují sluchátky a čelenkou |
 | [**Taťána**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/tatana) | asistentka: píše, co diktuješ, a předčítá text, knihy včetně |
 | [**Nikita**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/nikita) | asistent: doba hudby jako vibrace |
+| [**Pomoščnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/pomoscnik) | asistent, pomocník: podívá se na součástku, přečte její označení a najde ji, s brýlemi a kamerami |
 
 </details>
 

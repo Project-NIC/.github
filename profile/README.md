@@ -132,13 +132,13 @@ of its own vibration.
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**A neural suit** — 126 to 254 electrodes and 16 to 64 motion sensors on a suit put together from
+**A neural suit** — 128 to 256 electrodes and 16 to 64 motion sensors on a suit put together from
 pieces: a sleeve, a trouser leg, the torso, a headband. The muscles' own signals and the body's
-motion go to a computer in the backpack, a Radxa ROCK 5T with up to two Hailo-10H AI accelerators or
-a Raspberry Pi 5 with one, and the whole body becomes the controller for a computer or a game.
+motion go to a computer in the backpack, a Radxa ROCK 5T with its own NPU or up to two Hailo-10H AI
+accelerators, and the whole body becomes the controller for a computer or a game.
 **Coming soon™.** Well — not *that* soon.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.1: the design on paper, nothing built yet
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.2: the design on paper, nothing built yet
 
 <details>
 <summary><b>The parts</b> — the suit, the head, the family in the backpack, the assistants</summary>
@@ -148,15 +148,15 @@ a Raspberry Pi 5 with one, and the whole body becomes the controller for a compu
 | [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | the shirt: the suit itself, the pieces with their sensing modules, the Rebjata |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | the unit in the headband: headphones, two microphones, vibration and buttons |
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | mum, the base board: the clock for the whole suit, the sound bridge, the line drivers and the suit's power |
-| [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | dad, the computer in the backpack: a Radxa ROCK 5T or a Raspberry Pi 5, with Umnica, the Hailo-10H |
-| [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/kormilica) | the wet nurse: the Raspberry Pi's power board |
-| [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | the daughters' chamber: the board under a ROCK 5T with its two Hailo-10H and the eFuse |
+| [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | dad, the computer in the backpack: a Radxa ROCK 5T, with Umnica, the Hailo-10H, or its own NPU alone |
+| [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | the daughters' chamber: the board in the ROCK 5T's two M.2 slots, its two Hailo-10H with a supply each |
 | [**Porjadok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/porjadok) | order: what holds for every module, the processor, the firmware and the links |
 | [**Babuška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/babuska) | grandma: the battery and its BMS, the hard-shell backpack |
 | [**Soňa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/sona) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
 | [**Míša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/misa) | assistant, the watchdog: a radar and ultrasound watch for obstacles and warn through the headphones and the headband |
 | [**Taťána**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/tatana) | assistant: types what you dictate and reads text aloud, books included |
 | [**Nikita**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/nikita) | assistant: the beat of the music as vibration |
+| [**Pomoščnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/pomoscnik) | assistant, the helper: looks at a part, reads its marking and finds it, with the glasses and the cameras |
 
 </details>
 
