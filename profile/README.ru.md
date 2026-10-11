@@ -137,7 +137,7 @@
 рюкзаке, Radxa ROCK 5T со своим NPU или с одним или двумя ИИ-ускорителями Hailo-10H, и
 всё тело становится контроллером для компьютера или игры. **Coming soon™.** Ну, не *так* уж скоро.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — бета 0.2: проект на бумаге, ничего ещё не построено;
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — бета 0.3: проект на бумаге, вместе с аналоговой частью, ничего ещё не построено;
 README по-русски, остальные страницы по-английски
 
 <details>

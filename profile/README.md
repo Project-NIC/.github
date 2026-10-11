@@ -138,7 +138,7 @@ motion go to a computer in the backpack, a Radxa ROCK 5T with its own NPU or up 
 accelerators, and the whole body becomes the controller for a computer or a game.
 **Coming soon™.** Well — not *that* soon.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.2: the design on paper, nothing built yet
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.3: the design on paper, the analog side too, nothing built yet
 
 <details>
 <summary><b>The parts</b> — the suit, the head, the family in the backpack, the assistants</summary>

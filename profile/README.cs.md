@@ -137,7 +137,7 @@ rukáv, nohavice, trup, čelenka. Vlastní signály svalů a pohyb těla jdou do
 Radxa ROCK 5T s vlastním NPU nebo až se dvěma AI akcelerátory Hailo-10H, a celé tělo se
 stává ovladačem počítače nebo hry. **Coming soon™.** No, zas *tak* brzy ne.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.2: návrh na papíře, nic ještě není postaveno;
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.3: návrh na papíře včetně analogové části, nic ještě není postaveno;
 README česky, ostatní stránky anglicky
 
 <details>
