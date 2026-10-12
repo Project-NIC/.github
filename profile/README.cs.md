@@ -128,6 +128,35 @@ vlastních vibrací.
 
 ---
 
+# NIC-Strelka
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Strelka.jpg" width="300" alt="Strelka"/></p>
+
+**Pohyb zvířete pro veterinární vyšetření** — malé jednotky na nohách, trupu a hlavě psa, koně
+nebo krávy zaznamenávají, jak se zvíře hýbe, všechny na jednom společném čase, takže jde každou
+nohu, trup a hlavu položit vedle sebe, krok po kroku. Živě v telefonu veterináře, kam dosáhne
+rádio, a celý záznam potom. Náhrada za levné sady senzorů, které se dnes prodávají: za jejich
+cenu nebo níž, pokud to půjde, v každém případě lepší.
+
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.1: návrh na papíře, firmware napsaný a nevyzkoušený, nic ještě není postaveno;
+README česky, ostatní stránky anglicky
+
+<details>
+<summary><b>Části</b> — jednotka, vedoucí, aplikace v telefonu, krabička</summary>
+
+| část | co to je |
+|---|---|
+| [**Belka**](https://github.com/Project-NIC/NIC-Strelka/blob/main/PARTS.md) | jednotka připevněná na zvířeti; každá jednotka je stejná deska |
+| **Vožak** | Belka v roli vedoucího, nastavená tlačítkem: vysílá maják, sbírá ostatní a mluví s telefonem |
+| [**Pušinka**](https://github.com/Project-NIC/NIC-Strelka/blob/main/APP.md) | aplikace v telefonu veterináře, kterou si píší její uživatelé |
+| **Budka** | krabička, v níž Belka bydlí: zalepená skříňka, okénka pro světlo a tlačítko, úchyt |
+
+</details>
+
+<br>
+
+---
+
 # NIC-CrazyIvan
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>

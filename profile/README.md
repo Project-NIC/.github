@@ -128,6 +128,34 @@ of its own vibration.
 
 ---
 
+# NIC-Strelka
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Strelka.jpg" width="300" alt="Strelka"/></p>
+
+**The motion of an animal, for a veterinary examination** — small units on the legs, the trunk and
+the head of a dog, a horse or a cow record how it moves, every unit on one common time, so that
+each leg, the trunk and the head can be laid side by side, step by step. Live on the vet's phone
+wherever the radio reaches, and the whole record afterwards. To replace the cheap sensor sets sold
+today: at their price or below if it can be, better in any case.
+
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.1: the design on paper, the firmware written and untried, nothing built yet
+
+<details>
+<summary><b>The parts</b> — the unit, the master, the phone's application, the box</summary>
+
+| part | what it is |
+|---|---|
+| [**Belka**](https://github.com/Project-NIC/NIC-Strelka/blob/main/PARTS.md) | the unit fastened on the animal; every unit is the same board |
+| **Vožak** | a Belka in the master's role, set by its button: it sends the beacon, gathers the others and talks to the phone |
+| [**Pušinka**](https://github.com/Project-NIC/NIC-Strelka/blob/main/APP.md) | the application on the vet's phone, written by its users |
+| **Budka** | the box a Belka lives in: the sealed case, its windows for the light and the button, its fastening |
+
+</details>
+
+<br>
+
+---
+
 # NIC-CrazyIvan
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
