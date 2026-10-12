@@ -138,7 +138,7 @@ nohu, trup a hlavu položit vedle sebe, krok po kroku. Živě v telefonu veterin
 rádio, a celý záznam potom. Náhrada za levné sady senzorů, které se dnes prodávají: za jejich
 cenu nebo níž, pokud to půjde, v každém případě lepší.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.1: návrh na papíře, firmware napsaný a nevyzkoušený, nic ještě není postaveno;
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.2: návrh na papíře, firmware napsaný a nevyzkoušený, nic ještě není postaveno; nRF54LM20A, USB na kontaktu, článek LiFePO4;
 README česky, ostatní stránky anglicky
 
 <details>
