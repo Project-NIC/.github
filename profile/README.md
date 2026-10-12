@@ -138,7 +138,7 @@ each leg, the trunk and the head can be laid side by side, step by step. Live on
 wherever the radio reaches, and the whole record afterwards. To replace the cheap sensor sets sold
 today: at their price or below if it can be, better in any case.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.1: the design on paper, the firmware written and untried, nothing built yet
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.2: the design on paper, the firmware written and untried, nothing built yet; the nRF54LM20A, USB on the contact, a LiFePO4 cell
 
 <details>
 <summary><b>The parts</b> — the unit, the master, the phone's application, the box</summary>
