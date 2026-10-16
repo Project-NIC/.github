@@ -173,8 +173,6 @@ sensor's maximum, for experimental measurements of vibration on machines and the
 
 </details>
 
-<sub>The software under MIT, the hardware under CERN-OHL-P v2 · made with the great help of the AI assistant Claude (Anthropic)</sub>
-
 <br>
 
 ---

@@ -173,8 +173,6 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 
 </details>
 
-<sub>Software pod licencí MIT, hardware pod CERN-OHL-P v2 · vzniká s velkou pomocí AI asistenta Claude (Anthropic)</sub>
-
 <br>
 
 ---
