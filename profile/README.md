@@ -133,24 +133,47 @@ of its own vibration.
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Strelka.jpg" width="300" alt="Strelka"/></p>
 
 **The motion of an animal, for a veterinary examination** — small units on the legs, the trunk and
-the head of a dog, a horse or a cow record how it moves, every unit on one common time, so that
-each leg, the trunk and the head can be laid side by side, step by step. Live on the vet's phone
-wherever the radio reaches, and the whole record afterwards. To replace the cheap sensor sets sold
-today: at their price or below if it can be, better in any case.
+the head of a dog, a horse or a cow record how it moves, all on one common time, so that the legs,
+the trunk and the head can be laid side by side, step by step. Live on a phone or a computer, the
+whole record afterwards. To replace the cheap sensor sets sold today: at their price or below, and
+better in any case. Only the motion, not where the animal goes; everything on the animal, no
+camera, no walkway.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.2: the design on paper, the firmware written and untried, nothing built yet; the nRF54LM20A, USB on the contact, a LiFePO4 cell
+**The live view** at 50, 100 or 200 Hz, as quaternions the Belka computes from its accelerometer's
+and gyroscope's values; **the card** takes the raw data at the full sampling rate. **Vibration, as
+an experiment:** since the hardware allows it, we want to try higher sampling too, up to the
+sensor's maximum, for experimental measurements of vibration on machines and the like.
+
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — the design being redone from the ground up, nothing built yet; the next version 0.5
 
 <details>
-<summary><b>The parts</b> — the unit, the master, the phone's application, the box</summary>
+<summary><b>The parts</b> — the unit, the commander, the box, the application</summary>
 
 | part | what it is |
 |---|---|
-| [**Belka**](https://github.com/Project-NIC/NIC-Strelka/blob/main/PARTS.md) | the unit fastened on the animal; every unit is the same board |
-| **Vožak** | a Belka in the master's role, set by its button: it sends the beacon, gathers the others and talks to the phone |
-| [**Pušinka**](https://github.com/Project-NIC/NIC-Strelka/blob/main/APP.md) | the application on the vet's phone, written by its users |
-| **Budka** | the box a Belka lives in: the sealed case, its windows for the light and the button, its fastening |
+| **Belka** | the unit on the animal, 1 to 32 in a set |
+| **Povodok** | the set's commander: the Belka's board, the sensor and the card on it too, with Fanstel's WM02C20C combo in place of the BM20F — the nRF54LM20A with Nordic's nRF7002 Wi-Fi 6 at 2,4 and 5 GHz; it gives the set its common time, gathers the data and passes them to the phone or the computer, by USB or Wi-Fi |
+| **Budka** | the box a unit lives in, chosen once the schematic is done |
+| **Pušinka** | the application on the phone or the computer; in time a base for it should be made, perhaps whole applications |
 
 </details>
+
+<details>
+<summary><b>Inside a Belka</b> — the modules and the parts</summary>
+
+- Fanstel's BM20F module: Nordic's nRF54LM20A processor and radio, Bluetooth LE and the set's own radio at 2,4 GHz, an antenna on the board
+- TDK's ICM-42686-P motion sensor: an accelerometer of ±32 g and a gyroscope of ±4 000 °/s
+- a microSD card in a locking slot, for the whole record
+- a LiFePO4 cell, LTOPOW's LFP103042, 3,2 V, 720 mAh
+- TI's BQ25170 charger and ADI's MAX17262H fuel gauge
+- two TI TLV75530 regulators at 3,0 V
+- a four-pin magnetic contact for the charge and USB, its inlet guarded
+- two TI DRV5032 Hall switches: the unit is worked by a magnet held to it instead of buttons, so that the box stays watertight
+- a two-colour LED
+
+</details>
+
+<sub>The software under MIT, the hardware under CERN-OHL-P v2 · made with the great help of the AI assistant Claude (Anthropic)</sub>
 
 <br>
 

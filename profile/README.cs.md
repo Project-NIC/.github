@@ -132,26 +132,48 @@ vlastních vibrací.
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Strelka.jpg" width="300" alt="Strelka"/></p>
 
-**Pohyb zvířete pro veterinární vyšetření** — malé jednotky na nohách, trupu a hlavě psa, koně
-nebo krávy zaznamenávají, jak se zvíře hýbe, všechny na jednom společném čase, takže jde každou
-nohu, trup a hlavu položit vedle sebe, krok po kroku. Živě v telefonu veterináře, kam dosáhne
-rádio, a celý záznam potom. Náhrada za levné sady senzorů, které se dnes prodávají: za jejich
-cenu nebo níž, pokud to půjde, v každém případě lepší.
+**Pohyb zvířete pro veterinární vyšetření** — malé jednotky na nohou, trupu a hlavě psa, koně
+nebo krávy zaznamenávají, jak se zvíře hýbe, všechny na jednom společném čase. Nohy, trup a hlavu
+tak jde položit vedle sebe krok po kroku. Živě v telefonu nebo v počítači, celý záznam potom. Má
+nahradit levné sady senzorů, které se dnes prodávají: za jejich cenu nebo levněji, a v každém
+případě lépe. Měří jen pohyb, ne kudy zvíře chodí; všechno je na zvířeti, žádná kamera ani
+chodník.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.2: návrh na papíře, firmware napsaný a nevyzkoušený, nic ještě není postaveno; nRF54LM20A, USB na kontaktu, článek LiFePO4;
-README česky, ostatní stránky anglicky
+**Živý náhled** rychlostí 50, 100 nebo 200 Hz, jako kvaterniony, které Belka spočítá z hodnot
+akcelerometru a gyroskopu; **na kartu** se ukládají surová data v plné rychlosti snímání.
+**Vibrace, pokusně:** když to hardware umožňuje, chceme zkusit i vyšší vzorkování, až do maxima
+snímače, pro pokusná měření vibrací na strojích a podobně.
+
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — návrh se předělává od základu, nic zatím není postavené; příští verze bude 0.5
 
 <details>
-<summary><b>Části</b> — jednotka, vedoucí, aplikace v telefonu, krabička</summary>
+<summary><b>Části</b> — jednotka, velitel, krabička, aplikace</summary>
 
 | část | co to je |
 |---|---|
-| [**Belka**](https://github.com/Project-NIC/NIC-Strelka/blob/main/PARTS.md) | jednotka připevněná na zvířeti; každá jednotka je stejná deska |
-| **Vožak** | Belka v roli vedoucího, nastavená tlačítkem: vysílá maják, sbírá ostatní a mluví s telefonem |
-| [**Pušinka**](https://github.com/Project-NIC/NIC-Strelka/blob/main/APP.md) | aplikace v telefonu veterináře, kterou si píší její uživatelé |
-| **Budka** | krabička, v níž Belka bydlí: zalepená skříňka, okénka pro světlo a tlačítko, úchyt |
+| **Belka** | jednotka na zvířeti, v sadě jich je 1 až 32 |
+| **Povodok** | velitel sady: stejná deska jako Belka, se snímačem i kartou, jen místo BM20F nese kombo Fanstel WM02C20C — nRF54LM20A a k němu Wi-Fi 6 Nordic nRF7002 na 2,4 a 5 GHz; rozdává sadě společný čas, sbírá data a předává je telefonu nebo počítači přes USB nebo Wi-Fi |
+| **Budka** | krabička, ve které jednotka žije; vybere se podle hotového schématu |
+| **Pušinka** | aplikace v telefonu nebo počítači; časem by pro ni měl vzniknout základ, případně celé aplikace |
 
 </details>
+
+<details>
+<summary><b>Co je v Belce</b> — moduly a součástky</summary>
+
+- modul Fanstel BM20F: procesor a rádio Nordic nRF54LM20A, Bluetooth LE a vlastní rádio sady na 2,4 GHz, anténa na plošném spoji
+- snímač pohybu TDK ICM-42686-P: akcelerometr ±32 g a gyroskop ±4 000 °/s
+- karta microSD ve slotu se zámkem, na celý záznam
+- článek LiFePO4 LTOPOW LFP103042, 3,2 V, 720 mAh
+- nabíječka TI BQ25170 a palivoměr ADI MAX17262H
+- dva stabilizátory TI TLV75530 na 3,0 V
+- čtyřpinový magnetický kontakt pro nabíjení a USB, s ochranou vstupu
+- dva Hallovy spínače TI DRV5032: jednotka se ovládá přiloženým magnetem místo tlačítek, aby krabička zůstala vodotěsná
+- dvoubarevná LED
+
+</details>
+
+<sub>Software pod licencí MIT, hardware pod CERN-OHL-P v2 · vzniká s velkou pomocí AI asistenta Claude (Anthropic)</sub>
 
 <br>
 
