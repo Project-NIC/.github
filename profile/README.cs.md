@@ -140,20 +140,21 @@ případě lépe. Měří jen pohyb, ne kudy zvíře chodí; všechno je na zví
 chodník.
 
 **Živý náhled** rychlostí 50 nebo 100 Hz, jako kvaterniony, které Belka spočítá z hodnot
-akcelerometru a gyroskopu; **na kartu** se ukládají surová data v plné rychlosti snímání.
+akcelerometru a gyroskopu, nebo surové kroky; **na kartu** se ukládají surová data v plné rychlosti snímání.
 **Vibrace, pokusně:** když to hardware umožňuje, chceme zkusit i vyšší vzorkování, až do maxima
 snímače, pro pokusná měření vibrací na strojích a podobně.
 
 → **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.5: celý návrh na papíře, nic zatím není postavené
 
 <details>
-<summary><b>Části</b> — jednotka, velitel, krabička, aplikace</summary>
+<summary><b>Části</b> — jednotka, velitel, krabička, stanice, aplikace</summary>
 
 | část | co to je |
 |---|---|
-| **Belka** | jednotka na zvířeti, v sadě jich je 1 až 32 |
+| **Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32 |
 | **Povodok** | velitel sady: stejná deska jako Belka, bez snímače a karty, jen místo BM20F nese kombo Fanstel WM02C20C — nRF54LM20A a k němu Wi-Fi 6 Nordic nRF7002, používané jen na 5 GHz; dává sadě společný čas a první z nich sbírá celou sadu a předává ji telefonu nebo počítači přes USB nebo Wi-Fi |
-| **Budka** | krabička, ve které jednotka žije; vybere se podle hotového schématu |
+| **Budka** | krabička, ve které Belka bydlí: utěsněné pouzdro Hammond 1551, okénko pro světlo, uchycení |
+| **nabíjecí stanice** | nabíjecí stanice pro celou sadu s rozbočovačem USB: každá Belka v ní je disk a počítač je zkopíruje všechny najednou |
 | **Pušinka** | aplikace v telefonu nebo počítači; časem by pro ni měl vzniknout základ, případně celé aplikace |
 
 </details>
@@ -161,13 +162,13 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 <details>
 <summary><b>Co je v Belce</b> — moduly a součástky</summary>
 
-- modul Fanstel BM20F: procesor a rádio Nordic nRF54LM20A, Bluetooth LE a vlastní rádio sady na 2,4 GHz, anténa na plošném spoji
-- snímač pohybu TDK ICM-42686-P: akcelerometr ±32 g a gyroskop ±4 000 °/s
-- karta microSD ve slotu se zámkem, na celý záznam
+- modul Fanstel BM20F: procesor a rádio Nordic nRF54LM20A, vlastní rádio sady na 2,4 GHz, anténa na plošném spoji
+- snímač pohybu TDK ICM-42686-P: akcelerometr ±32 g a gyroskop ±4 000 °/s; na stejné plošce i ICM-42688-P, ±16 g
+- vlastní karta microSD uživatele ve slotu se zámkem, na celý záznam
 - článek LiFePO4 LTOPOW LFP103042, 3,2 V, 720 mAh
-- nabíječka TI BQ25170 a palivoměr ADI MAX17262H
-- dva stabilizátory TI TLV75530 na 3,0 V
-- čtyřpinový magnetický kontakt pro nabíjení a USB, s ochranou vstupu
+- nabíječka TI BQ25170 a palivoměr ADI MAX17055
+- dva stabilizátory TI TPS7A2030 na 3,0 V
+- pětipinový magnetický kontakt pro nabíjení a USB, zapojený souměrně, takže jde nasadit oběma směry, s ochranou vstupu
 - dva Hallovy spínače TI DRV5032: jednotka se ovládá přiloženým magnetem místo tlačítek, aby krabička zůstala vodotěsná
 - dvoubarevná LED
 

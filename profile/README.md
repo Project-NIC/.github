@@ -140,20 +140,21 @@ better in any case. Only the motion, not where the animal goes; everything on th
 camera, no walkway.
 
 **The live view** at 50 or 100 Hz, as quaternions the Belka computes from its accelerometer's
-and gyroscope's values; **the card** takes the raw data at the full sampling rate. **Vibration, as
+and gyroscope's values, or the raw steps; **the card** takes the raw data at the full sampling rate. **Vibration, as
 an experiment:** since the hardware allows it, we want to try higher sampling too, up to the
 sensor's maximum, for experimental measurements of vibration on machines and the like.
 
 → **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.5: the whole design on paper, nothing built yet
 
 <details>
-<summary><b>The parts</b> — the unit, the commander, the box, the application</summary>
+<summary><b>The parts</b> — the unit, the commander, the box, the dock, the application</summary>
 
 | part | what it is |
 |---|---|
-| **Belka** | the unit on the animal, 1 to 32 in a set |
+| **Belka** | the unit on the animal, with its sensor and its card, 1 to 32 in a set |
 | **Povodok** | the set's commander: the Belka's board without the sensor and the card, with Fanstel's WM02C20C combo in place of the BM20F — the nRF54LM20A with Nordic's nRF7002 Wi-Fi 6, used at 5 GHz alone; it gives the set its common time, and the first of them gathers the whole set and passes it to the phone or the computer, by USB or Wi-Fi |
-| **Budka** | the box a unit lives in, chosen once the schematic is done |
+| **Budka** | the box a Belka lives in: a sealed Hammond 1551 case, its window for the light, its fastening |
+| **the dock** | a charging station for the whole set with a USB hub: every Belka in it a disk, a computer copying them all at once |
 | **Pušinka** | the application on the phone or the computer; in time a base for it should be made, perhaps whole applications |
 
 </details>
@@ -161,13 +162,13 @@ sensor's maximum, for experimental measurements of vibration on machines and the
 <details>
 <summary><b>Inside a Belka</b> — the modules and the parts</summary>
 
-- Fanstel's BM20F module: Nordic's nRF54LM20A processor and radio, Bluetooth LE and the set's own radio at 2,4 GHz, an antenna on the board
-- TDK's ICM-42686-P motion sensor: an accelerometer of ±32 g and a gyroscope of ±4 000 °/s
-- a microSD card in a locking slot, for the whole record
+- Fanstel's BM20F module: Nordic's nRF54LM20A processor and radio, the set's own radio at 2,4 GHz, an antenna on the board
+- TDK's ICM-42686-P motion sensor: an accelerometer of ±32 g and a gyroscope of ±4 000 °/s; the ICM-42688-P, ±16 g, on the same land
+- the user's own microSD card in a locking slot, for the whole record
 - a LiFePO4 cell, LTOPOW's LFP103042, 3,2 V, 720 mAh
-- TI's BQ25170 charger and ADI's MAX17262H fuel gauge
-- two TI TLV75530 regulators at 3,0 V
-- a four-pin magnetic contact for the charge and USB, its inlet guarded
+- TI's BQ25170 charger and ADI's MAX17055 fuel gauge
+- two TI TPS7A2030 regulators at 3,0 V
+- a five-pin magnetic contact for the charge and USB, wired symmetric so that it goes on either way round, its inlet guarded
 - two TI DRV5032 Hall switches: the unit is worked by a magnet held to it instead of buttons, so that the box stays watertight
 - a two-colour LED
 
