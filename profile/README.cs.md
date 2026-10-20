@@ -139,12 +139,12 @@ nahradit levné sady senzorů, které se dnes prodávají: za jejich cenu nebo l
 případě lépe. Měří jen pohyb, ne kudy zvíře chodí; všechno je na zvířeti, žádná kamera ani
 chodník.
 
-**Živý náhled** rychlostí 50, 100 nebo 200 Hz, jako kvaterniony, které Belka spočítá z hodnot
+**Živý náhled** rychlostí 50 nebo 100 Hz, jako kvaterniony, které Belka spočítá z hodnot
 akcelerometru a gyroskopu; **na kartu** se ukládají surová data v plné rychlosti snímání.
 **Vibrace, pokusně:** když to hardware umožňuje, chceme zkusit i vyšší vzorkování, až do maxima
 snímače, pro pokusná měření vibrací na strojích a podobně.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — návrh se předělává od základu, nic zatím není postavené; příští verze bude 0.5
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.5: celý návrh na papíře, nic zatím není postavené
 
 <details>
 <summary><b>Části</b> — jednotka, velitel, krabička, aplikace</summary>
@@ -152,7 +152,7 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 | část | co to je |
 |---|---|
 | **Belka** | jednotka na zvířeti, v sadě jich je 1 až 32 |
-| **Povodok** | velitel sady: stejná deska jako Belka, se snímačem i kartou, jen místo BM20F nese kombo Fanstel WM02C20C — nRF54LM20A a k němu Wi-Fi 6 Nordic nRF7002 na 2,4 a 5 GHz; rozdává sadě společný čas, sbírá data a předává je telefonu nebo počítači přes USB nebo Wi-Fi |
+| **Povodok** | velitel sady: stejná deska jako Belka, bez snímače a karty, jen místo BM20F nese kombo Fanstel WM02C20C — nRF54LM20A a k němu Wi-Fi 6 Nordic nRF7002, používané jen na 5 GHz; dává sadě společný čas a první z nich sbírá celou sadu a předává ji telefonu nebo počítači přes USB nebo Wi-Fi |
 | **Budka** | krabička, ve které jednotka žije; vybere se podle hotového schématu |
 | **Pušinka** | aplikace v telefonu nebo počítači; časem by pro ni měl vzniknout základ, případně celé aplikace |
 

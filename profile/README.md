@@ -139,12 +139,12 @@ whole record afterwards. To replace the cheap sensor sets sold today: at their p
 better in any case. Only the motion, not where the animal goes; everything on the animal, no
 camera, no walkway.
 
-**The live view** at 50, 100 or 200 Hz, as quaternions the Belka computes from its accelerometer's
+**The live view** at 50 or 100 Hz, as quaternions the Belka computes from its accelerometer's
 and gyroscope's values; **the card** takes the raw data at the full sampling rate. **Vibration, as
 an experiment:** since the hardware allows it, we want to try higher sampling too, up to the
 sensor's maximum, for experimental measurements of vibration on machines and the like.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — the design being redone from the ground up, nothing built yet; the next version 0.5
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.5: the whole design on paper, nothing built yet
 
 <details>
 <summary><b>The parts</b> — the unit, the commander, the box, the application</summary>
@@ -152,7 +152,7 @@ sensor's maximum, for experimental measurements of vibration on machines and the
 | part | what it is |
 |---|---|
 | **Belka** | the unit on the animal, 1 to 32 in a set |
-| **Povodok** | the set's commander: the Belka's board, the sensor and the card on it too, with Fanstel's WM02C20C combo in place of the BM20F — the nRF54LM20A with Nordic's nRF7002 Wi-Fi 6 at 2,4 and 5 GHz; it gives the set its common time, gathers the data and passes them to the phone or the computer, by USB or Wi-Fi |
+| **Povodok** | the set's commander: the Belka's board without the sensor and the card, with Fanstel's WM02C20C combo in place of the BM20F — the nRF54LM20A with Nordic's nRF7002 Wi-Fi 6, used at 5 GHz alone; it gives the set its common time, and the first of them gathers the whole set and passes it to the phone or the computer, by USB or Wi-Fi |
 | **Budka** | the box a unit lives in, chosen once the schematic is done |
 | **Pušinka** | the application on the phone or the computer; in time a base for it should be made, perhaps whole applications |
 
