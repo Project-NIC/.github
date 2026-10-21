@@ -144,7 +144,7 @@ and gyroscope's values, or the raw steps; **the card** takes the raw data at the
 an experiment:** since the hardware allows it, we want to try higher sampling too, up to the
 sensor's maximum, for experimental measurements of vibration on machines and the like.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.6: the whole design on paper, the firmware built, nothing run yet
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.7: the whole design on paper, the firmware built, the application begun, nothing run yet
 
 <details>
 <summary><b>The parts</b> — the unit, the commander, the box, the dock, the application</summary>
