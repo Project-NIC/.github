@@ -144,7 +144,7 @@ akcelerometru a gyroskopu, nebo surové kroky; **na kartu** se ukládají surov�
 **Vibrace, pokusně:** když to hardware umožňuje, chceme zkusit i vyšší vzorkování, až do maxima
 snímače, pro pokusná měření vibrací na strojích a podobně.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.5: celý návrh na papíře, nic zatím není postavené
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.6: celý návrh na papíře, firmware sestavený, nic zatím neběželo
 
 <details>
 <summary><b>Části</b> — jednotka, velitel, krabička, stanice, aplikace</summary>
