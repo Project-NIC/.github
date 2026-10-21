@@ -155,7 +155,7 @@ sensor's maximum, for experimental measurements of vibration on machines and the
 | **Povodok** | the set's commander: the Belka's board without the sensor and the card, with Fanstel's WM02C20C combo in place of the BM20F — the nRF54LM20A with Nordic's nRF7002 Wi-Fi 6, used at 5 GHz alone; it gives the set its common time, and the first of them gathers the whole set and passes it to the phone or the computer, by USB or Wi-Fi |
 | **Budka** | the box a Belka lives in: a sealed Hammond 1551 case, its window for the light, its fastening |
 | **the dock** | a charging station for the whole set with a USB hub: every Belka in it a disk, a computer copying them all at once |
-| **Pušinka** | the application on the phone or the computer; in time a base for it should be made, perhaps whole applications |
+| **Pušinka** | the application on the phone or the computer, begun in Flutter: one code for Android, iPhone, Windows, macOS and Linux, its base in the repository; in time perhaps whole applications |
 
 </details>
 

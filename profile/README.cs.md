@@ -155,7 +155,7 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 | **Povodok** | velitel sady: stejná deska jako Belka, bez snímače a karty, jen místo BM20F nese kombo Fanstel WM02C20C — nRF54LM20A a k němu Wi-Fi 6 Nordic nRF7002, používané jen na 5 GHz; dává sadě společný čas a první z nich sbírá celou sadu a předává ji telefonu nebo počítači přes USB nebo Wi-Fi |
 | **Budka** | krabička, ve které Belka bydlí: utěsněné pouzdro Hammond 1551, okénko pro světlo, uchycení |
 | **nabíjecí stanice** | nabíjecí stanice pro celou sadu s rozbočovačem USB: každá Belka v ní je disk a počítač je zkopíruje všechny najednou |
-| **Pušinka** | aplikace v telefonu nebo počítači; časem by pro ni měl vzniknout základ, případně celé aplikace |
+| **Pušinka** | aplikace v telefonu nebo počítači, začatá ve Flutteru: jeden kód pro Android, iPhone, Windows, macOS a Linux, její základ je v repozitáři; časem případně celé aplikace |
 
 </details>
 
