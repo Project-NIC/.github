@@ -185,10 +185,11 @@ sensor's maximum, for experimental measurements of vibration on machines and the
 **A neural suit** — 128 to 256 electrodes and 16 to 64 motion sensors on a suit put together from
 pieces: a sleeve, a trouser leg, the torso, a headband. The muscles' own signals and the body's
 motion go to a computer in the backpack, a Radxa ROCK 5T with its own NPU or up to two Hailo-10H AI
-accelerators, and the whole body becomes the controller for a computer or a game.
+accelerators, and the whole body becomes the controller for a computer or a game. Second, an
+aid for rehabilitation: a doctor sees which muscle works and how hard.
 **Coming soon™.** Well — not *that* soon.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.3: the design on paper, the analog side too, nothing built yet
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.3 out, 0.4 being written: the purpose, one frame of 37 B for everything, the suit's clock on every line from the start, a LiFePO4 battery, the ROCK 5T with three SPIs to Mamka; nothing built yet
 
 <details>
 <summary><b>The parts</b> — the suit, the head, the family in the backpack, the assistants</summary>

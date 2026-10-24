@@ -185,9 +185,10 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 **Neurální oblek** — 128 až 256 elektrod a 16 až 64 pohybových senzorů na obleku složeném z dílů:
 rukáv, nohavice, trup, čelenka. Vlastní signály svalů a pohyb těla jdou do počítače v batohu,
 Radxa ROCK 5T s vlastním NPU nebo až se dvěma AI akcelerátory Hailo-10H, a celé tělo se
-stává ovladačem počítače nebo hry. **Coming soon™.** No, zas *tak* brzy ne.
+stává ovladačem počítače nebo hry. Vedle toho pomůcka pro rehabilitaci: lékař vidí, který sval
+pracuje a jak silně. **Coming soon™.** No, zas *tak* brzy ne.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.3: návrh na papíře včetně analogové části, nic ještě není postaveno;
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.3 venku, 0.4 se píše: účel, jeden rámec 37 B na všechno, takt obleku na každé lince od startu, baterie LiFePO4, ROCK 5T se třemi SPI k Mamce; nic ještě není postaveno;
 README česky, ostatní stránky anglicky
 
 <details>
