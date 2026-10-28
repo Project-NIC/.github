@@ -216,6 +216,39 @@ README česky, ostatní stránky anglicky
 
 ---
 
+# NIC-Sluchalo
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Sluchalo.jpg" width="300" alt="Sluchalo"/></p>
+
+**Co je ve zdi, poznané podle stínu, který skrz ni vrhá Wi-Fi** — ruční hlava s jedenácti
+přijímači Wi-Fi se posouvá po jedné straně zdi a malá krabička za druhou stranou vysílá; kabel,
+trubka nebo ocelový profil mezi nimi pole zeslabí a hlava zmapuje kde. U zděných stěn do zdi
+navíc ťuká a poslouchá. Hlava má průměr 167 mm: kruh devíti antén 30 × 29 mm na kružnici
+o poloměru 65,8 mm kolem zkřížené dvojice, ke zdi 15 mm pěny s tvrdou kluznou fólií, asi 0,36 kg
+bez krabice, asi tři hodiny na dvou článcích 18650. Každé nastavení i všechna surová data
+zůstávají otevřená.
+
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.1, koncept: fyzika spočítaná, hlava a její elektronika na papíře; nic ještě není postavené ani změřené; README česky, koncept anglicky
+
+<details>
+<summary><b>Části</b> — lucerna, kruh, datel a ostatní</summary>
+
+| část | co to je |
+|---|---|
+| **Fonar** | lucerna: vysílač za zdí, dvě desky ESP32-C5 se zkříženými anténami, které se střídají |
+| **Kolchoz** | kolchoz: kruh devíti přijímačů, které pracují jako jeden, a zkřížená dvojice uprostřed — jedenáct ESP32-C5 na jedněch hodinách |
+| **Datel** | datel: ťukání plastovou tyčinkou uprostřed, osm mikrofonů kolem ní |
+| **Razvedčik** | zvěd: dva optické snímače pohybu, které sledují hlavu po zdi |
+| **Gensek** | generální tajemník: jeden STM32H7A3 nade vším |
+| **Pajok** | příděl: dva články 18650 |
+| **Gradusnik** | teploměr: tepelný snímač, odložený |
+
+</details>
+
+<br>
+
+---
+
 # ★ N.I.C. ★
 ## NIC — Native Intellect Community
 ### Viva la résistance! ✊
