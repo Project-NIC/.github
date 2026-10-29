@@ -182,13 +182,13 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**Neurální oblek** — až 288 elektrod a 84 pohybových senzorů, 40 z nich ve dvou rukavicích, na
-obleku složeném z dílů: rukáv, nohavice, trup, čelenka. Vlastní signály svalů a pohyb těla jdou do počítače v batohu,
+**Neurální oblek** — až 582 elektrod a 98 pohybových senzorů, 56 z nich v rukavicích a ponožkách,
+na obleku složeném z dílů: rukáv, nohavice, trup, čelenka. Vlastní signály svalů a pohyb těla jdou do počítače v batohu,
 Radxa ROCK 5T s vlastním NPU nebo až se dvěma AI akcelerátory Hailo-10H, a celé tělo se
 stává ovladačem počítače nebo hry. Vedle toho pomůcka pro rehabilitaci: lékař vidí, který sval
 pracuje a jak silně. **Coming soon™.** No, zas *tak* brzy ne.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.4: účel a požadavky, krátké rámce pevné délky uvnitř obleku, osm linek podle dílů obleku, rozložení na těle sval po svalu s prvním nákresem, baterie LiFePO4, Terem pro karty 2280; nic ještě není postaveno;
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.5: cesta od kůže k modulu, dva ADS1298 na modul a hlava na dvou ADS1299, 280 kanálů při 1 920 SPS, rukavice a ponožka na jedné desce každá, malý procesor na prst, materiály a zdroje elektrod; stále na papíře, nic ještě není postaveno;
 README česky, ostatní stránky anglicky
 
 <details>
@@ -196,7 +196,7 @@ README česky, ostatní stránky anglicky
 
 | část | co to je |
 |---|---|
-| [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | košile: oblek sám, díly se snímacími moduly, rukavice Vešč, Rebjata |
+| [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | košile: oblek sám, díly se snímacími moduly, Rebjata, rukavice Vešč a ponožka Nosok, elektrody |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | bohatýr: kde na těle sedí každá elektroda a každý pohybový senzor, sval po svalu, a proč |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | jednotka v čelence: sluchátka, dva mikrofony, vibrace a tlačítka |
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | máma, základní deska: hodiny celého obleku, zvukový most, budiče linek a napájení obleku |

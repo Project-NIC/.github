@@ -182,21 +182,21 @@ sensor's maximum, for experimental measurements of vibration on machines and the
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**A neural suit** — up to 288 electrodes and 84 motion sensors, 40 of them in the two gloves, on a
-suit put together from pieces: a sleeve, a trouser leg, the torso, a headband. The muscles' own signals and the body's
+**A neural suit** — up to 582 electrodes and 98 motion sensors, 56 of them in the gloves and the
+socks, on a suit put together from pieces: a sleeve, a trouser leg, the torso, a headband. The muscles' own signals and the body's
 motion go to a computer in the backpack, a Radxa ROCK 5T with its own NPU or up to two Hailo-10H AI
 accelerators, and the whole body becomes the controller for a computer or a game. Second, an
 aid for rehabilitation: a doctor sees which muscle works and how hard.
 **Coming soon™.** Well — not *that* soon.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.4: the purpose and the requirements, short frames of fixed length inside the suit, eight lines by the suit's pieces, the layout on the body muscle by muscle with a first drawing, a LiFePO4 battery, Terem for 2280 cards; nothing built yet
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.5: the path from the skin to the module, two ADS1298 a module and the head on two ADS1299, 280 channels at 1,920 SPS, the glove and the sock on one board each with a small processor a finger, the electrodes' materials and sources; still on paper, nothing built yet
 
 <details>
 <summary><b>The parts</b> — the suit, the head, the family in the backpack, the assistants</summary>
 
 | part | what it is |
 |---|---|
-| [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | the shirt: the suit itself, the pieces with their sensing modules, the glove Vešč, the Rebjata |
+| [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | the shirt: the suit itself, the pieces with their sensing modules, the Rebjata, the glove Vešč and the sock Nosok, the electrodes |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | the strongman: where every electrode and motion sensor sits on the body, muscle by muscle, and why |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | the unit in the headband: headphones, two microphones, vibration and buttons |
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | mum, the base board: the clock for the whole suit, the sound bridge, the line drivers and the suit's power |
