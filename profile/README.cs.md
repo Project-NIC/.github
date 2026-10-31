@@ -192,18 +192,40 @@ pracuje a jak silně. **Coming soon™.** No, zas *tak* brzy ne.
 README česky, ostatní stránky anglicky
 
 <details>
-<summary><b>Části</b> — oblek, hlava, rodina v batohu, asistenti</summary>
+<summary><b>Části a všechna jména</b> — oblek, hlava, rodina v batohu, asistenti</summary>
 
 | část | co to je |
 |---|---|
 | [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | košile: oblek sám, díly se snímacími moduly, Rebjata, rukavice Vešč a ponožka Nosok, elektrody |
+| ↳ [**Kaščej**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/CONSTRUCTION.md#harness-and-washing) | Kostěj Nesmrtelný: postroj, přiléhavý overal s pásky a moduly, máchá se v čisté vodě |
+| ↳ [**Strejda Al**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/CONSTRUCTION.md#harness-and-washing) | strejda Al, podle Big Gay Ala ze *South Parku*: těsný kompresní overal přes Kaščeje, přitlačí elektrody k tělu |
+| ↳ [**Rebjata**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | děcka: snímací moduly, Mamčiny vlastní děti, každé z nich Rebjonok; dva ADS1298, 16 kanálů EMG a pohybové senzory |
+| ↳ [**Staršaja**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | nejstarší: hlavní procesor každé snímací jednotky, STM32H523 |
+| ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | bratříčci: malé procesory na desce rukavice a ponožky, jeden na prst |
+| ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | Věc, ruka Addamsových: rukavice, jedna deska na hřbetu ruky, 16 elektrod a až 20 pohybových senzorů |
+| ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | ponožka: deska rukavice pro chodidlo, nad kotníkem |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | bohatýr: kde na těle sedí každá elektroda a každý pohybový senzor, sval po svalu, a proč |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | jednotka v čelence: sluchátka, dva mikrofony, vibrace a tlačítka |
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | máma, základní deska: hodiny celého obleku, zvukový most, budiče linek a napájení obleku |
+| ↳ [**Chodiki**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#clock) | nástěnné hodiny se závažím: jediný takt, podle kterého vzorkuje celý oblek |
+| ↳ [**Pupovina**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#links-between-boards) | pupeční šňůra: osm linek z Mamky, jedna na díl obleku, s napájením, taktem a daty |
+| ↳ [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#mamkas-own-supply) | kojná: Mamčina napájecí část, její měniče a napájení počítačů |
+| ↳ [**Budilnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#budilnik) | budík: tlačítko, které probudí celou domácnost |
 | [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | táta, počítač v batohu: Radxa ROCK 5T, s Umnicí, Hailo-10H, nebo jen s vlastním NPU |
+| ↳ [**Umnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#umnica) | chytrolínka: Hailo-10H, vzdělaná dcera, která myslí za tátu |
+| ↳ [**Borovičok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#borovičok) | Staričok-Borovičok, stařeček hříbek z pohádek, Babuščin manžel: počítač B, aplikace a brýle |
+| ↳ [**Ďaďa Sem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#ďaďa-sem) | strýček Sam, bydlí na půdě a všechno vidí: kamery |
+| ↳ [**Storož**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/SOFTWARE.md#storož) | noční hlídač, náš Tron: když se něco vážně rozbije, zastaví domácnost a řekne proč |
+| ↳ **Nastěnka** | hodná nevlastní dcera z *Mrazíka*: hlavní software |
+| ↳ **Macecha** | její macecha: přísný opravný software, který nic nepustí |
+| ↳ [**Perevodčica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/SOFTWARE.md#output) | tlumočnice: převodníky výstupu pro Unreal, Unity, VRChat, laboratoř nebo robota |
 | [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | komnata dcer: deska v obou slotech M.2 ROCKu 5T, jeho dvě Hailo-10H, každé s vlastním zdrojem |
 | [**Babuška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/babuska) | babička: baterie a její BMS, batoh s pevnou skořepinou |
+| ↳ [**Ključnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/HARDWARE.md#the-bms) | klíčnice: BMS, rozhoduje, co jde do Babuščiny spíže a ven |
+| ↳ **Kommunalka** | komunální byt: batoh, kde bydlí celá rodina a dělí se o jednu kuchyň |
+| ↳ [**Mrazík**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/CONSTRUCTION.md#mrazík) | Mrazík: uzavřený hliníkový chladicí blok kolem počítače a Mamky |
 | [**Porjadok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/porjadok) | pořádek: co platí pro každý modul, procesor, firmware a spoje |
+| ↳ [**Pitanije**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#power) | jídlo i napájení: napájení obleku od Babušky až do každého modulu |
 | [**Soňa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/sona) | asistentka pro neslyšící: pořád poslouchá a vibrací říká, co se kolem děje |
 | [**Míša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/misa) | asistent, hlídač: radar a ultrazvuk hlídají překážky a varují sluchátky a čelenkou |
 | [**Taťána**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/tatana) | asistentka: píše, co diktuješ, a předčítá text, knihy včetně |

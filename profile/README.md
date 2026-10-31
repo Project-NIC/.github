@@ -192,18 +192,40 @@ aid for rehabilitation: a doctor sees which muscle works and how hard.
 → **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.6: the ADS1298 on every module and the LSM6DSV16X held to the suit's clock, polyimide strips shielded on both faces, the units potted on the harness with connectors for assembly only, Mamka's converters at 1 MHz, Mrazík the cooling block; still on paper, nothing built yet
 
 <details>
-<summary><b>The parts</b> — the suit, the head, the family in the backpack, the assistants</summary>
+<summary><b>The parts and every name</b> — the suit, the head, the family in the backpack, the assistants</summary>
 
 | part | what it is |
 |---|---|
 | [**Rubaška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/rubaska) | the shirt: the suit itself, the pieces with their sensing modules, the Rebjata, the glove Vešč and the sock Nosok, the electrodes |
+| ↳ [**Kaščej**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/CONSTRUCTION.md#harness-and-washing) | Koschei the Deathless: the harness, a skin-tight overall with the bands and the modules on it, rinsed in clean water |
+| ↳ [**Strejda Al**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/CONSTRUCTION.md#harness-and-washing) | Uncle Al, after Big Gay Al of *South Park*: the tight compression overall over Kaščej that presses the electrodes to the body |
+| ↳ [**Rebjata**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | the kids: the sensing modules, Mamka's own children, each one a Rebjonok; two ADS1298, 16 EMG channels and the motion sensors |
+| ↳ [**Staršaja**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | the elder: every sensing unit's main processor, an STM32H523 |
+| ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | the little brothers: the small processors on the glove's and the sock's board, one a finger |
+| ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | the Thing, the Addams' hand: the glove, one board on the back of the hand, 16 electrodes and up to 20 motion sensors |
+| ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | the sock: the glove's board for the foot, worn above the ankle |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | the strongman: where every electrode and motion sensor sits on the body, muscle by muscle, and why |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | the unit in the headband: headphones, two microphones, vibration and buttons |
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | mum, the base board: the clock for the whole suit, the sound bridge, the line drivers and the suit's power |
+| ↳ [**Chodiki**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#clock) | the wall clock with weights: the one clock the whole suit samples by |
+| ↳ [**Pupovina**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#links-between-boards) | the umbilical cord: the eight lines from Mamka, one a piece of the suit, with power, the clock and data |
+| ↳ [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#mamkas-own-supply) | the wet nurse: Mamka's power section, her converters and the computers' supply |
+| ↳ [**Budilnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#budilnik) | the alarm clock: the start button that wakes the whole household |
 | [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | dad, the computer in the backpack: a Radxa ROCK 5T, with Umnica, the Hailo-10H, or its own NPU alone |
+| ↳ [**Umnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#umnica) | the clever one: a Hailo-10H, the educated daughter who thinks for dad |
+| ↳ [**Borovičok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#borovičok) | Staričok-Borovičok, the little old mushroom man, Babuška's husband: computer B, the applications and the glasses |
+| ↳ [**Ďaďa Sem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#ďaďa-sem) | Uncle Sam, who lives in the attic and watches everything: the cameras |
+| ↳ [**Storož**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/SOFTWARE.md#storož) | the night watchman, our Tron: when something fatal breaks he stops the household and says why |
+| ↳ **Nastěnka** | the good stepdaughter of *Mrazík*: the main software |
+| ↳ **Macecha** | her stepmother: the strict correcting software that lets nothing through |
+| ↳ [**Perevodčica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/SOFTWARE.md#output) | the interpreter: the output's converters for Unreal, Unity, VRChat, a lab or a robot |
 | [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | the daughters' chamber: the board in the ROCK 5T's two M.2 slots, its two Hailo-10H with a supply each |
 | [**Porjadok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/porjadok) | order: what holds for every module, the processor, the firmware and the links |
+| ↳ [**Pitanije**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#power) | food, and a power supply: the suit's power from Babuška down to every module |
 | [**Babuška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/babuska) | grandma: the battery and its BMS, the hard-shell backpack |
+| ↳ [**Ključnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/HARDWARE.md#the-bms) | the housekeeper with the keys: the BMS, which decides what goes in and out of Babuška's pantry |
+| ↳ **Kommunalka** | a communal flat: the backpack, where the whole family lives and shares one kitchen |
+| ↳ [**Mrazík**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/CONSTRUCTION.md#mrazík) | Father Frost: the closed aluminium cooling block around the computer and Mamka |
 | [**Soňa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/sona) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
 | [**Míša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/misa) | assistant, the watchdog: a radar and ultrasound watch for obstacles and warn through the headphones and the headband |
 | [**Taťána**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/tatana) | assistant: types what you dictate and reads text aloud, books included |
