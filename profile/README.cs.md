@@ -188,7 +188,7 @@ Radxa ROCK 5T s vlastním NPU nebo až se dvěma AI akcelerátory Hailo-10H, a c
 stává ovladačem počítače nebo hry. Vedle toho pomůcka pro rehabilitaci: lékař vidí, který sval
 pracuje a jak silně. **Coming soon™.** No, zas *tak* brzy ne.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.5: cesta od kůže k modulu, dva ADS1298 na modul a hlava na dvou ADS1299, 280 kanálů při 1 920 SPS, rukavice a ponožka na jedné desce každá, malý procesor na prst, materiály a zdroje elektrod; stále na papíře, nic ještě není postaveno;
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.6: ADS1298 na každém modulu a LSM6DSV16X držený na taktu obleku, polyimidové pásky stíněné z obou stran, jednotky zalité na postroji a konektory jen na montáž, měniče Mamky na 1 MHz, Mrazík jako chladicí blok; stále na papíře, nic ještě není postaveno;
 README česky, ostatní stránky anglicky
 
 <details>
