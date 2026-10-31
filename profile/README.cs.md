@@ -213,7 +213,7 @@ README česky, ostatní stránky anglicky
 | ↳ [**Budilnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#budilnik) | budík: tlačítko, které probudí celou domácnost |
 | [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | táta, počítač v batohu: Radxa ROCK 5T, s Umnicí, Hailo-10H, nebo jen s vlastním NPU |
 | ↳ [**Umnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#umnica) | chytrolínka: Hailo-10H, vzdělaná dcera, která myslí za tátu |
-| ↳ [**Borovičok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#borovičok) | Staričok-Borovičok, stařeček hříbek z pohádek, Babuščin manžel: počítač B, aplikace a brýle |
+| ↳ [**Borovičok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#borovičok) | Staričok-Borovičok, česky Dědeček Hříbeček, Babuščin manžel: počítač B, aplikace a brýle |
 | ↳ [**Ďaďa Sem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#ďaďa-sem) | strýček Sam, bydlí na půdě a všechno vidí: kamery |
 | ↳ [**Storož**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/SOFTWARE.md#storož) | noční hlídač, náš Tron: když se něco vážně rozbije, zastaví domácnost a řekne proč |
 | ↳ **Nastěnka** | hodná nevlastní dcera z *Mrazíka*: hlavní software |
