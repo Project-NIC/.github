@@ -189,7 +189,7 @@ accelerators, and the whole body becomes the controller for a computer or a game
 aid for rehabilitation: a doctor sees which muscle works and how hard.
 **Coming soon™.** Well — not *that* soon.
 
-→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.6.1: the ADS1298 on every module and the LSM6DSV16X held to the suit's clock, polyimide strips shielded on both faces, the units potted on the harness with connectors for assembly only, Mamka's converters at 1 MHz, Mrazík the cooling block; still on paper, nothing built yet
+→ **[Project-NIC/NIC-Crazy_Ivan](https://github.com/Project-NIC/NIC-Crazy_Ivan)** — beta 0.6: the ADS1298 on every module and the LSM6DSV16X held to the suit's clock, polyimide strips shielded on both faces, the units potted on the harness with connectors for assembly only, Mamka's converters at 1 MHz, Mrazík the cooling block; still on paper, nothing built yet
 
 <details>
 <summary><b>The parts and every name</b> — the suit, the head, the family in the backpack, the assistants</summary>
