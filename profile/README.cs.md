@@ -163,7 +163,7 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 <summary><b>Co je v Belce</b> — moduly a součástky</summary>
 
 - modul Fanstel BM20F: procesor a rádio Nordic nRF54LM20A, vlastní rádio sady na 2,4 GHz, anténa na plošném spoji
-- snímač pohybu na jedněch ploškách: ST LSM6DSV16X, ±16 g a ±4 000 °/s, v klasické verzi; TDK ICM-42686-P, ±32 g a ±4 000 °/s, pro kopyto a pro průmyslovou verzi se surovými daty až do 32 kHz
+- snímač pohybu na jedněch ploškách: ST LSM6DSV16X, ±16 g a ±4 000 °/s, v klasické verzi; ST LSM6DSV320X, ±16 g a druhý kanál do ±320 g, pro kopyto; TDK ICM-42686-P, ±32 g a ±4 000 °/s, pro průmyslovou verzi se surovými daty až do 32 kHz
 - vlastní karta microSD uživatele ve slotu se zámkem, na celý záznam
 - článek LiFePO4 LTOPOW LFP103042, 3,2 V, 720 mAh
 - nabíječka TI BQ25170 a palivoměr ADI MAX17055

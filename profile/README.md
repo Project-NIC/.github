@@ -163,7 +163,7 @@ sensor's maximum, for experimental measurements of vibration on machines and the
 <summary><b>Inside a Belka</b> — the modules and the parts</summary>
 
 - Fanstel's BM20F module: Nordic's nRF54LM20A processor and radio, the set's own radio at 2,4 GHz, an antenna on the board
-- the motion sensor, on one land: ST's LSM6DSV16X, ±16 g and ±4 000 °/s, in the classic build; TDK's ICM-42686-P, ±32 g and ±4 000 °/s, for the hoof and for the industrial build's raw data up to 32 kHz
+- the motion sensor, on one land: ST's LSM6DSV16X, ±16 g and ±4 000 °/s, in the classic build; ST's LSM6DSV320X, ±16 g and a second channel to ±320 g, for the hoof; TDK's ICM-42686-P, ±32 g and ±4 000 °/s, for the industrial build's raw data up to 32 kHz
 - the user's own microSD card in a locking slot, for the whole record
 - a LiFePO4 cell, LTOPOW's LFP103042, 3,2 V, 720 mAh
 - TI's BQ25170 charger and ADI's MAX17055 fuel gauge
