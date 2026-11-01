@@ -133,29 +133,22 @@ of its own vibration.
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Strelka.jpg" width="300" alt="Strelka"/></p>
 
 **The motion of an animal, for a veterinary examination** — small units on the legs, the trunk and
-the head of a dog, a horse or a cow record how it moves, all on one common time, so that the legs,
-the trunk and the head can be laid side by side, step by step. Live on a phone or a computer, the
-whole record afterwards. To replace the cheap sensor sets sold today: at their price or below, and
-better in any case. Only the motion, not where the animal goes; everything on the animal, no
-camera, no walkway.
-
-**The live view** at 50 or 100 Hz, as quaternions the Belka computes from its accelerometer's
-and gyroscope's values, or the raw steps; **the card** takes the raw data at the full sampling rate. **Vibration, as
-an experiment:** since the hardware allows it, we want to try higher sampling too, up to the
-sensor's maximum, for experimental measurements of vibration on machines and the like.
+the head of a dog, a horse or a cow record how it moves, all on one common time: live on a phone or
+a computer, the whole record afterwards. To replace the cheap sensor sets sold today, at their price
+or below and better in any case; and, as an experiment, vibration on machines.
 
 → **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.75: the whole design on paper, the firmware built, the application begun, nothing run yet; 0.8 comes with the boards
 
 <details>
-<summary><b>The parts</b> — the unit, the commander, the box, the dock, the application</summary>
+<summary><b>The parts</b> — the unit, the commander, the box, the docking, the application</summary>
 
 | part | what it is |
 |---|---|
 | **Belka** | the unit on the animal, with its sensor and its card, 1 to 32 in a set, on Semjorka, the board it shares with Povodok; on the hoof, Ugoljok |
-| **Povodok** | the set's commander: the Belka's board without the sensor and the card, with Fanstel's WM02C20C combo in place of the BM20F — the nRF54LM20A with Nordic's nRF7002 Wi-Fi 6, used at 5 GHz alone; it gives the set its common time, and the first of them gathers the whole set and passes it to the phone or the computer, by USB or Wi-Fi |
+| **Povodok** | the set's commander, one to four in a set: the Belka's board with Fanstel's WM02C20C, Wi-Fi at 5 GHz, without the sensor and the card; it gives the set its time and passes what it measures to the phone or the computer, by USB or Wi-Fi |
 | **Budka** | the box of a Belka and of Povodok alike: a sealed Hammond 1551 case, its window for the light, its fastening |
 | **Stykovka** | whatever a unit docks onto to charge, its USB going on through it: a lead, or a station for the whole set with a USB hub, every Belka in it a disk, a computer copying them all at once |
-| **Pušinka** | the application on the phone or the computer, begun in Flutter: one code for Android, iPhone, Windows, macOS and Linux, its base in the repository; in time perhaps whole applications |
+| **Pušinka** | the application on the phone or the computer, begun in Flutter: one code for Android, iPhone, Windows, macOS and Linux |
 
 </details>
 

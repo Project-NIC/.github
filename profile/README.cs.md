@@ -133,29 +133,22 @@ vlastních vibrací.
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Strelka.jpg" width="300" alt="Strelka"/></p>
 
 **Pohyb zvířete pro veterinární vyšetření** — malé jednotky na nohou, trupu a hlavě psa, koně
-nebo krávy zaznamenávají, jak se zvíře hýbe, všechny na jednom společném čase. Nohy, trup a hlavu
-tak jde položit vedle sebe krok po kroku. Živě v telefonu nebo v počítači, celý záznam potom. Má
-nahradit levné sady senzorů, které se dnes prodávají: za jejich cenu nebo levněji, a v každém
-případě lépe. Měří jen pohyb, ne kudy zvíře chodí; všechno je na zvířeti, žádná kamera ani
-chodník.
-
-**Živý náhled** rychlostí 50 nebo 100 Hz, jako kvaterniony, které Belka spočítá z hodnot
-akcelerometru a gyroskopu, nebo surové kroky; **na kartu** se ukládají surová data v plné rychlosti snímání.
-**Vibrace, pokusně:** když to hardware umožňuje, chceme zkusit i vyšší vzorkování, až do maxima
-snímače, pro pokusná měření vibrací na strojích a podobně.
+nebo krávy zaznamenávají, jak se zvíře hýbe, všechny na jednom společném čase: živě v telefonu nebo
+v počítači, celý záznam potom. Má nahradit levné sady senzorů, které se dnes prodávají, za jejich
+cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na strojích.
 
 → **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.75: celý návrh na papíře, firmware sestavený, aplikace začatá, nic zatím neběželo; 0.8 přijde s deskami
 
 <details>
-<summary><b>Části</b> — jednotka, velitel, krabička, stanice, aplikace</summary>
+<summary><b>Části</b> — jednotka, velitel, krabička, stykovka, aplikace</summary>
 
 | část | co to je |
 |---|---|
 | **Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32, na Semjorce, desce, kterou sdílí s Povodokem; na kopytě Ugoljok |
-| **Povodok** | velitel sady: stejná deska jako Belka, bez snímače a karty, jen místo BM20F nese kombo Fanstel WM02C20C — nRF54LM20A a k němu Wi-Fi 6 Nordic nRF7002, používané jen na 5 GHz; dává sadě společný čas a první z nich sbírá celou sadu a předává ji telefonu nebo počítači přes USB nebo Wi-Fi |
+| **Povodok** | velitel sady, jeden až čtyři v sadě: deska Belky s modulem Fanstel WM02C20C, Wi-Fi na 5 GHz, bez snímače a karty; dává sadě čas a předává, co měří, telefonu nebo počítači přes USB nebo Wi-Fi |
 | **Budka** | krabička Belky i Povodoku, stejná: utěsněné pouzdro Hammond 1551, okénko pro světlo, uchycení |
 | **Stykovka** | cokoliv, k čemu se jednotka připojí nabíjet a přes co jde její USB dál: kabel, nebo nabíjecí stanice pro celou sadu s rozbočovačem USB, každá Belka v ní disk, počítač je zkopíruje všechny najednou |
-| **Pušinka** | aplikace v telefonu nebo počítači, začatá ve Flutteru: jeden kód pro Android, iPhone, Windows, macOS a Linux, její základ je v repozitáři; časem případně celé aplikace |
+| **Pušinka** | aplikace v telefonu nebo počítači, začatá ve Flutteru: jeden kód pro Android, iPhone, Windows, macOS a Linux |
 
 </details>
 
