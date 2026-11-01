@@ -151,10 +151,10 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 
 | část | co to je |
 |---|---|
-| **Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32 |
+| **Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32, na Semjorce, desce, kterou sdílí s Povodokem; na kopytě Ugoljok |
 | **Povodok** | velitel sady: stejná deska jako Belka, bez snímače a karty, jen místo BM20F nese kombo Fanstel WM02C20C — nRF54LM20A a k němu Wi-Fi 6 Nordic nRF7002, používané jen na 5 GHz; dává sadě společný čas a první z nich sbírá celou sadu a předává ji telefonu nebo počítači přes USB nebo Wi-Fi |
-| **Budka** | krabička, ve které Belka bydlí: utěsněné pouzdro Hammond 1551, okénko pro světlo, uchycení |
-| **nabíjecí stanice** | nabíjecí stanice pro celou sadu s rozbočovačem USB: každá Belka v ní je disk a počítač je zkopíruje všechny najednou |
+| **Budka** | krabička Belky i Povodoku, stejná: utěsněné pouzdro Hammond 1551, okénko pro světlo, uchycení |
+| **Stykovka** | cokoliv, k čemu se jednotka připojí nabíjet a přes co jde její USB dál: kabel, nebo nabíjecí stanice pro celou sadu s rozbočovačem USB, každá Belka v ní disk, počítač je zkopíruje všechny najednou |
 | **Pušinka** | aplikace v telefonu nebo počítači, začatá ve Flutteru: jeden kód pro Android, iPhone, Windows, macOS a Linux, její základ je v repozitáři; časem případně celé aplikace |
 
 </details>
