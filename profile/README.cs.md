@@ -144,7 +144,7 @@ akcelerometru a gyroskopu, nebo surové kroky; **na kartu** se ukládají surov�
 **Vibrace, pokusně:** když to hardware umožňuje, chceme zkusit i vyšší vzorkování, až do maxima
 snímače, pro pokusná měření vibrací na strojích a podobně.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.7: celý návrh na papíře, firmware sestavený, aplikace začatá, nic zatím neběželo
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.75: celý návrh na papíře, firmware sestavený, aplikace začatá, nic zatím neběželo; 0.8 přijde s deskami
 
 <details>
 <summary><b>Části</b> — jednotka, velitel, krabička, stanice, aplikace</summary>
@@ -163,7 +163,7 @@ snímače, pro pokusná měření vibrací na strojích a podobně.
 <summary><b>Co je v Belce</b> — moduly a součástky</summary>
 
 - modul Fanstel BM20F: procesor a rádio Nordic nRF54LM20A, vlastní rádio sady na 2,4 GHz, anténa na plošném spoji
-- snímač pohybu TDK ICM-42686-P: akcelerometr ±32 g a gyroskop ±4 000 °/s; na stejné plošce i ICM-42688-P, ±16 g
+- snímač pohybu na jedněch ploškách: ST LSM6DSV16X, ±16 g a ±4 000 °/s, v klasické verzi; TDK ICM-42686-P, ±32 g a ±4 000 °/s, pro kopyto a pro průmyslovou verzi se surovými daty až do 32 kHz
 - vlastní karta microSD uživatele ve slotu se zámkem, na celý záznam
 - článek LiFePO4 LTOPOW LFP103042, 3,2 V, 720 mAh
 - nabíječka TI BQ25170 a palivoměr ADI MAX17055

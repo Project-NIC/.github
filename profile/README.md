@@ -144,7 +144,7 @@ and gyroscope's values, or the raw steps; **the card** takes the raw data at the
 an experiment:** since the hardware allows it, we want to try higher sampling too, up to the
 sensor's maximum, for experimental measurements of vibration on machines and the like.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.7: the whole design on paper, the firmware built, the application begun, nothing run yet
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.75: the whole design on paper, the firmware built, the application begun, nothing run yet; 0.8 comes with the boards
 
 <details>
 <summary><b>The parts</b> — the unit, the commander, the box, the dock, the application</summary>
@@ -163,7 +163,7 @@ sensor's maximum, for experimental measurements of vibration on machines and the
 <summary><b>Inside a Belka</b> — the modules and the parts</summary>
 
 - Fanstel's BM20F module: Nordic's nRF54LM20A processor and radio, the set's own radio at 2,4 GHz, an antenna on the board
-- TDK's ICM-42686-P motion sensor: an accelerometer of ±32 g and a gyroscope of ±4 000 °/s; the ICM-42688-P, ±16 g, on the same land
+- the motion sensor, on one land: ST's LSM6DSV16X, ±16 g and ±4 000 °/s, in the classic build; TDK's ICM-42686-P, ±32 g and ±4 000 °/s, for the hoof and for the industrial build's raw data up to 32 kHz
 - the user's own microSD card in a locking slot, for the whole record
 - a LiFePO4 cell, LTOPOW's LFP103042, 3,2 V, 720 mAh
 - TI's BQ25170 charger and ADI's MAX17055 fuel gauge
