@@ -137,16 +137,18 @@ the head of a dog, a horse or a cow record how it moves, all on one common time:
 a computer, the whole record afterwards. To replace the cheap sensor sets sold today, at their price
 or below and better in any case; and, as an experiment, vibration on machines.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.75: the whole design on paper, the firmware built, the application begun, nothing run yet; 0.8 comes with the boards
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.8: the whole design on paper, the boards described for drawing, the firmware built, the application begun, nothing run yet; 0.9 comes with the drawn boards
 
 <details>
-<summary><b>The parts</b> — the unit, the commander, the box, the docking, the application</summary>
+<summary><b>The parts</b> — the units, the commander, the boxes and the case, the docking, the application</summary>
 
 | part | what it is |
 |---|---|
-| **Belka** | the unit on the animal, with its sensor and its card, 1 to 32 in a set, on Semjorka, the board it shares with Povodok; on the hoof, Ugoljok |
-| **Povodok** | the set's commander, one to four in a set: the Belka's board with Fanstel's WM02C20C, Wi-Fi at 5 GHz, without the sensor and the card; it gives the set its time and passes what it measures to the phone or the computer, by USB or Wi-Fi |
-| **Budka** | the box of a Belka and of Povodok alike: a sealed Hammond 1551 case, its window for the light, its fastening |
+| **Belka** | the unit on the animal, with its sensor and its card, 1 to 32 in a set, on Materinka, the base board whose core every unit shares; for large shocks, on the hoof, Ugoljok; for industry, with raw data up to 32 kHz, Zvjozdočka |
+| **Kryska** | the small Belka, for small animals and the ordinary examinations: Fanstel's BM20M, its memory on its board, built sturdy as standard |
+| **Povodok** | the set's commander, one to four in a set: its own Materinka with Fanstel's WM02C20C, Wi-Fi at 5 GHz, neither sensor nor card; it gives the set its time and passes what it measures to the phone or the computer, by USB or Wi-Fi |
+| **Korabl** | the box of a unit, each of its own size: the sealed case, its window for the light, its fastening |
+| **Semjorka** | the case that carries a whole set |
 | **Stykovka** | whatever a unit docks onto to charge, its USB going on through it: a lead, or a station for the whole set with a USB hub, every Belka in it a disk, a computer copying them all at once |
 | **Pušinka** | the application on the phone or the computer, begun in Flutter: one code for Android, iPhone, Windows, macOS and Linux |
 
@@ -156,14 +158,14 @@ or below and better in any case; and, as an experiment, vibration on machines.
 <summary><b>Inside a Belka</b> — the modules and the parts</summary>
 
 - Fanstel's BM20F module: Nordic's nRF54LM20A processor and radio, the set's own radio at 2,4 GHz, an antenna on the board
-- the motion sensor, on one land: ST's LSM6DSV16X, ±16 g and ±4 000 °/s, in the classic build; ST's LSM6DSV320X, ±16 g and a second channel to ±320 g, for the hoof; TDK's ICM-42686-P, ±32 g and ±4 000 °/s, for the industrial build's raw data up to 32 kHz
+- the motion sensor, on one land: ST's LSM6DSV16X, ±16 g and ±4 000 °/s, in the Belka; ST's LSM6DSV320X, ±16 g and a second channel to ±320 g, in Ugoljok, for the hoof; TDK's ICM-42686-P, ±32 g and ±4 000 °/s, in Zvjozdočka, for raw data up to 32 kHz
 - the user's own microSD card in a locking slot, for the whole record
 - a LiFePO4 cell, LTOPOW's LFP103042, 3,2 V, 720 mAh
-- TI's BQ25170 charger and ADI's MAX17055 fuel gauge
+- Nordic's nPM1300 PMIC: the charge, ship mode as the off, the cell measured for Nordic's fuel gauge, the light's drivers
 - two TI TPS7A2030 regulators at 3,0 V
 - a five-pin magnetic contact for the charge and USB, wired symmetric so that it goes on either way round, its inlet guarded
 - two TI DRV5032 Hall switches: the unit is worked by a magnet held to it instead of buttons, so that the box stays watertight
-- a two-colour LED
+- a two-colour LED, lit by the PMIC as well
 
 </details>
 

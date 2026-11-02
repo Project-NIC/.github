@@ -137,16 +137,18 @@ nebo krávy zaznamenávají, jak se zvíře hýbe, všechny na jednom společné
 v počítači, celý záznam potom. Má nahradit levné sady senzorů, které se dnes prodávají, za jejich
 cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na strojích.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.75: celý návrh na papíře, firmware sestavený, aplikace začatá, nic zatím neběželo; 0.8 přijde s deskami
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.8: celý návrh na papíře, desky popsané pro kreslení, firmware sestavený, aplikace začatá, nic zatím neběželo; 0.9 přijde s nakreslenými deskami
 
 <details>
-<summary><b>Části</b> — jednotka, velitel, krabička, stykovka, aplikace</summary>
+<summary><b>Části</b> — jednotky, velitel, krabičky a kufr, stykovka, aplikace</summary>
 
 | část | co to je |
 |---|---|
-| **Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32, na Semjorce, desce, kterou sdílí s Povodokem; na kopytě Ugoljok |
-| **Povodok** | velitel sady, jeden až čtyři v sadě: deska Belky s modulem Fanstel WM02C20C, Wi-Fi na 5 GHz, bez snímače a karty; dává sadě čas a předává, co měří, telefonu nebo počítači přes USB nebo Wi-Fi |
-| **Budka** | krabička Belky i Povodoku, stejná: utěsněné pouzdro Hammond 1551, okénko pro světlo, uchycení |
+| **Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32, na Materince, základní desce, jejíž jádro sdílí každá jednotka; pro velké rázy, na kopytě, Ugoljok; pro průmysl, se surovými daty až do 32 kHz, Zvjozdočka |
+| **Kryska** | malá Belka, pro malá zvířata a běžná vyšetření: modul Fanstel BM20M, paměť na desce, v základu odolná |
+| **Povodok** | velitel sady, jeden až čtyři v sadě: vlastní Materinka s modulem Fanstel WM02C20C, Wi-Fi na 5 GHz, bez snímače a karty; dává sadě čas a předává, co měří, telefonu nebo počítači přes USB nebo Wi-Fi |
+| **Korabl** | krabička jednotky, každá své velikosti: utěsněné pouzdro, okénko pro světlo, uchycení |
+| **Semjorka** | kufr, ve kterém se nosí celá sada |
 | **Stykovka** | cokoliv, k čemu se jednotka připojí nabíjet a přes co jde její USB dál: kabel, nebo nabíjecí stanice pro celou sadu s rozbočovačem USB, každá Belka v ní disk, počítač je zkopíruje všechny najednou |
 | **Pušinka** | aplikace v telefonu nebo počítači, začatá ve Flutteru: jeden kód pro Android, iPhone, Windows, macOS a Linux |
 
@@ -156,14 +158,14 @@ cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na stroj�
 <summary><b>Co je v Belce</b> — moduly a součástky</summary>
 
 - modul Fanstel BM20F: procesor a rádio Nordic nRF54LM20A, vlastní rádio sady na 2,4 GHz, anténa na plošném spoji
-- snímač pohybu na jedněch ploškách: ST LSM6DSV16X, ±16 g a ±4 000 °/s, v klasické verzi; ST LSM6DSV320X, ±16 g a druhý kanál do ±320 g, pro kopyto; TDK ICM-42686-P, ±32 g a ±4 000 °/s, pro průmyslovou verzi se surovými daty až do 32 kHz
+- snímač pohybu na jedněch ploškách: ST LSM6DSV16X, ±16 g a ±4 000 °/s, v Belce; ST LSM6DSV320X, ±16 g a druhý kanál do ±320 g, v Ugoljoku pro kopyto; TDK ICM-42686-P, ±32 g a ±4 000 °/s, ve Zvjozdočce pro surová data až do 32 kHz
 - vlastní karta microSD uživatele ve slotu se zámkem, na celý záznam
 - článek LiFePO4 LTOPOW LFP103042, 3,2 V, 720 mAh
-- nabíječka TI BQ25170 a palivoměr ADI MAX17055
+- PMIC Nordic nPM1300: nabíjení, vypnutí odpojením článku (ship mode), měření článku pro palivoměr Nordicu, budiče světla
 - dva stabilizátory TI TPS7A2030 na 3,0 V
 - pětipinový magnetický kontakt pro nabíjení a USB, zapojený souměrně, takže jde nasadit oběma směry, s ochranou vstupu
 - dva Hallovy spínače TI DRV5032: jednotka se ovládá přiloženým magnetem místo tlačítek, aby krabička zůstala vodotěsná
-- dvoubarevná LED
+- dvoubarevná LED, kterou rozsvěcí i sám PMIC
 
 </details>
 
