@@ -177,7 +177,7 @@ cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na stroj�
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**Neurální oblek** — až 582 elektrod a 98 pohybových senzorů, 56 z nich v rukavicích a ponožkách,
+**Neurální oblek** — až 582 elektrod a 100 pohybových senzorů, 56 z nich v rukavicích a ponožkách,
 na obleku složeném z dílů: rukáv, nohavice, trup, čelenka. Vlastní signály svalů a pohyb těla jdou do počítače v batohu,
 Radxa ROCK 5T s vlastním NPU nebo až se dvěma AI akcelerátory Hailo-10H, a celé tělo se
 stává ovladačem počítače nebo hry. Vedle toho pomůcka pro rehabilitaci: lékař vidí, který sval

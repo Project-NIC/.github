@@ -177,7 +177,7 @@ or below and better in any case; and, as an experiment, vibration on machines.
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**A neural suit** — up to 582 electrodes and 98 motion sensors, 56 of them in the gloves and the
+**A neural suit** — up to 582 electrodes and 100 motion sensors, 56 of them in the gloves and the
 socks, on a suit put together from pieces: a sleeve, a trouser leg, the torso, a headband. The muscles' own signals and the body's
 motion go to a computer in the backpack, a Radxa ROCK 5T with its own NPU or up to two Hailo-10H AI
 accelerators, and the whole body becomes the controller for a computer or a game. Second, an
