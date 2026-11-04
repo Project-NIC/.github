@@ -177,7 +177,7 @@ or below and better in any case; and, as an experiment, vibration on machines.
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**A neural suit** — up to 582 electrodes and 100 motion sensors, 56 of them in the gloves and the
+**A neural suit** — up to 580 electrodes and 100 motion sensors, 56 of them in the gloves and the
 socks, on a suit put together from pieces: a sleeve, a trouser leg, the torso, a headband. The muscles' own signals and the body's
 motion go to a computer in the backpack, a Radxa ROCK 5T with its own NPU or up to two Hailo-10H AI
 accelerators, and the whole body becomes the controller for a computer or a game. Second, an
@@ -199,7 +199,7 @@ aid for rehabilitation: a doctor sees which muscle works and how hard.
 | ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | the little brothers: the small processors on the glove's and the sock's board, one a finger |
 | ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | the Thing, the Addams' hand: the glove, one board on the back of the hand, 16 electrodes and up to 20 motion sensors |
 | ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | the sock: the glove's board for the foot, worn above the ankle |
-| [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | the strongman: where every electrode and motion sensor sits on the body, muscle by muscle, and why |
+| [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | the strongman: the rules, the counts and the motion sensors on the body; the electrodes' places wait for professionals' advice |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | the unit in the headband: headphones, two microphones, vibration and buttons |
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | mum, the base board: the clock for the whole suit, the sound bridge, the line drivers and the suit's power |
 | ↳ [**Chodiki**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#clock) | the wall clock with weights: the one clock the whole suit samples by |

@@ -177,7 +177,7 @@
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**Нейрокостюм** — до 582 электродов и 100 датчиков движения, 56 из них в перчатках и носках, на
+**Нейрокостюм** — до 580 электродов и 100 датчиков движения, 56 из них в перчатках и носках, на
 костюме из частей: рукав, штанина, торс, повязка. Собственные сигналы мышц и движение тела идут в компьютер в
 рюкзаке, Radxa ROCK 5T со своим NPU или с одним или двумя ИИ-ускорителями Hailo-10H, и
 всё тело становится контроллером для компьютера или игры. А ещё помощь в реабилитации: врач
@@ -199,7 +199,7 @@ README по-русски, остальные страницы по-англий�
 | ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | братишки: малые процессоры на плате перчатки и носка, по одному на палец |
 | ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | Вещь, рука семейки Аддамс: перчатка, одна плата на тыльной стороне кисти, 16 электродов и до 20 датчиков движения |
 | ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | носок: плата перчатки для стопы, над лодыжкой |
-| [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | богатырь: где на теле сидит каждый электрод и каждый датчик движения, мышца за мышцей, и почему |
+| [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | богатырь: правила, количества и датчики движения на теле; места электродов ждут совета специалистов |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | блок в повязке: наушники, два микрофона, вибрация и кнопки |
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | мама, базовая плата: такт всего костюма, звуковой мост, драйверы линий и питание костюма |
 | ↳ [**Chodiki**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#clock) | ходики, часы с гирями: единый такт, по которому снимает весь костюм |
