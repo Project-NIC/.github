@@ -177,7 +177,7 @@
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**Нейрокостюм** — до 580 электродов и 100 датчиков движения, 56 из них в перчатках и носках, на
+**Нейрокостюм** — до 580 электродов и 108 датчиков движения, 64 из них в перчатках и носках, на
 костюме из частей: рукав, штанина, торс, повязка. Собственные сигналы мышц и движение тела идут в компьютер в
 рюкзаке, Radxa ROCK 5T со своим NPU или с одним или двумя ИИ-ускорителями Hailo-10H, и
 всё тело становится контроллером для компьютера или игры. А ещё помощь в реабилитации: врач
@@ -196,7 +196,7 @@ README по-русски, остальные страницы по-англий�
 | ↳ [**Strejda Al**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/CONSTRUCTION.md#harness-and-washing) | дядя Эл, в честь Big Gay Al из «Южного парка»: тесный компрессионный комбинезон поверх Кощея, прижимает электроды к телу |
 | ↳ [**Rebjata**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | ребята: измерительные модули, собственные дети Мамки, каждый из них Rebjonok; два ADS1298, 16 каналов ЭМГ и датчики движения |
 | ↳ [**Staršaja**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | старшая: главный процессор каждого измерительного блока, STM32H523 |
-| ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | братишки: малые процессоры на плате перчатки и носка, по одному на палец |
+| ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | братишки: помощники Старшей на плате перчатки и носка, сейчас переключатели, по очереди подающие ей зоны датчиков движения |
 | ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | Вещь, рука семейки Аддамс: перчатка, одна плата на тыльной стороне кисти, 16 электродов и до 20 датчиков движения |
 | ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | носок: плата перчатки для стопы, над лодыжкой |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | богатырь: правила, количества и датчики движения на теле; места электродов ждут совета специалистов |

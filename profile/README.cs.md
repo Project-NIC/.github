@@ -177,7 +177,7 @@ cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na stroj�
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-CrazyIvan.jpg" width="300" alt="Crazy Ivan"/></p>
 
-**Neurální oblek** — až 580 elektrod a 100 pohybových senzorů, 56 z nich v rukavicích a ponožkách,
+**Neurální oblek** — až 580 elektrod a 108 pohybových senzorů, 64 z nich v rukavicích a ponožkách,
 na obleku složeném z dílů: rukáv, nohavice, trup, čelenka. Vlastní signály svalů a pohyb těla jdou do počítače v batohu,
 Radxa ROCK 5T s vlastním NPU nebo až se dvěma AI akcelerátory Hailo-10H, a celé tělo se
 stává ovladačem počítače nebo hry. Vedle toho pomůcka pro rehabilitaci: lékař vidí, který sval
@@ -196,7 +196,7 @@ README česky, ostatní stránky anglicky
 | ↳ [**Strejda Al**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/CONSTRUCTION.md#harness-and-washing) | strejda Al, podle Big Gay Ala ze *South Parku*: těsný kompresní overal přes Kaščeje, přitlačí elektrody k tělu |
 | ↳ [**Rebjata**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | děcka: snímací moduly, Mamčiny vlastní děti, každé z nich Rebjonok; dva ADS1298, 16 kanálů EMG a pohybové senzory |
 | ↳ [**Staršaja**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | nejstarší: hlavní procesor každé snímací jednotky, STM32H523 |
-| ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | bratříčci: malé procesory na desce rukavice a ponožky, jeden na prst |
+| ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | bratříčci: pomocníci Staršaji na desce rukavice a ponožky, dnes přepínače, které jí podávají zóny pohybových senzorů jednu po druhé |
 | ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | Věc, ruka Addamsových: rukavice, jedna deska na hřbetu ruky, 16 elektrod a až 20 pohybových senzorů |
 | ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | ponožka: deska rukavice pro chodidlo, nad kotníkem |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | bohatýr: pravidla, počty a pohybové senzory na těle; místa elektrod čekají na radu odborníků |
