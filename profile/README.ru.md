@@ -197,7 +197,7 @@ README по-русски, остальные страницы по-англий�
 | ↳ [**Rebjata**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | ребята: измерительные модули, собственные дети Мамки, каждый из них Rebjonok; два ADS1298, 16 каналов ЭМГ и датчики движения |
 | ↳ [**Staršaja**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | старшая: главный процессор каждого измерительного блока, STM32H523 |
 | ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | братишки: помощники Старшей на плате перчатки и носка, сейчас переключатели, по очереди подающие ей зоны датчиков движения |
-| ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | Вещь, рука семейки Аддамс: перчатка, одна плата на тыльной стороне кисти, 16 электродов и до 20 датчиков движения |
+| ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | Вещь, рука семейки Аддамс: перчатка, одна плата на тыльной стороне кисти, 16 электродов и до 24 датчиков движения |
 | ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | носок: плата перчатки для стопы, над лодыжкой |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | богатырь: правила, количества и датчики движения на теле; места электродов ждут совета специалистов |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | блок в повязке: наушники, два микрофона, вибрация и кнопки |

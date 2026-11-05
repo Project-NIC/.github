@@ -197,7 +197,7 @@ README česky, ostatní stránky anglicky
 | ↳ [**Rebjata**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | děcka: snímací moduly, Mamčiny vlastní děti, každé z nich Rebjonok; dva ADS1298, 16 kanálů EMG a pohybové senzory |
 | ↳ [**Staršaja**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | nejstarší: hlavní procesor každé snímací jednotky, STM32H523 |
 | ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | bratříčci: pomocníci Staršaji na desce rukavice a ponožky, dnes přepínače, které jí podávají zóny pohybových senzorů jednu po druhé |
-| ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | Věc, ruka Addamsových: rukavice, jedna deska na hřbetu ruky, 16 elektrod a až 20 pohybových senzorů |
+| ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | Věc, ruka Addamsových: rukavice, jedna deska na hřbetu ruky, 16 elektrod a až 24 pohybových senzorů |
 | ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | ponožka: deska rukavice pro chodidlo, nad kotníkem |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | bohatýr: pravidla, počty a pohybové senzory na těle; místa elektrod čekají na radu odborníků |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | jednotka v čelence: sluchátka, dva mikrofony, vibrace a tlačítka |

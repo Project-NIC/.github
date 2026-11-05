@@ -197,7 +197,7 @@ aid for rehabilitation: a doctor sees which muscle works and how hard.
 | ↳ [**Rebjata**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | the kids: the sensing modules, Mamka's own children, each one a Rebjonok; two ADS1298, 16 EMG channels and the motion sensors |
 | ↳ [**Staršaja**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#sensing-module) | the elder: every sensing unit's main processor, an STM32H523 |
 | ↳ [**Bratiški**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | the little brothers: Staršaja's helpers on the glove's and the sock's board, today the switches that hand her each zone of motion sensors in turn |
-| ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | the Thing, the Addams' hand: the glove, one board on the back of the hand, 16 electrodes and up to 20 motion sensors |
+| ↳ [**Vešč**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-glove) | the Thing, the Addams' hand: the glove, one board on the back of the hand, 16 electrodes and up to 24 motion sensors |
 | ↳ [**Nosok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/rubaska/HARDWARE.md#the-sock) | the sock: the glove's board for the foot, worn above the ankle |
 | [**Bogatyr**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bogatyr) | the strongman: the rules, the counts and the motion sensors on the body; the electrodes' places wait for professionals' advice |
 | [**Nataša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/natasa) | the unit in the headband: headphones, two microphones, vibration and buttons |
