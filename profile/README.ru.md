@@ -204,23 +204,23 @@ README по-русски, остальные страницы по-англий�
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | мама, базовая плата: такт всего костюма, звуковой мост, драйверы линий и питание костюма |
 | ↳ [**Chodiki**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#clock) | ходики, часы с гирями: единый такт, по которому снимает весь костюм |
 | ↳ [**Pupovina**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#links-between-boards) | пуповина: восемь линий от Мамки, по одной на часть костюма, с питанием, тактом и данными |
-| ↳ [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#mamkas-own-supply) | кормилица: силовая часть Мамки, её преобразователи и питание компьютеров |
-| ↳ [**Budilnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#budilnik) | будильник: кнопка, которая будит всё семейство |
+| ↳ [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#mamkas-own-supply) | кормилица: питание костюма на Мамке, преобразователи линий, которые кормят её детей |
 | [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | батя, компьютер в рюкзаке: Radxa ROCK 5T, с Умницей, Hailo-10H, или только со своим NPU |
 | ↳ [**Umnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#umnica) | умница: Hailo-10H, учёная дочь, которая думает за батю |
 | ↳ [**Borovičok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#borovičok) | Старичок-Боровичок, муж Бабушки: компьютер Б, приложения и очки |
 | ↳ [**Ďaďa Sem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#ďaďa-sem) | дядя Сэм, живёт на чердаке и всё видит: камеры |
 | ↳ [**Storož**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/SOFTWARE.md#storož) | сторож, наш Трон: когда ломается что-то роковое, останавливает семейство и говорит почему |
+| ↳ [**Budilnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/SOFTWARE.md#budilnik) | будильник: фразой в наушниках будит того, кто оставил костюм в покое, а если никто не отзовётся, укладывает дом спать |
 | ↳ **Nastěnka** | добрая падчерица из «Морозко»: главная программа |
 | ↳ **Macecha** | её мачеха: строгая корректирующая программа, которая ничего не пропустит |
 | ↳ [**Perevodčica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/SOFTWARE.md#output) | переводчица: преобразователи выхода для Unreal, Unity, VRChat, лаборатории или робота |
 | [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | терем: плата в двух слотах M.2 у ROCK 5T, два его Hailo-10H, каждый со своим источником |
 | [**Babuška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/babuska) | бабушка: батарея и её BMS, рюкзак с жёстким корпусом |
-| ↳ [**Ključnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/HARDWARE.md#the-bms) | ключница: BMS, решает, что входит в кладовую Бабушки и что выходит |
+| ↳ [**Ključnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/HARDWARE.md#the-bms) | ключница: BMS, решает, что входит в кладовую Бабушки и что выходит; её кнопка включает и выключает костюм |
 | ↳ **Kommunalka** | коммуналка: рюкзак, где живёт вся семья и делит одну кухню |
 | ↳ [**Mrazík**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/CONSTRUCTION.md#mrazík) | Морозко: закрытый алюминиевый блок охлаждения вокруг компьютера и Мамки |
 | [**Porjadok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/porjadok) | порядок: что действует для каждого модуля, процессор, прошивка и связи |
-| ↳ [**Pitanije**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#power) | питание, и еда, и электропитание: питание костюма от Бабушки до каждого модуля |
+| ↳ [**Pitanije**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#power) | питание, и еда, и электропитание: питание костюма от Бабушки до каждого модуля, с предохранителями и защитами |
 | [**Soňa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/sona) | помощница для глухих: всё время слушает и вибрацией сообщает, что происходит вокруг |
 | [**Míša**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/misa) | помощник, сторож: радар и ультразвук следят за препятствиями и предупреждают через наушники и повязку |
 | [**Taťána**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/tatana) | помощница: печатает, что ей диктуют, и читает текст вслух, книги тоже |

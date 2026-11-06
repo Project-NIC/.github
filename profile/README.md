@@ -204,21 +204,21 @@ aid for rehabilitation: a doctor sees which muscle works and how hard.
 | [**Mamka**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/mamka) | mum, the base board: the clock for the whole suit, the sound bridge, the line drivers and the suit's power |
 | ↳ [**Chodiki**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#clock) | the wall clock with weights: the one clock the whole suit samples by |
 | ↳ [**Pupovina**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#links-between-boards) | the umbilical cord: the eight lines from Mamka, one a piece of the suit, with power, the clock and data |
-| ↳ [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#mamkas-own-supply) | the wet nurse: Mamka's power section, her converters and the computers' supply |
-| ↳ [**Budilnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#budilnik) | the alarm clock: the start button that wakes the whole household |
+| ↳ [**Kormilica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/mamka/HARDWARE.md#mamkas-own-supply) | the wet nurse: the suit's power on Mamka, the lines' converters that feed her children |
 | [**Baťa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/bata) | dad, the computer in the backpack: a Radxa ROCK 5T, with Umnica, the Hailo-10H, or its own NPU alone |
 | ↳ [**Umnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#umnica) | the clever one: a Hailo-10H, the educated daughter who thinks for dad |
 | ↳ [**Borovičok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#borovičok) | Staričok-Borovičok, the little old mushroom man, Babuška's husband: computer B, the applications and the glasses |
 | ↳ [**Ďaďa Sem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/HARDWARE.md#ďaďa-sem) | Uncle Sam, who lives in the attic and watches everything: the cameras |
 | ↳ [**Storož**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/SOFTWARE.md#storož) | the night watchman, our Tron: when something fatal breaks he stops the household and says why |
+| ↳ [**Budilnik**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/bata/SOFTWARE.md#budilnik) | the alarm clock: wakes a wearer who has left the suit alone with a line in the headphones, and if nobody answers puts the household to bed |
 | ↳ **Nastěnka** | the good stepdaughter of *Mrazík*: the main software |
 | ↳ **Macecha** | her stepmother: the strict correcting software that lets nothing through |
 | ↳ [**Perevodčica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/SOFTWARE.md#output) | the interpreter: the output's converters for Unreal, Unity, VRChat, a lab or a robot |
 | [**Terem**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/terem) | the daughters' chamber: the board in the ROCK 5T's two M.2 slots, its two Hailo-10H with a supply each |
 | [**Porjadok**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/porjadok) | order: what holds for every module, the processor, the firmware and the links |
-| ↳ [**Pitanije**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#power) | food, and a power supply: the suit's power from Babuška down to every module |
+| ↳ [**Pitanije**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/porjadok/HARDWARE.md#power) | food, and a power supply: the suit's power from Babuška down to every module, with its fuses and protections |
 | [**Babuška**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/babuska) | grandma: the battery and its BMS, the hard-shell backpack |
-| ↳ [**Ključnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/HARDWARE.md#the-bms) | the housekeeper with the keys: the BMS, which decides what goes in and out of Babuška's pantry |
+| ↳ [**Ključnica**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/HARDWARE.md#the-bms) | the housekeeper with the keys: the BMS, which decides what goes in and out of Babuška's pantry; her button switches the suit on and off |
 | ↳ **Kommunalka** | a communal flat: the backpack, where the whole family lives and shares one kitchen |
 | ↳ [**Mrazík**](https://github.com/Project-NIC/NIC-Crazy_Ivan/blob/main/babuska/CONSTRUCTION.md#mrazík) | Father Frost: the closed aluminium cooling block around the computer and Mamka |
 | [**Soňa**](https://github.com/Project-NIC/NIC-Crazy_Ivan/tree/main/sona) | assistant for the deaf: listens all the time and tells by vibration what is happening around |
