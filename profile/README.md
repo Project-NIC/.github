@@ -144,7 +144,8 @@ or below and better in any case; and, as an experiment, vibration on machines.
 
 | part | what it is |
 |---|---|
-| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | the unit on the animal, with its sensor and its card, 1 to 32 in a set, on Materinka, the base board whose core every unit shares; for large shocks, on the hoof, Ugoljok; for industry, with raw data up to 32 kHz, Zvjozdočka |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | the unit on the animal, with its sensor and its card, 1 to 32 in a set, on Materinka, the base board whose core every unit shares. Ugoljok, for large shocks on the hoof, is described but not made: whoever needs it builds it |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/zvjozdocka.jpg" width="90"/><br/>**Zvjozdočka** | the Belka for industry, with raw data up to 32 kHz: for machines in a hall, a set of its own with its own Povodok |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/kryska.jpg" width="90"/><br/>**Kryska** | the small Belka, for small animals and the ordinary examinations: Fanstel's BM20M, its memory on its board, built sturdy as standard |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | the set's commander, one to four in a set: its own Materinka with Fanstel's WM02C20C, Wi-Fi at 5 GHz, neither sensor nor card; it gives the set its time and passes what it measures to the phone or the computer, by USB or Wi-Fi |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | the box of a unit, each of its own size: the sealed case, its window for the light, its fastening |

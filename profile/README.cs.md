@@ -144,7 +144,8 @@ cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na stroj�
 
 | část | co to je |
 |---|---|
-| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32, na Materince, základní desce, jejíž jádro sdílí každá jednotka; pro velké rázy, na kopytě, Ugoljok; pro průmysl, se surovými daty až do 32 kHz, Zvjozdočka |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32, na Materince, základní desce, jejíž jádro sdílí každá jednotka. Ugoljok, pro velké rázy na kopytě, je popsaný, ale nevyrábí se: kdo ho potřebuje, postaví si ho |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/zvjozdocka.jpg" width="90"/><br/>**Zvjozdočka** | Belka pro průmysl, se surovými daty až do 32 kHz: pro stroje v hale, samostatná sada s vlastním Povodokem |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/kryska.jpg" width="90"/><br/>**Kryska** | malá Belka, pro malá zvířata a běžná vyšetření: modul Fanstel BM20M, paměť na desce, v základu odolná |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | velitel sady, jeden až čtyři v sadě: vlastní Materinka s modulem Fanstel WM02C20C, Wi-Fi na 5 GHz, bez snímače a karty; dává sadě čas a předává, co měří, telefonu nebo počítači přes USB nebo Wi-Fi |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | krabička jednotky, každá své velikosti: utěsněné pouzdro, okénko pro světlo, uchycení |
