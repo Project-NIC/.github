@@ -144,7 +144,7 @@
 
 | часть | что это |
 |---|---|
-| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | блок на животном, с датчиком и картой, в наборе от 1 до 32, на Materinka, базовой плате, ядро которой общее для всех блоков; для сильных ударов, на копыте, — Ugoljok <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/ugoljok.jpg" width="40"/>; для промышленности, с сырыми данными до 32 кГц, — Zvjozdočka <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/zvjozdocka.jpg" width="40"/> |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | блок на животном, с датчиком и картой, в наборе от 1 до 32, на Materinka, базовой плате, ядро которой общее для всех блоков; для сильных ударов, на копыте, — Ugoljok; для промышленности, с сырыми данными до 32 кГц, — Zvjozdočka |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/kryska.jpg" width="90"/><br/>**Kryska** | маленькая Belka, для мелких животных и обычных осмотров: модуль Fanstel BM20M, память на плате, прочная в базовом исполнении |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | командир набора, от одного до четырёх в наборе: своя Materinka с модулем Fanstel WM02C20C, Wi-Fi на 5 ГГц, без датчика и карты; даёт набору время и передаёт то, что он измеряет, на телефон или компьютер по USB или Wi-Fi |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | корпус блока, у каждого своего размера: герметичный корпус, окошко для светодиода, крепление |
