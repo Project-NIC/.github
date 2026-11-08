@@ -144,13 +144,13 @@ cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na stroj�
 
 | část | co to je |
 |---|---|
-| **Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32, na Materince, základní desce, jejíž jádro sdílí každá jednotka; pro velké rázy, na kopytě, Ugoljok; pro průmysl, se surovými daty až do 32 kHz, Zvjozdočka |
-| **Kryska** | malá Belka, pro malá zvířata a běžná vyšetření: modul Fanstel BM20M, paměť na desce, v základu odolná |
-| **Povodok** | velitel sady, jeden až čtyři v sadě: vlastní Materinka s modulem Fanstel WM02C20C, Wi-Fi na 5 GHz, bez snímače a karty; dává sadě čas a předává, co měří, telefonu nebo počítači přes USB nebo Wi-Fi |
-| **Korabl** | krabička jednotky, každá své velikosti: utěsněné pouzdro, okénko pro světlo, uchycení |
-| **Semjorka** | kufr, ve kterém se nosí celá sada |
-| **Stykovka** | cokoliv, k čemu se jednotka připojí nabíjet a přes co jde její USB dál: kabel, nebo nabíjecí stanice pro celou sadu s rozbočovačem USB, každá Belka v ní disk, počítač je zkopíruje všechny najednou |
-| **Pušinka** | aplikace v telefonu nebo počítači, začatá ve Flutteru: jeden kód pro Android, iPhone, Windows, macOS a Linux |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | jednotka na zvířeti, se snímačem a kartou, v sadě jich je 1 až 32, na Materince, základní desce, jejíž jádro sdílí každá jednotka; pro velké rázy, na kopytě, Ugoljok <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/ugoljok.jpg" width="40"/>; pro průmysl, se surovými daty až do 32 kHz, Zvjozdočka <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/zvjozdocka.jpg" width="40"/> |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/kryska.jpg" width="90"/><br/>**Kryska** | malá Belka, pro malá zvířata a běžná vyšetření: modul Fanstel BM20M, paměť na desce, v základu odolná |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | velitel sady, jeden až čtyři v sadě: vlastní Materinka s modulem Fanstel WM02C20C, Wi-Fi na 5 GHz, bez snímače a karty; dává sadě čas a předává, co měří, telefonu nebo počítači přes USB nebo Wi-Fi |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | krabička jednotky, každá své velikosti: utěsněné pouzdro, okénko pro světlo, uchycení |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/semjorka.jpg" width="90"/><br/>**Semjorka** | kufr, ve kterém se nosí celá sada |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/stykovka.jpg" width="90"/><br/>**Stykovka** | součást hardwaru: pětipinový magnetický konektor, na kabelu nebo na stanici pro celou sadu s USB hubem; slouží jen k nabíjení a k USB do počítače, který zkopíruje všechny jednotky naráz |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/pusinka.jpg" width="90"/><br/>**Pušinka** | aplikace v telefonu nebo počítači, její základ ve Flutteru se šesti menu: jeden kód pro Android, iPhone, Windows, macOS a Linux |
 
 </details>
 

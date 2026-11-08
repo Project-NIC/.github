@@ -144,13 +144,13 @@
 
 | часть | что это |
 |---|---|
-| **Belka** | блок на животном, с датчиком и картой, в наборе от 1 до 32, на Materinka, базовой плате, ядро которой общее для всех блоков; для сильных ударов, на копыте, — Ugoljok; для промышленности, с сырыми данными до 32 кГц, — Zvjozdočka |
-| **Kryska** | маленькая Belka, для мелких животных и обычных осмотров: модуль Fanstel BM20M, память на плате, прочная в базовом исполнении |
-| **Povodok** | командир набора, от одного до четырёх в наборе: своя Materinka с модулем Fanstel WM02C20C, Wi-Fi на 5 ГГц, без датчика и карты; даёт набору время и передаёт то, что он измеряет, на телефон или компьютер по USB или Wi-Fi |
-| **Korabl** | корпус блока, у каждого своего размера: герметичный корпус, окошко для светодиода, крепление |
-| **Semjorka** | кейс, в котором носят весь набор |
-| **Stykovka** | всё, к чему блок пристыковывается для зарядки и через что его USB идёт дальше: кабель или зарядная станция для всего набора с USB-концентратором, каждая Belka в ней — диск, и компьютер копирует их все сразу |
-| **Pušinka** | приложение на телефоне или компьютере, начатое на Flutter: один код для Android, iPhone, Windows, macOS и Linux |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | блок на животном, с датчиком и картой, в наборе от 1 до 32, на Materinka, базовой плате, ядро которой общее для всех блоков; для сильных ударов, на копыте, — Ugoljok <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/ugoljok.jpg" width="40"/>; для промышленности, с сырыми данными до 32 кГц, — Zvjozdočka <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/zvjozdocka.jpg" width="40"/> |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/kryska.jpg" width="90"/><br/>**Kryska** | маленькая Belka, для мелких животных и обычных осмотров: модуль Fanstel BM20M, память на плате, прочная в базовом исполнении |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | командир набора, от одного до четырёх в наборе: своя Materinka с модулем Fanstel WM02C20C, Wi-Fi на 5 ГГц, без датчика и карты; даёт набору время и передаёт то, что он измеряет, на телефон или компьютер по USB или Wi-Fi |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | корпус блока, у каждого своего размера: герметичный корпус, окошко для светодиода, крепление |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/semjorka.jpg" width="90"/><br/>**Semjorka** | кейс, в котором носят весь набор |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/stykovka.jpg" width="90"/><br/>**Stykovka** | часть оборудования: пятиконтактный магнитный разъём, на кабеле или на станции для всего набора с USB-хабом; служит только для зарядки и USB к компьютеру, который копирует все блоки разом |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/pusinka.jpg" width="90"/><br/>**Pušinka** | приложение на телефоне или компьютере, его основа на Flutter с шестью меню: один код для Android, iPhone, Windows, macOS и Linux |
 
 </details>
 

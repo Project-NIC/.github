@@ -144,13 +144,13 @@ or below and better in any case; and, as an experiment, vibration on machines.
 
 | part | what it is |
 |---|---|
-| **Belka** | the unit on the animal, with its sensor and its card, 1 to 32 in a set, on Materinka, the base board whose core every unit shares; for large shocks, on the hoof, Ugoljok; for industry, with raw data up to 32 kHz, Zvjozdočka |
-| **Kryska** | the small Belka, for small animals and the ordinary examinations: Fanstel's BM20M, its memory on its board, built sturdy as standard |
-| **Povodok** | the set's commander, one to four in a set: its own Materinka with Fanstel's WM02C20C, Wi-Fi at 5 GHz, neither sensor nor card; it gives the set its time and passes what it measures to the phone or the computer, by USB or Wi-Fi |
-| **Korabl** | the box of a unit, each of its own size: the sealed case, its window for the light, its fastening |
-| **Semjorka** | the case that carries a whole set |
-| **Stykovka** | whatever a unit docks onto to charge, its USB going on through it: a lead, or a station for the whole set with a USB hub, every Belka in it a disk, a computer copying them all at once |
-| **Pušinka** | the application on the phone or the computer, begun in Flutter: one code for Android, iPhone, Windows, macOS and Linux |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/belka.jpg" width="90"/><br/>**Belka** | the unit on the animal, with its sensor and its card, 1 to 32 in a set, on Materinka, the base board whose core every unit shares; for large shocks, on the hoof, Ugoljok <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/ugoljok.jpg" width="40"/>; for industry, with raw data up to 32 kHz, Zvjozdočka <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/zvjozdocka.jpg" width="40"/> |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/kryska.jpg" width="90"/><br/>**Kryska** | the small Belka, for small animals and the ordinary examinations: Fanstel's BM20M, its memory on its board, built sturdy as standard |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | the set's commander, one to four in a set: its own Materinka with Fanstel's WM02C20C, Wi-Fi at 5 GHz, neither sensor nor card; it gives the set its time and passes what it measures to the phone or the computer, by USB or Wi-Fi |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | the box of a unit, each of its own size: the sealed case, its window for the light, its fastening |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/semjorka.jpg" width="90"/><br/>**Semjorka** | the case that carries a whole set |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/stykovka.jpg" width="90"/><br/>**Stykovka** | part of the hardware: the five-pin magnetic contact, on a lead or on a station for the whole set with a USB hub; it serves the charge and USB to a computer alone, a computer copying every unit at once |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/pusinka.jpg" width="90"/><br/>**Pušinka** | the application on the phone or the computer, its base in Flutter with its six menus: one code for Android, iPhone, Windows, macOS and Linux |
 
 </details>
 
