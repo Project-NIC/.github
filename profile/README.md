@@ -138,7 +138,7 @@ the head of a dog, a horse or a cow record how it moves, all on one common time:
 a computer, the whole record afterwards. To replace the cheap sensor sets sold today, at their price
 or below and better in any case; and, as an experiment, vibration on machines.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.85: the whole design on paper, the boards described for drawing, the firmware built, the application's base with its six menus, nothing run yet; 0.9 comes with the drawn boards
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.86: the whole design on paper, the boards described for drawing, the firmware built, the application's base with its six menus, nothing run yet; 0.9 comes with the drawn boards
 
 <details>
 <summary><b>The parts</b> — the units, the commander, the boxes and the case, the docking, the application</summary>

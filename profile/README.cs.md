@@ -137,7 +137,7 @@ nebo krávy zaznamenávají, jak se zvíře hýbe, všechny na jednom společné
 v počítači, celý záznam potom. Má nahradit levné sady senzorů, které se dnes prodávají, za jejich
 cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na strojích.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.85: celý návrh na papíře, desky popsané pro kreslení, firmware sestavený, základ aplikace se šesti menu, nic zatím neběželo; 0.9 přijde s nakreslenými deskami
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.86: celý návrh na papíře, desky popsané pro kreslení, firmware sestavený, základ aplikace se šesti menu, nic zatím neběželo; 0.9 přijde s nakreslenými deskami
 
 <details>
 <summary><b>Části</b> — jednotky, velitel, krabičky a kufr, stykovka, aplikace</summary>
