@@ -239,28 +239,31 @@ aid for rehabilitation: a doctor sees which muscle works and how hard.
 
 <p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Sluchalo.jpg" width="300" alt="Sluchalo"/></p>
 
-**What is in a wall, seen by the shadow Wi-Fi casts through it** — a hand-held head with eleven
-Wi-Fi receivers slides along one face of a wall while a small box behind the other face sends; a
-cable, a pipe or a steel stud between them dims the field, and the head maps where. For brick
-walls it also taps the wall and listens. The head is 167 mm across: a ring of nine antennas
-30 × 29 mm on a circle of 65,8 mm radius around a crossed pair, 15 mm of foam with a hard sliding
-sheet against the wall, about 0,36 kg before the housing, about three hours on two 18650 cells.
-Every setting and all the raw data stay open.
+**What is in a wall, seen by the shadow Wi-Fi casts through it** — a small box behind one face of
+the wall sends; a hand-held head with ten Wi-Fi receivers turns once on a rod held to the other face,
+and a cable, a pipe or a steel stud between them shows as a shape in the picture it draws. Every
+receiver runs on its own crystal: the picture is drawn from amplitudes alone, the sender's own wave
+the reference that focuses it. The head is about 18 cm across: eight bought dual-band antennas in a
+ring and two in the middle, on a metal face held 15 mm off the wall; ready-made, certified modules
+throughout. Beside it a voltage tester. Every setting and all the raw data stay open.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.1, a concept: the physics computed, the head and its electronics on paper; nothing built or measured yet
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.2, on paper: the purpose, the requirements, the architecture, the physics roughly computed and the parts; nothing built or measured yet
 
 <details>
-<summary><b>The parts</b> — the lantern, the ring, the woodpecker and the rest</summary>
+<summary><b>The parts</b> — the spark, the lantern, the collective farm and the rest</summary>
 
 | part | what it is |
 |---|---|
-| **Fonar** | the lantern: the sender behind the wall, two ESP32-C5 boards with crossed antennas taking turns |
-| **Kolchoz** | the collective farm: the ring of nine receivers that work as one, and the crossed pair in the middle — eleven ESP32-C5 on one clock |
-| **Datel** | the woodpecker: a knock through a plastic rod in the middle, eight microphones around it |
-| **Razvedčik** | the scout: two optical-flow sensors that track the head over the wall |
-| **Gensek** | the general secretary: one STM32H7A3 over everything |
-| **Pajok** | the ration: two 18650 cells |
-| **Gradusnik** | the thermometer: a thermal sensor, postponed |
+| **Iskra** | the spark: the sender behind the wall, two crossed antennas taking turns |
+| **Fonar** | the lantern: the tool held to the wall — Valenki and Kolchoz |
+| **Valenki** | the felt boots: the undercarriage — **Kuří nožka**, the rod the head turns on, and the grip |
+| **Kolchoz** | the collective farm: the head — everything that turns |
+| **Brigáda** | the work brigade: eight receivers in a ring, the **Mužíci**, each with its antenna, its **Kosa** |
+| **Předseda** | the chairman: the pair in the middle, with **Serp** and **Molot**, the only senders in the head |
+| **Gensek** | the general secretary: one processor over everything |
+| **Iljič** | Ilyich's lamp: the voltage tester |
+| **Pravda**, **Matjugalnik** | the newspaper and the loudhailer: the display and the sound |
+| **Levša** | Leskov's left-handed smith: the construction |
 
 </details>
 
