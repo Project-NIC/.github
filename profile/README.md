@@ -47,8 +47,8 @@ networks, and a viewer. **Closed at v1.2 — the final version.**
 **One self-contained measuring station for the solid Earth, the atmosphere and the ionosphere** —
 an enclosure with the head, the clock and the cards, and whatever units a site needs, all on one
 clocked bus. Swap the units and it is a different instrument on the same bus and the same code.
-**Version 0.3 — a design-stage concept:** every board described to the part, the code above the
-pins written and tested on a PC, nothing built yet.
+**Version 0.4 — a design-stage concept:** every board described to the part, the code above the
+pins written and tested on a PC — the head's whole of it now — nothing built yet.
 Its READMEs read in English, Czech and Russian.
 
 → **[Project-NIC/NIC-Heimdall](https://github.com/Project-NIC/NIC-Heimdall)**
