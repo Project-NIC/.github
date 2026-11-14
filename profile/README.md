@@ -138,7 +138,7 @@ the head of a dog, a horse or a cow record how it moves, all on one common time:
 a computer, the whole record afterwards. To replace the cheap sensor sets sold today, at their price
 or below and better in any case; and, as an experiment, vibration on machines.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.86: the whole design on paper, the boards described for drawing, the firmware built, the application's base with its six menus, nothing run yet; 0.9 comes with the drawn boards
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.87: the whole design on paper, the boards described for drawing, the firmware built, the application's base with its six menus, nothing run yet; 0.9 comes with the drawn boards
 
 <details>
 <summary><b>The parts</b> — the units, the commander, the boxes and the case, the docking, the application</summary>
@@ -151,6 +151,7 @@ or below and better in any case; and, as an experiment, vibration on machines.
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | the set's commander, one to four in a set: its own Materinka with Fanstel's WM02C20C, Wi-Fi at 5 GHz, neither sensor nor card; it gives the set its time and passes what it measures to the phone or the computer, by USB or Wi-Fi |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | the box of a unit, each of its own size: the sealed case, its window for the light, its fastening |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/semjorka.jpg" width="90"/><br/>**Semjorka** | the case that carries a whole set |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/koroljov.jpg" width="90"/><br/>**Koroljov** | the builder: the unit and the set as a structure — the Korabls, the unit on the body, Stykovka and Semjorka |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/stykovka.jpg" width="90"/><br/>**Stykovka** | part of the hardware: the five-pin magnetic contact, on a lead or on a station for the whole set with a USB hub; it serves the charge and USB to a computer alone, a computer copying every unit at once |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/pusinka.jpg" width="90"/><br/>**Pušinka** | the application on the phone or the computer, its base in Flutter with its six menus: one code for Android, iPhone, Windows, macOS and Linux |
 

@@ -137,7 +137,7 @@ nebo krávy zaznamenávají, jak se zvíře hýbe, všechny na jednom společné
 v počítači, celý záznam potom. Má nahradit levné sady senzorů, které se dnes prodávají, za jejich
 cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na strojích.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.86: celý návrh na papíře, desky popsané pro kreslení, firmware sestavený, základ aplikace se šesti menu, nic zatím neběželo; 0.9 přijde s nakreslenými deskami
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — beta 0.87: celý návrh na papíře, desky popsané pro kreslení, firmware sestavený, základ aplikace se šesti menu, nic zatím neběželo; 0.9 přijde s nakreslenými deskami
 
 <details>
 <summary><b>Části</b> — jednotky, velitel, krabičky a kufr, stykovka, aplikace</summary>
@@ -150,6 +150,7 @@ cenu nebo levněji a v každém případě lépe; a pokusně i vibrace na stroj�
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | velitel sady, jeden až čtyři v sadě: vlastní Materinka s modulem Fanstel WM02C20C, Wi-Fi na 5 GHz, bez snímače a karty; dává sadě čas a předává, co měří, telefonu nebo počítači přes USB nebo Wi-Fi |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | krabička jednotky, každá své velikosti: utěsněné pouzdro, okénko pro světlo, uchycení |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/semjorka.jpg" width="90"/><br/>**Semjorka** | kufr, ve kterém se nosí celá sada |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/koroljov.jpg" width="90"/><br/>**Koroljov** | stavitel: jednotka a sada jako stavba — Korably, jednotka na těle, Stykovka a Semjorka |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/stykovka.jpg" width="90"/><br/>**Stykovka** | součást hardwaru: pětipinový magnetický konektor, na kabelu nebo na stanici pro celou sadu s USB hubem; slouží jen k nabíjení a k USB do počítače, který zkopíruje všechny jednotky naráz |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/pusinka.jpg" width="90"/><br/>**Pušinka** | aplikace v telefonu nebo počítači, její základ ve Flutteru se šesti menu: jeden kód pro Android, iPhone, Windows, macOS a Linux |
 

@@ -138,7 +138,7 @@
 на телефоне или компьютере, вся запись потом. Замена дешёвым наборам датчиков, которые продают
 сегодня, по их цене или ниже и в любом случае лучше; а в порядке опыта — и вибрация на машинах.
 
-→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — бета 0.86: весь проект на бумаге, платы описаны для рисования, прошивка собрана, основа приложения с шестью меню, ничего ещё не запускалось; 0.9 придёт с нарисованными платами
+→ **[Project-NIC/NIC-Strelka](https://github.com/Project-NIC/NIC-Strelka)** — бета 0.87: весь проект на бумаге, платы описаны для рисования, прошивка собрана, основа приложения с шестью меню, ничего ещё не запускалось; 0.9 придёт с нарисованными платами
 
 <details>
 <summary><b>Части</b> — блоки, командир, корпуса и кейс, стыковка, приложение</summary>
@@ -151,6 +151,7 @@
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/povodok.jpg" width="90"/><br/>**Povodok** | командир набора, от одного до четырёх в наборе: своя Materinka с модулем Fanstel WM02C20C, Wi-Fi на 5 ГГц, без датчика и карты; даёт набору время и передаёт то, что он измеряет, на телефон или компьютер по USB или Wi-Fi |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/korabl.jpg" width="90"/><br/>**Korabl** | корпус блока, у каждого своего размера: герметичный корпус, окошко для светодиода, крепление |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/semjorka.jpg" width="90"/><br/>**Semjorka** | кейс, в котором носят весь набор |
+| <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/koroljov.jpg" width="90"/><br/>**Koroljov** | строитель: блок и набор как конструкция — коробки Korabl, блок на теле, Stykovka и Semjorka |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/stykovka.jpg" width="90"/><br/>**Stykovka** | часть оборудования: пятиконтактный магнитный разъём, на кабеле или на станции для всего набора с USB-хабом; служит только для зарядки и USB к компьютеру, который копирует все блоки разом |
 | <img src="https://github.com/Project-NIC/NIC-Strelka/raw/main/pictures/pusinka.jpg" width="90"/><br/>**Pušinka** | приложение на телефоне или компьютере, его основа на Flutter с шестью меню: один код для Android, iPhone, Windows, macOS и Linux |
 
