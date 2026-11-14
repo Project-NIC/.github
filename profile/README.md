@@ -247,7 +247,7 @@ the reference that focuses it. The head is about 18 cm across: eight bought dual
 ring and two in the middle, on a metal face held 15 mm off the wall; ready-made, certified modules
 throughout. Beside it a voltage tester. Every setting and all the raw data stay open.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.2, on paper: the purpose, the requirements, the architecture, the physics roughly computed and the parts; nothing built or measured yet
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.2, on paper: the purpose, the requirements, the architecture, the physics roughly computed and the parts; nothing built or measured yet; next, the trial at a real wall that decides it
 
 <details>
 <summary><b>The parts</b> — the spark, the lantern, the collective farm and the rest</summary>

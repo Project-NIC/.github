@@ -246,7 +246,7 @@ vysílače. Hlava má průměr asi 18 cm: osm koupených dvoupásmových antén 
 kovovém čele drženém 15 mm od zdi; všude hotové certifikované moduly. K tomu zkoušečka napětí.
 Každé nastavení i všechna surová data zůstávají otevřená.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.2, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky; nic ještě není postavené ani změřené
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.2, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky; nic ještě není postavené ani změřené; dál pokus na skutečné zdi, který to rozhodne
 
 <details>
 <summary><b>Části</b> — jiskra, lucerna, kolchoz a ostatní</summary>
