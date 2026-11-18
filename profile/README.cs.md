@@ -105,10 +105,10 @@ napsaný a otestovaný na počítači — u hlavy už celý — zatím nic posta
 | [**Atlantis**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/atlantis) | stavba do vody — Pascal a Gauss u pobřeží; dlouhá hluboká trasa je odložená |
 | [**Daedalus**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/daedalus) | stavba stanice — stožár, uzemnění, skříň, šachta, kabely |
 | [**Gaia**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gaia) | atlas umístění — kam po planetě stanice patří |
-| [**HMC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HMC.md) | Heimdall Matryoshka Container — archiv stanice, od karty po server |
-| [**HCC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HCC.md) | Heimdall Compression Codec — bezeztrátový, sloupec po sloupci; referenční implementace v Pythonu s testy |
+| [**MLF**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/MLF.md) | Matroshka Log File — archiv stanice, od karty po server; profil Heimdallu na jádře z NIC-SDK |
+| [**NRC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/NRC.md) | NIC Rice Codec — bezeztrátový, sloupec po sloupci; profil Heimdallu na jádře z NIC-SDK |
 | [**Exporters**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/EXPORTERS.md) | archiv ve formátech, které svět přijímá — miniSEED, IAGA-2002, RINEX, BUFR, CSV, SQL, … |
-| [**Server**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HMC.md#on-the-server) | soubory jako závazný archiv, katalog nad nimi a prohlížeč |
+| [**Server**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/MLF.md#on-the-server) | soubory jako závazný archiv, katalog nad nimi a prohlížeč |
 | [**Handset**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/mayak/handset) | aplikace pro uvedení do provozu — telefon u otevřené skříně, přes BLE |
 
 </details>
@@ -312,7 +312,7 @@ projektů: napsané jednou, každý projekt si připne svou verzi. Jako první *
 bloky o velikosti sektoru, každý se svým CRC; proudy s vlastní rychlostí; každá hodnota popsaná
 přímo v souboru.
 
-→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.3: jádro MUF, jeho zapisovač a čtečka v C i v Pythonu, navzájem shodné bajt po bajtu; převod do GPX; další exporty a prohlížeč přijdou
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.4: jádro MUF, jeho zapisovač a čtečka v C i v Pythonu, navzájem shodné bajt po bajtu; převod do GPX; MLF a NRC, jejich jádra v C i v Pythonu; další exporty a prohlížeč přijdou
 
 <details>
 <summary><b>Části</b></summary>
@@ -320,6 +320,8 @@ přímo v souboru.
 | část | co to je |
 |---|---|
 | **MUF** | Matroshka Universal File — formát záznamu, jako první ho píše NIC-Tiros |
+| [**MLF**](https://github.com/Project-NIC/NIC-SDK/blob/main/MLF.md) | Matroshka Log File — dynamický kontejner vedle MUF: záznamy libovolné délky, kodek pro každý segment |
+| [**NRC**](https://github.com/Project-NIC/NIC-SDK/blob/main/NRC.md) | NIC Rice Codec — bezeztrátové celočíselné řady do jednoho bitového proudu, bez tabulky |
 
 </details>
 

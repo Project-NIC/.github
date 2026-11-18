@@ -106,10 +106,10 @@
 | [**Atlantis**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/atlantis) | морское исполнение — Pascal и Gauss у берега; длинная глубоководная линия отложена |
 | [**Daedalus**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/daedalus) | постройка станции — мачта, заземление, корпус, колодец, кабели |
 | [**Gaia**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gaia) | атлас размещения — где на планете стоят станции |
-| [**HMC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HMC.md) | Heimdall Matryoshka Container — архив станции, от карты до сервера |
-| [**HCC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HCC.md) | Heimdall Compression Codec — без потерь, столбец за столбцом; эталонная реализация на Python с тестами |
+| [**MLF**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/MLF.md) | Matroshka Log File — архив станции, от карты до сервера; профиль Heimdall на ядре из NIC-SDK |
+| [**NRC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/NRC.md) | NIC Rice Codec — без потерь, столбец за столбцом; профиль Heimdall на ядре из NIC-SDK |
 | [**Exporters**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/EXPORTERS.md) | архив в форматах, которые принимает мир — miniSEED, IAGA-2002, RINEX, BUFR, CSV, SQL, … |
-| [**Server**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HMC.md#on-the-server) | файлы как основной архив, каталог над ними и просмотрщик |
+| [**Server**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/MLF.md#on-the-server) | файлы как основной архив, каталог над ними и просмотрщик |
 | [**Handset**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/mayak/handset) | приложение для ввода в эксплуатацию — телефон у открытого корпуса, через BLE |
 
 </details>
@@ -314,7 +314,7 @@ README по-русски, остальные страницы по-англий�
 формат записи: блоки размером с сектор, каждый со своим CRC; потоки со своей частотой; каждое
 значение описано в самом файле.
 
-→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.3: ядро MUF, запись и чтение на C и на Python, совпадающие байт в байт; экспорт в GPX; другие экспорты и просмотр — впереди
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.4: ядро MUF, запись и чтение на C и на Python, совпадающие байт в байт; экспорт в GPX; MLF и NRC, их ядра на C и на Python; другие экспорты и просмотр — впереди
 
 <details>
 <summary><b>Части</b></summary>
@@ -322,6 +322,8 @@ README по-русски, остальные страницы по-англий�
 | часть | что это |
 |---|---|
 | **MUF** | Matroshka Universal File — формат записи, первым его пишет NIC-Tiros |
+| [**MLF**](https://github.com/Project-NIC/NIC-SDK/blob/main/MLF.md) | Matroshka Log File — динамический контейнер рядом с MUF: записи любой длины, кодек на каждый сегмент |
+| [**NRC**](https://github.com/Project-NIC/NIC-SDK/blob/main/NRC.md) | NIC Rice Codec — целочисленные ряды без потерь в один битовый поток, без таблицы |
 
 </details>
 

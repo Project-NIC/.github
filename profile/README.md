@@ -106,10 +106,10 @@ Its READMEs read in English, Czech and Russian.
 | [**Atlantis**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/atlantis) | the water build — Pascal and Gauss off shore; the long deep run is shelved |
 | [**Daedalus**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/daedalus) | building the station — mast, earthing, enclosure, vault, cables |
 | [**Gaia**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/gaia) | the siting atlas — where the stations go across the planet |
-| [**HMC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HMC.md) | Heimdall Matryoshka Container — the station's archive, from the card to the server |
-| [**HCC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HCC.md) | Heimdall Compression Codec — lossless, column by column; a Python reference with its tests |
+| [**MLF**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/MLF.md) | Matroshka Log File — the station's archive, from the card to the server; Heimdall's profile on NIC-SDK's core |
+| [**NRC**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/NRC.md) | NIC Rice Codec — lossless, column by column; Heimdall's profile on NIC-SDK's core |
 | [**Exporters**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/EXPORTERS.md) | the archive in the world's formats — miniSEED, IAGA-2002, RINEX, BUFR, CSV, SQL, … |
-| [**Server**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/HMC.md#on-the-server) | the files as the archive of record, a catalogue over them, and the viewer |
+| [**Server**](https://github.com/Project-NIC/NIC-Heimdall/blob/main/core/archive/MLF.md#on-the-server) | the files as the archive of record, a catalogue over them, and the viewer |
 | [**Handset**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/mayak/handset) | the commissioning app — the phone at the open enclosure, over BLE |
 
 </details>
@@ -313,7 +313,7 @@ steers nothing.
 uses, written once and pinned by each project. First **MUF**, the record format: blocks of a
 sector, each with its CRC; streams at their own rates; every value described in the file itself.
 
-→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.3: MUF's core, its writer and reader in C and in Python, held to each other byte for byte; MUF to GPX; more exporters and a viewer to come
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.4: MUF's core, its writer and reader in C and in Python, held to each other byte for byte; MUF to GPX; MLF and NRC, their cores in C and in Python; more exporters and a viewer to come
 
 <details>
 <summary><b>The parts</b></summary>
@@ -321,6 +321,8 @@ sector, each with its CRC; streams at their own rates; every value described in 
 | part | what it is |
 |---|---|
 | **MUF** | Matroshka Universal File — the record format, first written by NIC-Tiros |
+| [**MLF**](https://github.com/Project-NIC/NIC-SDK/blob/main/MLF.md) | Matroshka Log File — the dynamic container beside MUF: records of any length, a codec per segment |
+| [**NRC**](https://github.com/Project-NIC/NIC-SDK/blob/main/NRC.md) | NIC Rice Codec — lossless integer series into one bit stream, no table |
 
 </details>
 
