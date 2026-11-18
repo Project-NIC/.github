@@ -312,7 +312,7 @@ projektů: napsané jednou, každý projekt si připne svou verzi. Jako první *
 bloky o velikosti sektoru, každý se svým CRC; proudy s vlastní rychlostí; každá hodnota popsaná
 přímo v souboru.
 
-→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.2: jádro MUF, jeho zapisovač a čtečka v C i v Pythonu, navzájem shodné bajt po bajtu; exporty a prohlížeč přijdou
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.3: jádro MUF, jeho zapisovač a čtečka v C i v Pythonu, navzájem shodné bajt po bajtu; převod do GPX; další exporty a prohlížeč přijdou
 
 <details>
 <summary><b>Části</b></summary>
