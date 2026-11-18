@@ -313,7 +313,7 @@ steers nothing.
 uses, written once and pinned by each project. First **MUF**, the record format: blocks of a
 sector, each with its CRC; streams at their own rates; every value described in the file itself.
 
-→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.1: MUF's core; its writer, reader, exporters and viewer to come
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.2: MUF's core, its writer and reader in C and in Python, held to each other byte for byte; its exporters and a viewer to come
 
 <details>
 <summary><b>The parts</b></summary>
