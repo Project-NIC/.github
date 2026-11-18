@@ -274,6 +274,60 @@ throughout. Beside it a voltage tester. Every setting and all the raw data stay 
 
 ---
 
+# NIC-Tiros
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Tiros.jpg" width="300" alt="Tiros"/></p>
+
+**A flight recorder that is found again** — a narrow board for a model rocket, a model plane or a
+drone: acceleration to ±320 g, rotation, the magnetic field, the air's pressure, temperature and
+humidity, written at full rate into its own memory; a live view over LoRa while it flies, and its
+position after it lands — until a receiver on the ground leads you to it, the last metres by the
+signal alone, a fox hunt. Ordinary parts, at a fraction of what such trackers are sold for. It
+steers nothing.
+
+→ **[Project-NIC/NIC-Tiros](https://github.com/Project-NIC/NIC-Tiros)** — 0.6, a concept: the purpose, the requirements, the architecture, the sums and the parts settled; the radio's frames, the settings, the boot log, the firmware's states and the receiver's page agreed; no board drawn, nothing built yet
+
+<details>
+<summary><b>The parts</b> — the monkeys, the rocket man, the capsules</summary>
+
+| part | what it is |
+|---|---|
+| **Able** | the big unit, for a plane or a drone — after the rhesus monkey flown on a Jupiter rocket in 1959 and recovered alive |
+| **Baker** | the small unit, for a rocket — after the squirrel monkey, Able's companion on the same flight |
+| **Ham** | the receiver on the ground, and the finder — after the chimpanzee of Mercury-Redstone 2, 1961 |
+| **Goddard** | the construction, the boards — after Robert Goddard, the first liquid-fuelled rocket, 1926 |
+| **Hamilton** | the firmware — after Margaret Hamilton, who led Apollo's flight software |
+| **Mercury**, **Gemini** | Baker's and Able's housings, one seat and two — a recommendation to the builder, not a drawn box |
+
+</details>
+
+<br>
+
+---
+
+# NIC-SDK
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-SDK.jpg" width="300" alt="SDK"/></p>
+
+**Project-NIC's shared libraries, formats and tools** — one home for what more than one project
+uses, written once and pinned by each project. First **MUF**, the record format: blocks of a
+sector, each with its CRC; streams at their own rates; every value described in the file itself.
+
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.1: MUF's core; its writer, reader, exporters and viewer to come
+
+<details>
+<summary><b>The parts</b></summary>
+
+| part | what it is |
+|---|---|
+| **MUF** | Matroshka Universal File — the record format, first written by NIC-Tiros |
+
+</details>
+
+<br>
+
+---
+
 # ★ N.I.C. ★
 ## NIC — Native Intellect Community
 ### Viva la résistance! ✊

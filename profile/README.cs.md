@@ -273,6 +273,60 @@ Každé nastavení i všechna surová data zůstávají otevřená.
 
 ---
 
+# NIC-Tiros
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Tiros.jpg" width="300" alt="Tiros"/></p>
+
+**Letový zapisovač, který se najde** — úzká destička do modelu rakety, letadla nebo dronu:
+zrychlení až ±320 g, otáčení, magnetické pole, tlak, teplota a vlhkost vzduchu, vše v plné
+rychlosti do vlastní paměti; za letu živý náhled přes LoRa, po přistání poloha — dokud tě
+přijímač na zemi k jednotce nedovede, posledních pár metrů jen podle signálu, jako hon na lišku.
+Běžné součástky, za zlomek ceny prodávaných lokátorů. Nic neřídí.
+
+→ **[Project-NIC/NIC-Tiros](https://github.com/Project-NIC/NIC-Tiros)** — 0.6, koncept: účel, požadavky, architektura, výpočty a součástky hotové; rádiové rámce, nastavení, bootovací log, stavy firmwaru a stránka přijímače odsouhlasené; deska ještě nenakreslená, nic postaveno
+
+<details>
+<summary><b>Části</b> — opičky, raketový konstruktér, kabiny</summary>
+
+| část | co to je |
+|---|---|
+| **Able** | velká jednotka do letadla nebo dronu — podle makaka, který v roce 1959 letěl na raketě Jupiter a vrátil se živý |
+| **Baker** | malá jednotka do rakety — podle opičky kotula, Ableovy parťačky ze stejného letu |
+| **Ham** | přijímač na zemi a hledač — podle šimpanze z letu Mercury-Redstone 2, 1961 |
+| **Goddard** | konstrukce, desky — podle Roberta Goddarda, první raketa na kapalné palivo, 1926 |
+| **Hamilton** | firmware — podle Margaret Hamilton, která vedla palubní software Apolla |
+| **Mercury**, **Gemini** | krabičky Bakera a Ablea, jednomístná a dvoumístná — doporučení pro stavitele, ne nakreslená krabička |
+
+</details>
+
+<br>
+
+---
+
+# NIC-SDK
+
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-SDK.jpg" width="300" alt="SDK"/></p>
+
+**Sdílené knihovny, formáty a nástroje Project-NIC** — jeden domov pro to, co používá víc
+projektů: napsané jednou, každý projekt si připne svou verzi. Jako první **MUF**, formát záznamu:
+bloky o velikosti sektoru, každý se svým CRC; proudy s vlastní rychlostí; každá hodnota popsaná
+přímo v souboru.
+
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.1: jádro MUF; zapisovač, čtečka, exporty a prohlížeč přijdou
+
+<details>
+<summary><b>Části</b></summary>
+
+| část | co to je |
+|---|---|
+| **MUF** | Matroshka Universal File — formát záznamu, jako první ho píše NIC-Tiros |
+
+</details>
+
+<br>
+
+---
+
 # ★ N.I.C. ★
 ## NIC — Native Intellect Community
 ### Viva la résistance! ✊
