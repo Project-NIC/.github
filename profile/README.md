@@ -14,6 +14,8 @@
 
 # NIC-Arduino
 
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Arduino.jpg" width="300" alt="Arduino"/></p>
+
 **The storage, transport and viewer stack for small devices** — a crash-safe log format, optional
 compression and encryption, the bridges in and out, exporters for the seismic and geomagnetic
 networks, and a viewer. **Closed at v1.2 — the final version.**

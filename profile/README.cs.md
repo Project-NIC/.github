@@ -14,6 +14,8 @@
 
 # NIC-Arduino
 
+<p align="center"><img src="https://github.com/Project-NIC/.github/raw/main/profile/NIC-Arduino.jpg" width="300" alt="Arduino"/></p>
+
 **Software pro ukládání, přenos a prohlížení dat z malých zařízení** — formát záznamu odolný proti
 výpadku, volitelná komprese a šifrování, mosty dovnitř a ven, exportéry pro seismické
 a geomagnetické sítě a prohlížeč. **Uzavřeno ve verzi 1.2 — finální verze.**
