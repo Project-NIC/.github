@@ -283,7 +283,7 @@ rychlosti do vlastní paměti; za letu živý náhled přes LoRa, po přistání
 přijímač na zemi k jednotce nedovede, posledních pár metrů jen podle signálu, jako hon na lišku.
 Běžné součástky, za zlomek ceny prodávaných lokátorů. Nic neřídí.
 
-→ **[Project-NIC/NIC-Tiros](https://github.com/Project-NIC/NIC-Tiros)** — 0.6, koncept: účel, požadavky, architektura, výpočty a součástky hotové; rádiové rámce, nastavení, bootovací log, stavy firmwaru a stránka přijímače odsouhlasené; deska ještě nenakreslená, nic postaveno
+→ **[Project-NIC/NIC-Tiros](https://github.com/Project-NIC/NIC-Tiros)** — 0.7, koncept: účel, požadavky, architektura, výpočty a součástky hotové, antény vybrané; rádiové rámce, nastavení, bootovací log, stavy firmwaru a stránka přijímače odsouhlasené, jádro firmwaru napsané a otestované na počítači; deska ještě nenakreslená, nic postaveno
 
 <details>
 <summary><b>Části</b> — opičky, raketový konstruktér, kabiny</summary>

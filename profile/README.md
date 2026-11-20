@@ -285,7 +285,7 @@ position after it lands — until a receiver on the ground leads you to it, the 
 signal alone, a fox hunt. Ordinary parts, at a fraction of what such trackers are sold for. It
 steers nothing.
 
-→ **[Project-NIC/NIC-Tiros](https://github.com/Project-NIC/NIC-Tiros)** — 0.6, a concept: the purpose, the requirements, the architecture, the sums and the parts settled; the radio's frames, the settings, the boot log, the firmware's states and the receiver's page agreed; no board drawn, nothing built yet
+→ **[Project-NIC/NIC-Tiros](https://github.com/Project-NIC/NIC-Tiros)** — 0.7, a concept: the purpose, the requirements, the architecture, the sums and the parts settled, the antennas chosen; the radio's frames, the settings, the boot log, the firmware's states and the receiver's page agreed, the firmware's core written and tested on a computer; no board drawn, nothing built yet
 
 <details>
 <summary><b>The parts</b> — the monkeys, the rocket man, the capsules</summary>
