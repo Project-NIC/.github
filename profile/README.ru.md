@@ -49,9 +49,10 @@
 **Одна автономная измерительная станция для твёрдой Земли, атмосферы и ионосферы** — корпус
 с центральным блоком, часами и картами и те блоки, которые нужны на данном месте, всё на одной
 тактированной шине. Замените блоки — и это другой прибор на той же шине и с тем же кодом.
-**Версия 0.4 — концепция на стадии проектирования:** каждая плата описана до последнего
+**Версия 0.5 — концепция на стадии проектирования:** каждая плата описана до последнего
 компонента, код над выводами написан и проверен на компьютере — у головного блока уже весь, — пока
-ничего не построено. README — на английском, чешском и русском.
+ничего не построено; новое в 0.5 — **Njord**, воздушная часть, медленные блоки по LoRa там,
+куда не доходит кабель. README — на английском, чешском и русском.
 
 → **[Project-NIC/NIC-Heimdall](https://github.com/Project-NIC/NIC-Heimdall)**
 
@@ -95,6 +96,19 @@
 | [**Ceres**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres) | влажность и температура почвы, через стекло | ModBus 6 |
 | ↳ [**Sakura**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres/sakura) | увлажнённость листьев — плата Ceres в кроне | ModBus 7 |
 | [**Babel**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel) | любой датчик → Modbus RTU, преобразование у датчика | ModBus 4 |
+
+</details>
+
+<details>
+<summary><b>Njord</b> — воздушная часть, LoRa на 868 МГц</summary>
+
+| блок | что это | шина · тип |
+|---|---|---|
+| [**Njord**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord) | медленные блоки там, куда не доходит кабель, на своей панели и элементе — к станции, в интернет или через LoRaWAN | — |
+| ↳ [**Iris**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/iris) | приёмник на станции — MOD на ветви Palatine | ModBus 8 |
+| ↳ [**Arke**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/iris/arke) | плата Iris как ветвь ModBus в поле — покупные датчики, Ceres, Sakura | — |
+| ↳ [**Ratatoskr**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/ratatoskr) | малый полевой блок — температура и влажность на 2 м и 5 см, давление, осадки | — |
+| ↳ [**Huginn**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/huginn) | шлюз в интернет там, где нет станции | — |
 
 </details>
 

@@ -49,8 +49,9 @@ networks, and a viewer. **Closed at v1.2 — the final version.**
 **One self-contained measuring station for the solid Earth, the atmosphere and the ionosphere** —
 an enclosure with the head, the clock and the cards, and whatever units a site needs, all on one
 clocked bus. Swap the units and it is a different instrument on the same bus and the same code.
-**Version 0.4 — a design-stage concept:** every board described to the part, the code above the
-pins written and tested on a PC — the head's whole of it now — nothing built yet.
+**Version 0.5 — a design-stage concept:** every board described to the part, the code above the
+pins written and tested on a PC — the head's whole of it now — nothing built yet; new in 0.5,
+**Njord**, the air part, slow units beyond a cable's reach over LoRa.
 Its READMEs read in English, Czech and Russian.
 
 → **[Project-NIC/NIC-Heimdall](https://github.com/Project-NIC/NIC-Heimdall)**
@@ -95,6 +96,19 @@ Its READMEs read in English, Czech and Russian.
 | [**Ceres**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres) | soil moisture and temperature, through glass | ModBus 6 |
 | ↳ [**Sakura**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres/sakura) | leaf wetness — Ceres's board in the canopy | ModBus 7 |
 | [**Babel**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel) | any sensor → Modbus RTU, converted at the sensor | ModBus 4 |
+
+</details>
+
+<details>
+<summary><b>Njord</b> — the air part, LoRa at 868 MHz</summary>
+
+| unit | what it is | bus · type |
+|---|---|---|
+| [**Njord**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord) | slow units beyond a cable's reach, on their own panel and cell — to the station, to the internet, or over LoRaWAN | — |
+| ↳ [**Iris**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/iris) | the receiver at the station — a MOD on a Palatine arm | ModBus 8 |
+| ↳ [**Arke**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/iris/arke) | Iris's board as a ModBus arm in the field — bought sensors, Ceres, Sakura | — |
+| ↳ [**Ratatoskr**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/ratatoskr) | the small field unit — temperature and humidity at 2 m and 5 cm, pressure, rain | — |
+| ↳ [**Huginn**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/huginn) | the gateway to the internet where no station stands | — |
 
 </details>
 

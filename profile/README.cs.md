@@ -49,8 +49,9 @@ a geomagnetické sítě a prohlížeč. **Uzavřeno ve verzi 1.2 — finální v
 **Jedna soběstačná měřicí stanice pro pevnou Zemi, atmosféru a ionosféru** — skříň s centrálou,
 hodinami a kartami a k tomu jednotky, které daná lokalita potřebuje, vše na jedné taktované
 sběrnici. Vyměňte jednotky a je to jiný přístroj na stejné sběrnici a se stejným kódem.
-**Verze 0.4 — koncept ve fázi návrhu:** každá deska popsaná do poslední součástky, kód nad piny
-napsaný a otestovaný na počítači — u hlavy už celý — zatím nic postaveno. README jsou v angličtině, češtině a ruštině.
+**Verze 0.5 — koncept ve fázi návrhu:** každá deska popsaná do poslední součástky, kód nad piny
+napsaný a otestovaný na počítači — u hlavy už celý — zatím nic postaveno; nově v 0.5 **Njord**,
+vzdušná část, pomalé jednotky přes LoRa tam, kam kabel nedosáhne. README jsou v angličtině, češtině a ruštině.
 
 → **[Project-NIC/NIC-Heimdall](https://github.com/Project-NIC/NIC-Heimdall)**
 
@@ -94,6 +95,19 @@ napsaný a otestovaný na počítači — u hlavy už celý — zatím nic posta
 | [**Ceres**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres) | vlhkost a teplota půdy, přes sklo | ModBus 6 |
 | ↳ [**Sakura**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/ceres/sakura) | ovlhčení listů — deska Ceres v korunách | ModBus 7 |
 | [**Babel**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/babel) | jakýkoli senzor → Modbus RTU, převedeno u senzoru | ModBus 4 |
+
+</details>
+
+<details>
+<summary><b>Njord</b> — vzdušná část, LoRa na 868 MHz</summary>
+
+| jednotka | co to je | sběrnice · typ |
+|---|---|---|
+| [**Njord**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord) | pomalé jednotky tam, kam kabel nedosáhne, na vlastním panelu a článku — do stanice, do internetu nebo přes LoRaWAN | — |
+| ↳ [**Iris**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/iris) | přijímač ve stanici — MOD na větvi Palatine | ModBus 8 |
+| ↳ [**Arke**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/iris/arke) | deska Iris jako větev ModBus v terénu — kupovaná čidla, Ceres, Sakura | — |
+| ↳ [**Ratatoskr**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/ratatoskr) | malá polní jednotka — teplota a vlhkost ve 2 m a v 5 cm, tlak, srážky | — |
+| ↳ [**Huginn**](https://github.com/Project-NIC/NIC-Heimdall/tree/main/njord/huginn) | brána do internetu tam, kde žádná stanice nestojí | — |
 
 </details>
 
