@@ -49,7 +49,7 @@ networks, and a viewer. **Closed at v1.2 — the final version.**
 **One self-contained measuring station for the solid Earth, the atmosphere and the ionosphere** —
 an enclosure with the head, the clock and the cards, and whatever units a site needs, all on one
 clocked bus. Swap the units and it is a different instrument on the same bus and the same code.
-**Version 0.5 — a design-stage concept:** every board described to the part, the code above the
+**Version 0.5.1 — a design-stage concept:** every board described to the part, the code above the
 pins written and tested on a PC — the head's whole of it now — nothing built yet; new in 0.5,
 **Njord**, the air part, slow units beyond a cable's reach over LoRa.
 Its READMEs read in English, Czech and Russian.
@@ -327,7 +327,7 @@ steers nothing.
 uses, written once and pinned by each project. First **MUF**, the record format: blocks of a
 sector, each with its CRC; streams at their own rates; every value described in the file itself.
 
-→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.4: MUF's core, its writer and reader in C and in Python, held to each other byte for byte; MUF to GPX; MLF and NRC, their cores in C and in Python; more exporters and a viewer to come
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.5.1: MUF's core, its writer and reader in C and in Python, held to each other byte for byte; MUF to GPX; MLF and NRC, their cores in C and in Python; MUF and MLF to miniSEED and IAGA-2002; NRC's measuring tool; more exporters and a viewer to come
 
 <details>
 <summary><b>The parts</b></summary>

@@ -49,7 +49,7 @@ a geomagnetické sítě a prohlížeč. **Uzavřeno ve verzi 1.2 — finální v
 **Jedna soběstačná měřicí stanice pro pevnou Zemi, atmosféru a ionosféru** — skříň s centrálou,
 hodinami a kartami a k tomu jednotky, které daná lokalita potřebuje, vše na jedné taktované
 sběrnici. Vyměňte jednotky a je to jiný přístroj na stejné sběrnici a se stejným kódem.
-**Verze 0.5 — koncept ve fázi návrhu:** každá deska popsaná do poslední součástky, kód nad piny
+**Verze 0.5.1 — koncept ve fázi návrhu:** každá deska popsaná do poslední součástky, kód nad piny
 napsaný a otestovaný na počítači — u hlavy už celý — zatím nic postaveno; nově v 0.5 **Njord**,
 vzdušná část, pomalé jednotky přes LoRa tam, kam kabel nedosáhne. README jsou v angličtině, češtině a ruštině.
 
@@ -326,7 +326,7 @@ projektů: napsané jednou, každý projekt si připne svou verzi. Jako první *
 bloky o velikosti sektoru, každý se svým CRC; proudy s vlastní rychlostí; každá hodnota popsaná
 přímo v souboru.
 
-→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.4: jádro MUF, jeho zapisovač a čtečka v C i v Pythonu, navzájem shodné bajt po bajtu; převod do GPX; MLF a NRC, jejich jádra v C i v Pythonu; další exporty a prohlížeč přijdou
+→ **[Project-NIC/NIC-SDK](https://github.com/Project-NIC/NIC-SDK)** — 0.5.1: jádro MUF, jeho zapisovač a čtečka v C i v Pythonu, navzájem shodné bajt po bajtu; převod do GPX; MLF a NRC, jejich jádra v C i v Pythonu; MUF a MLF do miniSEED a IAGA-2002; měřicí nástroj NRC; další exporty a prohlížeč přijdou
 
 <details>
 <summary><b>Části</b></summary>
