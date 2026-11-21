@@ -49,7 +49,7 @@ a geomagnetické sítě a prohlížeč. **Uzavřeno ve verzi 1.2 — finální v
 **Jedna soběstačná měřicí stanice pro pevnou Zemi, atmosféru a ionosféru** — skříň s centrálou,
 hodinami a kartami a k tomu jednotky, které daná lokalita potřebuje, vše na jedné taktované
 sběrnici. Vyměňte jednotky a je to jiný přístroj na stejné sběrnici a se stejným kódem.
-**Verze 0.5.1 — koncept ve fázi návrhu:** každá deska popsaná do poslední součástky, kód nad piny
+**Verze 0.5.2 — koncept ve fázi návrhu:** každá deska popsaná do poslední součástky, kód nad piny
 napsaný a otestovaný na počítači — u hlavy už celý — zatím nic postaveno; nově v 0.5 **Njord**,
 vzdušná část, pomalé jednotky přes LoRa tam, kam kabel nedosáhne. README jsou v angličtině, češtině a ruštině.
 
