@@ -264,7 +264,12 @@ the reference that focuses it. The head is about 18 cm across: eight bought dual
 ring and two in the middle, on a metal face held 15 mm off the wall; ready-made, certified modules
 throughout. Beside it a voltage tester. Every setting and all the raw data stay open.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.2, on paper: the purpose, the requirements, the architecture, the physics roughly computed and the parts; nothing built or measured yet; next, the trial at a real wall that decides it
+**And Datel, the woodpecker** — the second tool, on the same base (one core board with an
+STM32N6, one sodium cell, one display): an acoustic camera with 32 microphones that shows where a
+gas under pressure escapes, as a spot over the camera's picture, and by a knock which patch of a
+surface rings hollow.
+
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.3, on paper: Fonar's purpose, requirements, architecture, physics roughly computed and parts, now on an STM32N6 core board; Datel's purpose, build and calculations; nothing built or measured yet; next, the trials at a real wall and on a leak that decide them
 
 <details>
 <summary><b>The parts</b> — the spark, the lantern, the collective farm and the rest</summary>
@@ -277,10 +282,11 @@ throughout. Beside it a voltage tester. Every setting and all the raw data stay 
 | **Kolchoz** | the collective farm: the head — everything that turns |
 | **Brigáda** | the work brigade: eight receivers in a ring, the **Mužíci**, each with its antenna, its **Kosa** |
 | **Předseda** | the chairman: the pair in the middle, with **Serp** and **Molot**, the only senders in the head |
-| **Gensek** | the general secretary: one processor over everything |
+| **Gensek** | the general secretary: one processor over everything — an STM32N6 on a ready core board |
 | **Iljič** | Ilyich's lamp: the voltage tester |
 | **Pravda**, **Matjugalnik** | the newspaper and the loudhailer: the display and the sound |
 | **Levša** | Leskov's left-handed smith: the construction |
+| **Datel** | the woodpecker: the second tool — the acoustic camera for gas leaks, with a knock for hollows |
 
 </details>
 

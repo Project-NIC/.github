@@ -263,7 +263,11 @@ vysílače. Hlava má průměr asi 18 cm: osm koupených dvoupásmových antén 
 kovovém čele drženém 15 mm od zdi; všude hotové certifikované moduly. K tomu zkoušečka napětí.
 Každé nastavení i všechna surová data zůstávají otevřená.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.2, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky; nic ještě není postavené ani změřené; dál pokus na skutečné zdi, který to rozhodne
+**A Datel, strakapoud** — druhý nástroj na stejném základu (jedna jádrová deska s STM32N6, jeden
+sodíkový článek, jeden displej): akustická kamera s 32 mikrofony, která ukáže, kudy uniká plyn pod
+tlakem, jako skvrnu přes obraz kamery, a po poklepu, které místo povrchu zní dutě.
+
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.3, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky Fonaru, nově na jádrové desce s STM32N6; účel, stavba a výpočty Datla; nic ještě není postavené ani změřené; dál pokusy na skutečné zdi a na úniku, které to rozhodnou
 
 <details>
 <summary><b>Části</b> — jiskra, lucerna, kolchoz a ostatní</summary>
@@ -276,10 +280,11 @@ Každé nastavení i všechna surová data zůstávají otevřená.
 | **Kolchoz** | kolchoz: hlava — všechno, co se točí |
 | **Brigáda** | brigáda: osm přijímačů v kruhu, **Mužíků**, každý se svou anténou, **Kosou** |
 | **Předseda** | předseda: dvojice uprostřed se **Srpem** a **Molotem**, jedinými vysílači v hlavě |
-| **Gensek** | generální tajemník: jeden procesor nade vším |
+| **Gensek** | generální tajemník: jeden procesor nade vším — STM32N6 na hotové jádrové desce |
 | **Iljič** | Iljičova žárovka: zkoušečka napětí |
 | **Pravda**, **Matjugalnik** | noviny a tlampač: displej a zvuk |
 | **Levša** | Leskovův levoruký kovář: konstrukce |
+| **Datel** | strakapoud: druhý nástroj — akustická kamera na úniky plynů, s poklepem na dutiny |
 
 </details>
 
