@@ -263,11 +263,11 @@ vysílače. Hlava má průměr asi 18 cm: osm koupených dvoupásmových antén 
 kovovém čele drženém 15 mm od zdi; všude hotové certifikované moduly. K tomu zkoušečka napětí.
 Každé nastavení i všechna surová data zůstávají otevřená.
 
-**A Datel, strakapoud** — druhý nástroj na stejném základu (jedna jádrová deska s STM32N6, jeden
-sodíkový článek, jeden displej): akustická kamera s 32 mikrofony, která ukáže, kudy uniká plyn pod
-tlakem, jako skvrnu přes obraz kamery, a po poklepu, které místo povrchu zní dutě.
+**A Netopýr s Datlem** — na stejném základu (jedna jádrová deska s STM32N6, jeden sodíkový
+článek, jeden displej): akustická kamera s 32 mikrofony, která ukáže, kudy uniká plyn pod tlakem,
+jako skvrnu přes obraz kamery, a po Datlově poklepu, které místo povrchu zní dutě.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.3, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky Fonaru, nově na jádrové desce s STM32N6; účel, stavba a výpočty Datla; nic ještě není postavené ani změřené; dál pokusy na skutečné zdi a na úniku, které to rozhodnou
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.3, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky Rysa, nově na jádrové desce s STM32N6; účel, stavba a výpočty Netopýra a Datla; nic ještě není postavené ani změřené; dál pokusy na skutečné zdi a na úniku, které to rozhodnou
 
 <details>
 <summary><b>Části</b> — jiskra, lucerna, kolchoz a ostatní</summary>
@@ -275,7 +275,7 @@ tlakem, jako skvrnu přes obraz kamery, a po poklepu, které místo povrchu zní
 | část | co to je |
 |---|---|
 | **Iskra** | jiskra: vysílač za zdí, dvě zkřížené antény, které se střídají |
-| **Fonar** | lucerna: přístroj přiložený ke zdi — Valenki a Kolchoz |
+| **Rys** | rys, který vidí skrz zdi: přístroj přiložený ke zdi — Valenki a Kolchoz |
 | **Valenki** | válenky: podvozek — **Kuří nožka**, tyčka, na které se hlava točí, a rukojeť |
 | **Kolchoz** | kolchoz: hlava — všechno, co se točí |
 | **Brigáda** | brigáda: osm přijímačů v kruhu, **Mužíků**, každý se svou anténou, **Kosou** |
@@ -284,7 +284,7 @@ tlakem, jako skvrnu přes obraz kamery, a po poklepu, které místo povrchu zní
 | **Iljič** | Iljičova žárovka: zkoušečka napětí |
 | **Pravda**, **Matjugalnik** | noviny a tlampač: displej a zvuk |
 | **Levša** | Leskovův levoruký kovář: konstrukce |
-| **Datel** | strakapoud: druhý nástroj — akustická kamera na úniky plynů, s poklepem na dutiny |
+| **Netopýr**, **Datel** | netopýr a strakapoud: akustická kamera na úniky plynů a její poklep na dutiny |
 
 </details>
 
