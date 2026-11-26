@@ -269,11 +269,11 @@ hlava nese 32 mikrofonů na vrtuli o průměru 14 cm, surově na 192 kHz, a uká
 tlakem nebo kde se opotřebovává ložisko, jako skvrnu přes obraz kamery, a po Datlově poklepu,
 které místo povrchu zní dutě.
 
-**A Ariadne** — čtyři hledačky v jedné hlavě na Bázi: nit, tedy kabel sledovaný podle signálu na
+**A Klubok**, kouzelné klubko, které ukazuje cestu — čtyři hledačky v jedné hlavě na Bázi: nit, tedy kabel sledovaný podle signálu na
 něm, ze sítě nebo z jakékoli zapojené hledačky vedení; kov, železo odlišené od mědi; napětí; a
 teplo **Gradusnikem**, kamerou a termokamerou Báze, jejichž obrazy se překrývají.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.5, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky Rysa; Báze, hlavní deska, do které se zapojuje každý nástroj, s netlistem a všemi hodinami; hlava Netopýra s vlastním STM32H723, netlistem a vrtulí; účel a výpočty Datla; účel a požadavky Ariadny; nic ještě není postavené ani změřené; dál pokusy na skutečné zdi a na úniku, které to rozhodnou
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.5, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky Rysa; Báze, hlavní deska, do které se zapojuje každý nástroj, s netlistem a všemi hodinami; hlava Netopýra s vlastním STM32H723, netlistem a vrtulí; účel a výpočty Datla; účel a požadavky Kluboku; nic ještě není postavené ani změřené; dál pokusy na skutečné zdi a na úniku, které to rozhodnou
 
 <details>
 <summary><b>Části</b> — jiskra, lucerna, kolchoz a ostatní</summary>
@@ -292,7 +292,7 @@ teplo **Gradusnikem**, kamerou a termokamerou Báze, jejichž obrazy se překrý
 | **Levša** | Leskovův levoruký kovář: konstrukce |
 | **Báze** | základ: hlavní deska, do které se zapojuje každý nástroj — Gensek, napájení, displej, **Gradusnik** (kamera a termokamera s překrytými obrazy), tlačítka a dva porty pro hlavy |
 | **Netopýr**, **Datel** | netopýr a strakapoud: akustická kamera na úniky plynů a její poklep na dutiny |
-| **Ariadne** | Théseova nit: čtyři hledačky v jedné hlavě — nit, kov, napětí a teplo **Gradusnikem**, teploměrem |
+| **Klubok** | kouzelné klubko, které ukazuje cestu: čtyři hledačky v jedné hlavě — nit, kov, napětí a teplo **Gradusnikem**, teploměrem |
 
 </details>
 
