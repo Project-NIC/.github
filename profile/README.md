@@ -264,12 +264,13 @@ the reference that focuses it. The head is about 18 cm across: eight bought dual
 ring and two in the middle, on a metal face held 15 mm off the wall; ready-made, certified modules
 throughout. Beside it a voltage tester. Every setting and all the raw data stay open.
 
-**And Netopýr, the bat, with Datel, the woodpecker** — on the same base (one core board with an
-STM32N6, one sodium cell, one display): an acoustic camera with 32 microphones that shows where a
-gas under pressure escapes, as a spot over the camera's picture, and by Datel's knock which patch
-of a surface rings hollow.
+**And Netopýr, the bat, with Datel, the woodpecker** — on the same base, **the Báze** (one core board with
+an STM32N6, one sodium cell, one display, a camera and a thermal camera, two ports for heads): an
+acoustic camera whose head carries 32 microphones on a propeller 14 cm across, raw at 192 kHz, and
+shows where a gas under pressure escapes or a bearing wears, as a spot over the camera's picture,
+and by Datel's knock which patch of a surface rings hollow.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.3, on paper: Rys's purpose, requirements, architecture, physics roughly computed and parts, now on an STM32N6 core board; Netopýr's and Datel's purpose, build and calculations; nothing built or measured yet; next, the trials at a real wall and on a leak that decide them
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.4, on paper: Rys's purpose, requirements, architecture, physics roughly computed and parts; the Báze, the main board every tool plugs into, with its netlist and every clock; Netopýr's head with its own STM32H723, its netlist and the propeller; Datel's purpose and calculations; nothing built or measured yet; next, the trials at a real wall and on a leak that decide them
 
 <details>
 <summary><b>The parts</b> — the spark, the lantern, the collective farm and the rest</summary>
@@ -286,6 +287,7 @@ of a surface rings hollow.
 | **Iljič** | Ilyich's lamp: the voltage tester |
 | **Pravda**, **Matjugalnik** | the newspaper and the loudhailer: the display and the sound |
 | **Levša** | Leskov's left-handed smith: the construction |
+| **Báze** | the base: the main board every tool plugs into — Gensek, the power, the display, the cameras, the buttons, and two ports for heads |
 | **Netopýr**, **Datel** | the bat and the woodpecker: the acoustic camera for gas leaks, and its knock for hollows |
 
 </details>

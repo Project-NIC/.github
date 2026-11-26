@@ -263,11 +263,13 @@ vysílače. Hlava má průměr asi 18 cm: osm koupených dvoupásmových antén 
 kovovém čele drženém 15 mm od zdi; všude hotové certifikované moduly. K tomu zkoušečka napětí.
 Každé nastavení i všechna surová data zůstávají otevřená.
 
-**A Netopýr s Datlem** — na stejném základu (jedna jádrová deska s STM32N6, jeden sodíkový
-článek, jeden displej): akustická kamera s 32 mikrofony, která ukáže, kudy uniká plyn pod tlakem,
-jako skvrnu přes obraz kamery, a po Datlově poklepu, které místo povrchu zní dutě.
+**A Netopýr s Datlem** — na stejném základu, **Bázi** (jedna jádrová deska s STM32N6, jeden
+sodíkový článek, jeden displej, kamera a termokamera, dva porty pro hlavy): akustická kamera, jejíž
+hlava nese 32 mikrofonů na vrtuli o průměru 14 cm, surově na 192 kHz, a ukáže, kudy uniká plyn pod
+tlakem nebo kde se opotřebovává ložisko, jako skvrnu přes obraz kamery, a po Datlově poklepu,
+které místo povrchu zní dutě.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.3, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky Rysa, nově na jádrové desce s STM32N6; účel, stavba a výpočty Netopýra a Datla; nic ještě není postavené ani změřené; dál pokusy na skutečné zdi a na úniku, které to rozhodnou
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.4, na papíře: účel, požadavky, architektura, hrubě spočítaná fyzika a součástky Rysa; Báze, hlavní deska, do které se zapojuje každý nástroj, s netlistem a všemi hodinami; hlava Netopýra s vlastním STM32H723, netlistem a vrtulí; účel a výpočty Datla; nic ještě není postavené ani změřené; dál pokusy na skutečné zdi a na úniku, které to rozhodnou
 
 <details>
 <summary><b>Části</b> — jiskra, lucerna, kolchoz a ostatní</summary>
@@ -284,6 +286,7 @@ jako skvrnu přes obraz kamery, a po Datlově poklepu, které místo povrchu zn�
 | **Iljič** | Iljičova žárovka: zkoušečka napětí |
 | **Pravda**, **Matjugalnik** | noviny a tlampač: displej a zvuk |
 | **Levša** | Leskovův levoruký kovář: konstrukce |
+| **Báze** | základ: hlavní deska, do které se zapojuje každý nástroj — Gensek, napájení, displej, kamery, tlačítka a dva porty pro hlavy |
 | **Netopýr**, **Datel** | netopýr a strakapoud: akustická kamera na úniky plynů a její poklep na dutiny |
 
 </details>
