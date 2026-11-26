@@ -291,7 +291,7 @@ it, the mains or any tracer already plugged in; metal, iron told from copper; vo
 | **Iljič** | Ilyich's lamp: the voltage tester |
 | **Pravda**, **Matjugalnik** | the newspaper and the loudhailer: the display and the sound |
 | **Levša** | Leskov's left-handed smith: the construction |
-| **Báze** | the base: the main board every tool plugs into — Gensek, the power, the display, the cameras, the buttons, and two ports for heads |
+| **Báze** | the base: the main board every tool plugs into — Gensek, the power, the display, **Gradusnik** (the camera and the thermal camera laid over each other), the buttons, and two ports for heads |
 | **Netopýr**, **Datel** | the bat and the woodpecker: the acoustic camera for gas leaks, and its knock for hollows |
 | **Ariadne** | Theseus's thread: four finders in one head — the thread, metal, voltage, and heat by **Gradusnik**, the thermometer |
 

@@ -290,7 +290,7 @@ teplo **Gradusnikem**, kamerou a termokamerou Báze, jejichž obrazy se překrý
 | **Iljič** | Iljičova žárovka: zkoušečka napětí |
 | **Pravda**, **Matjugalnik** | noviny a tlampač: displej a zvuk |
 | **Levša** | Leskovův levoruký kovář: konstrukce |
-| **Báze** | základ: hlavní deska, do které se zapojuje každý nástroj — Gensek, napájení, displej, kamery, tlačítka a dva porty pro hlavy |
+| **Báze** | základ: hlavní deska, do které se zapojuje každý nástroj — Gensek, napájení, displej, **Gradusnik** (kamera a termokamera s překrytými obrazy), tlačítka a dva porty pro hlavy |
 | **Netopýr**, **Datel** | netopýr a strakapoud: akustická kamera na úniky plynů a její poklep na dutiny |
 | **Ariadne** | Théseova nit: čtyři hledačky v jedné hlavě — nit, kov, napětí a teplo **Gradusnikem**, teploměrem |
 
