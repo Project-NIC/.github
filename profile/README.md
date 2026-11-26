@@ -270,7 +270,11 @@ acoustic camera whose head carries 32 microphones on a propeller 14 cm across, r
 shows where a gas under pressure escapes or a bearing wears, as a spot over the camera's picture,
 and by Datel's knock which patch of a surface rings hollow.
 
-→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.4, on paper: Rys's purpose, requirements, architecture, physics roughly computed and parts; the Báze, the main board every tool plugs into, with its netlist and every clock; Netopýr's head with its own STM32H723, its netlist and the propeller; Datel's purpose and calculations; nothing built or measured yet; next, the trials at a real wall and on a leak that decide them
+**And Ariadne** — four finders in one head on the Báze: the thread, a cable followed by the signal on
+it, the mains or any tracer already plugged in; metal, iron told from copper; voltage; and heat by
+**Gradusnik**, the Báze's camera and thermal camera laid over each other.
+
+→ **[Project-NIC/NIC-Sluchalo](https://github.com/Project-NIC/NIC-Sluchalo)** — 0.5, on paper: Rys's purpose, requirements, architecture, physics roughly computed and parts; the Báze, the main board every tool plugs into, with its netlist and every clock; Netopýr's head with its own STM32H723, its netlist and the propeller; Datel's purpose and calculations; Ariadne's purpose and requirements; nothing built or measured yet; next, the trials at a real wall and on a leak that decide them
 
 <details>
 <summary><b>The parts</b> — the spark, the lantern, the collective farm and the rest</summary>
@@ -289,6 +293,7 @@ and by Datel's knock which patch of a surface rings hollow.
 | **Levša** | Leskov's left-handed smith: the construction |
 | **Báze** | the base: the main board every tool plugs into — Gensek, the power, the display, the cameras, the buttons, and two ports for heads |
 | **Netopýr**, **Datel** | the bat and the woodpecker: the acoustic camera for gas leaks, and its knock for hollows |
+| **Ariadne** | Theseus's thread: four finders in one head — the thread, metal, voltage, and heat by **Gradusnik**, the thermometer |
 
 </details>
 
